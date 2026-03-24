@@ -81,21 +81,32 @@ class BaseCrawler(ABC):
         return "ONSITE"
 
     def extract_tech_stack(self, text: str) -> List[str]:
-        """텍스트에서 기술 스택 키워드 추출"""
+        """텍스트에서 기술 스택 키워드 추출 (단어 경계 기준으로 오탐 방지)"""
+        import re
         tech_keywords = [
-            "Java", "Python", "Go", "Ruby", "PHP", "C#", "C++", "Scala", "Kotlin", "Swift",
+            "Java", "Python", "Ruby", "PHP", "Scala", "Kotlin", "Swift",
             "JavaScript", "TypeScript", "React", "Vue", "Angular", "Node.js",
-            "Spring", "Django", "Rails", "FastAPI",
+            "Spring", "Django", "Rails", "FastAPI", "Flask",
             "AWS", "Azure", "GCP", "Kubernetes", "Docker", "Terraform", "Ansible",
             "PostgreSQL", "MySQL", "MongoDB", "Redis", "Elasticsearch",
             "SAP", "Salesforce", "ServiceNow",
             "TensorFlow", "PyTorch", "scikit-learn",
             "Spark", "Hadoop", "Kafka",
         ]
+        # 단독 매칭: 앞뒤가 알파벳/숫자/. 가 아닌 경우만
+        # 예: "Java" → ✅, "JavaScript" → Java만 뽑으면 안 되므로 긴 것 우선
+        sorted_keywords = sorted(tech_keywords, key=len, reverse=True)
         found = []
-        for tech in tech_keywords:
-            if tech.lower() in text.lower():
-                found.append(tech)
+        for tech in sorted_keywords:
+            pattern = r'(?<![A-Za-z0-9])' + re.escape(tech) + r'(?![A-Za-z0-9])'
+            if re.search(pattern, text, re.IGNORECASE):
+                # 이미 더 긴 키워드로 포함된 경우 스킵 (예: Java는 JavaScript에 포함)
+                already_covered = any(
+                    tech.lower() != f.lower() and tech.lower() in f.lower()
+                    for f in found
+                )
+                if not already_covered:
+                    found.append(tech)
         return found
 
     @abstractmethod
