@@ -1,68 +1,100 @@
 {
-  "_comment": "제목/카테고리 키워드 → 나루 position enum 매핑 규칙. 순서대로 매칭 (위에 있을수록 우선순위 높음)",
+  "_comment": "제목/카테고리 키워드 → 나루 Position enum 매핑. 순서 우선순위 (위일수록 먼저 매칭)",
   "rules": [
     {
-      "position": "AI_ML",
-      "keywords": ["AI", "機械学習", "深層学習", "生成AI", "LLM", "データサイエンス", "データサイエンティスト", "自然言語処理", "画像認識", "AIエンジニア", "AIアーキテクト", "MLエンジニア", "データ分析", "アナリティクス", "研究開発", "研究・開発", "R&D", "基盤モデル", "生体", "バイオ", "信号処理"]
+      "position": "ML_ENGINEER",
+      "keywords": ["機械学習", "MLエンジニア", "MLOPS", "MLOps", "モデル開発", "機械学習エンジニア"]
     },
     {
-      "position": "DATA",
-      "keywords": ["データエンジニア", "データ基盤", "データウェアハウス", "データレイク", "ETL", "データパイプライン", "データプラットフォーム", "BI", "データ統合", "データモデリング"]
+      "position": "AI_RESEARCH",
+      "keywords": ["AI研究", "研究開発", "研究・開発", "R&D", "基盤モデル", "生成AI研究", "AIエージェント"]
+    },
+    {
+      "position": "DATA_SCIENTIST",
+      "keywords": ["データサイエンス", "データサイエンティスト", "データ分析", "アナリティクス", "統計"]
+    },
+    {
+      "position": "NLP",
+      "keywords": ["自然言語処理", "NLP", "テキスト解析", "言語モデル", "LLM", "音声認識"]
+    },
+    {
+      "position": "COMPUTER_VISION",
+      "keywords": ["画像認識", "コンピュータビジョン", "画像処理", "映像解析", "マルチモーダル"]
+    },
+    {
+      "position": "DATA_ENGINEER",
+      "keywords": ["データエンジニア", "データ基盤", "データウェアハウス", "データレイク", "ETL", "データパイプライン", "データプラットフォーム"]
+    },
+    {
+      "position": "BI_ANALYTICS",
+      "keywords": ["BI", "データ可視化", "ダッシュボード", "データ利活用", "データ活用"]
     },
     {
       "position": "SECURITY",
-      "keywords": ["セキュリティ", "サイバーセキュリティ", "ゼロトラスト", "SOC", "SIEM", "脆弱性", "ペネトレーション", "セキュリティアナリスト", "情報セキュリティ", "暗号"]
+      "keywords": ["セキュリティ", "サイバーセキュリティ", "ゼロトラスト", "SOC", "暗号", "脆弱性"]
     },
     {
       "position": "DEVOPS",
-      "keywords": ["DevOps", "SRE", "インフラ", "クラウド", "AWS", "Azure", "GCP", "Kubernetes", "Docker", "CI/CD", "IaC", "Terraform", "Ansible", "コンテナ", "マルチクラウド", "プラットフォームエンジニア"]
+      "keywords": ["DevOps", "SRE", "CI/CD", "IaC", "Terraform", "Ansible"]
     },
     {
-      "position": "BACKEND",
-      "keywords": ["バックエンド", "サーバーサイド", "API", "Java", "Spring", "Python", "Go", "Ruby", "Node.js", "マイクロサービス", "データベース設計", "システム開発", "アプリケーション開発", "SE", "システムエンジニア"]
+      "position": "CLOUD",
+      "keywords": ["クラウド", "AWS", "Azure", "GCP", "Kubernetes", "Docker", "コンテナ", "マルチクラウド", "クラウドエンジニア"]
     },
     {
-      "position": "FRONTEND",
-      "keywords": ["フロントエンド", "UI", "UX", "React", "Vue", "Angular", "JavaScript", "TypeScript", "CSS", "HTML", "Web開発"]
-    },
-    {
-      "position": "MOBILE",
-      "keywords": ["モバイル", "iOS", "Android", "Swift", "Kotlin", "React Native", "Flutter", "スマートフォン"]
+      "position": "INFRA",
+      "keywords": ["インフラ", "ネットワーク", "サーバ", "ストレージ", "データセンター", "プラットフォーム"]
     },
     {
       "position": "EMBEDDED",
-      "keywords": ["組み込み", "ファームウェア", "FPGA", "RTOS", "マイコン", "制御システム", "監視制御", "SCADA", "PLC", "組込み"]
+      "keywords": ["組み込み", "ファームウェア", "FPGA", "RTOS", "マイコン", "制御システム", "監視制御", "PLC", "組込み"]
     },
     {
-      "position": "QA",
-      "keywords": ["品質保証", "テスト", "QA", "品質管理", "検証", "テストエンジニア", "品質保証エンジニア"]
+      "position": "BACKEND",
+      "keywords": ["バックエンド", "サーバーサイド", "Java", "Spring", "Python", "Go", "API開発", "システム開発", "アプリケーション開発"]
     },
     {
-      "position": "PRODUCT",
-      "keywords": ["プロダクトマネージャー", "PdM", "プロダクト企画", "サービス企画", "事業企画", "新規事業", "事業開発", "プロダクトオーナー"]
+      "position": "FRONTEND",
+      "keywords": ["フロントエンド", "UI開発", "React", "Vue", "Angular", "JavaScript", "TypeScript"]
     },
     {
-      "position": "DESIGN",
-      "keywords": ["デザイナー", "UXデザイン", "UIデザイン", "デザイン", "クリエイティブ"]
+      "position": "QA_TEST",
+      "keywords": ["品質保証", "テスト", "QA", "品質管理", "検証", "品質保証エンジニア"]
     },
     {
-      "position": "HR",
-      "keywords": ["人事", "HR", "採用", "人財", "タレントアクイジション", "人材", "組織開発", "労務", "研修"]
+      "position": "PM_PO",
+      "keywords": ["プロダクトマネージャー", "PdM", "プロダクト企画", "サービス企画", "プロダクトオーナー"]
     },
     {
-      "position": "FINANCE",
-      "keywords": ["財務", "経理", "会計", "経営管理", "財務戦略", "IR", "税務", "経営企画", "ファイナンス", "資金調達"]
+      "position": "BUSINESS_STRATEGY",
+      "keywords": ["事業企画", "新規事業", "事業開発", "戦略立案", "経営企画"]
     },
     {
-      "position": "LEGAL",
-      "keywords": ["法務", "コンプライアンス", "契約", "知財", "知的財産", "リーガル"]
+      "position": "RECRUITING",
+      "keywords": ["人事", "HR", "採用", "タレントアクイジション", "人財", "組織開発", "労務"]
     },
     {
-      "position": "BUSINESS",
-      "keywords": ["営業", "セールス", "アカウント", "コンサルタント", "コンサルティング", "ソリューション営業", "提案営業", "プロジェクトマネージャー", "PM", "PL", "マーケティング"]
+      "position": "ACCOUNTING_TAX_FINANCE_OTHER",
+      "keywords": ["財務", "経理", "会計", "経営管理", "税務", "ファイナンス"]
     },
     {
-      "position": "OTHER",
+      "position": "LEGAL_COUNSEL",
+      "keywords": ["法務", "コンプライアンス", "契約", "知財", "知的財産"]
+    },
+    {
+      "position": "KEY_ACCOUNT",
+      "keywords": ["営業", "セールス", "アカウント", "ソリューション営業", "提案営業"]
+    },
+    {
+      "position": "SERVICE_PLANNING",
+      "keywords": ["プロジェクトマネージャー", "プロジェクトリーダー", "PM", "PL", "コンサルタント", "コンサルティング"]
+    },
+    {
+      "position": "ENGINEERING_RD_OTHER",
+      "keywords": ["機械設計", "電気設計", "ハードウェア", "素材", "材料", "生産技術", "品質検査", "原子力", "鉄道", "電力"]
+    },
+    {
+      "position": "IT_DEV_OTHER",
       "keywords": []
     }
   ]

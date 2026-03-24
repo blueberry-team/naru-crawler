@@ -1,50 +1,55 @@
 {
-  "_comment": "일본어 지명 키워드 → 나루 location enum 매핑 규칙",
+  "_comment": "일본어 지명 → 나루 Location enum (도도부현 단위). 순서대로 매칭",
   "rules": [
-    {
-      "location": "TOKYO",
-      "keywords": ["東京", "東京都", "渋谷", "新宿", "品川", "丸の内", "大手町", "港区", "千代田区", "中央区", "豊島区", "江東区", "目黒区", "神田", "秋葉原", "六本木", "恵比寿", "虎ノ門", "汐留", "台場", "府中"]
-    },
-    {
-      "location": "KANAGAWA",
-      "keywords": ["神奈川", "横浜", "川崎", "相模原", "戸塚", "鎌倉", "厚木", "小田原"]
-    },
-    {
-      "location": "OSAKA",
-      "keywords": ["大阪", "梅田", "難波", "心斎橋", "天王寺", "淀屋橋"]
-    },
-    {
-      "location": "NAGOYA",
-      "keywords": ["名古屋", "愛知", "豊田", "岡崎"]
-    },
-    {
-      "location": "FUKUOKA",
-      "keywords": ["福岡", "博多", "天神", "北九州"]
-    },
-    {
-      "location": "SAPPORO",
-      "keywords": ["札幌", "北海道"]
-    },
-    {
-      "location": "SENDAI",
-      "keywords": ["仙台", "宮城", "東北", "三沢", "青森"]
-    },
-    {
-      "location": "HIROSHIMA",
-      "keywords": ["広島", "岡山", "山口"]
-    },
-    {
-      "location": "KYOTO",
-      "keywords": ["京都府", "京都市", "京都駅", "京都勤務"]
-    },
-    {
-      "location": "OTHER_JAPAN",
-      "keywords": ["茨城", "日立市", "水戸", "千葉", "埼玉", "栃木", "群馬", "静岡", "兵庫", "神戸", "奈良", "滋賀", "三重", "石川", "富山", "新潟", "長野", "山梨", "岐阜", "和歌山", "鳥取", "島根", "香川", "愛媛", "高知", "徳島", "佐賀", "長崎", "熊本", "大分", "宮崎", "鹿児島", "沖縄", "全国", "全国各地", "国内各地"]
-    },
-    {
-      "location": "REMOTE",
-      "keywords": ["リモート", "テレワーク", "在宅", "フルリモート", "完全リモート"]
-    }
+    { "location": "HOKKAIDO",  "keywords": ["北海道", "札幌"] },
+    { "location": "AOMORI",   "keywords": ["青森", "三沢"] },
+    { "location": "IWATE",    "keywords": ["岩手", "盛岡"] },
+    { "location": "MIYAGI",   "keywords": ["宮城", "仙台"] },
+    { "location": "AKITA",    "keywords": ["秋田"] },
+    { "location": "YAMAGATA", "keywords": ["山形"] },
+    { "location": "FUKUSHIMA","keywords": ["福島"] },
+    { "location": "IBARAKI",  "keywords": ["茨城", "日立市", "水戸", "土浦", "つくば"] },
+    { "location": "TOCHIGI",  "keywords": ["栃木", "宇都宮"] },
+    { "location": "GUNMA",    "keywords": ["群馬", "前橋"] },
+    { "location": "SAITAMA",  "keywords": ["埼玉", "さいたま"] },
+    { "location": "CHIBA",    "keywords": ["千葉", "千葉市"] },
+    { "location": "TOKYO",    "keywords": ["東京", "東京都", "渋谷", "新宿", "品川", "丸の内", "大手町", "港区", "千代田区", "中央区", "豊島区", "神田", "秋葉原", "六本木", "恵比寿", "虎ノ門", "汐留", "府中", "立川", "国分寺"] },
+    { "location": "KANAGAWA", "keywords": ["神奈川", "横浜", "川崎", "相模原", "戸塚", "鎌倉", "厚木", "小田原"] },
+    { "location": "NIIGATA",  "keywords": ["新潟"] },
+    { "location": "TOYAMA",   "keywords": ["富山"] },
+    { "location": "ISHIKAWA", "keywords": ["石川", "金沢"] },
+    { "location": "FUKUI",    "keywords": ["福井"] },
+    { "location": "YAMANASHI","keywords": ["山梨", "甲府"] },
+    { "location": "NAGANO",   "keywords": ["長野", "松本"] },
+    { "location": "GIFU",     "keywords": ["岐阜"] },
+    { "location": "SHIZUOKA", "keywords": ["静岡", "浜松"] },
+    { "location": "AICHI",    "keywords": ["愛知", "名古屋", "豊田"] },
+    { "location": "MIE",      "keywords": ["三重", "津市"] },
+    { "location": "SHIGA",    "keywords": ["滋賀", "大津"] },
+    { "location": "KYOTO",    "keywords": ["京都府", "京都市", "京都駅", "京都勤務"] },
+    { "location": "OSAKA",    "keywords": ["大阪", "梅田", "難波", "心斎橋", "淀屋橋"] },
+    { "location": "HYOGO",    "keywords": ["兵庫", "神戸", "姫路"] },
+    { "location": "NARA",     "keywords": ["奈良"] },
+    { "location": "WAKAYAMA", "keywords": ["和歌山"] },
+    { "location": "TOTTORI",  "keywords": ["鳥取"] },
+    { "location": "SHIMANE",  "keywords": ["島根", "松江"] },
+    { "location": "OKAYAMA",  "keywords": ["岡山"] },
+    { "location": "HIROSHIMA","keywords": ["広島"] },
+    { "location": "YAMAGUCHI","keywords": ["山口", "笠戸"] },
+    { "location": "TOKUSHIMA","keywords": ["徳島"] },
+    { "location": "KAGAWA",   "keywords": ["香川", "高松"] },
+    { "location": "EHIME",    "keywords": ["愛媛", "松山"] },
+    { "location": "KOCHI",    "keywords": ["高知"] },
+    { "location": "FUKUOKA",  "keywords": ["福岡", "博多", "天神", "北九州"] },
+    { "location": "SAGA",     "keywords": ["佐賀"] },
+    { "location": "NAGASAKI", "keywords": ["長崎"] },
+    { "location": "KUMAMOTO", "keywords": ["熊本"] },
+    { "location": "OITA",     "keywords": ["大分"] },
+    { "location": "MIYAZAKI", "keywords": ["宮崎"] },
+    { "location": "KAGOSHIMA","keywords": ["鹿児島"] },
+    { "location": "OKINAWA",  "keywords": ["沖縄", "那覇"] },
+    { "location": "REMOTE",   "keywords": ["リモート", "テレワーク", "在宅", "フルリモート"] },
+    { "location": "NATIONWIDE","keywords": ["全国", "全国各地", "国内各地"] }
   ],
-  "default": "OTHER_JAPAN"
+  "default": "TOKYO"
 }

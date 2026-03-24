@@ -13,7 +13,7 @@ from companies.base import BaseCrawler
 from models.job import NaruJob
 from config import HITACHI_API_BASE, HITACHI_REFERER
 
-COMPANY_SLUG = "hitachi"
+COMPANY_SLUG = "hitachi-rd"
 
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",
@@ -140,24 +140,30 @@ class HitachiCrawler(BaseCrawler):
         desc      = self._clean_html(desc_raw)
         req       = self._clean_html(req_raw)
 
-        # overview: description이 충분하면 사용, 아니면 title+category로 보충
-        if len(desc) >= 50:
-            overview = desc
+        # ── overview: 【職務概要】 섹션 우선, 없으면 전체 description ──
+        overview_section = self._extract_section_text(desc, ["職務概要", "仕事内容", "概要・ミッション"])
+        if len(overview_section) >= 50:
+            overview = overview_section
+        elif len(desc) >= 50:
+            # 전체에서 앞 1000자만 사용 (너무 긴 경우 잘라냄)
+            overview = desc[:1000].strip()
         else:
-            overview = f"【{category}】\n\n{title}\n\n{desc}".strip()
+            overview = f"{title}\n\n{category}부문의 경력직 채용 공고입니다.\n\n{desc}".strip()
 
         if req:
-            overview += f"\n\n【応募資格】\n{req}"
+            overview += f"\n\n【応募資格】\n{req[:500]}"
 
         # ── tasks 파싱 ────────────────────────────────
-        # description에서 업무 항목 추출 (・▶ 등 불릿 기준)
-        tasks = []
-        for line in desc.split("\n"):
-            line = line.strip().lstrip("・•●▶︎▼■□◆◇→▷").strip()
-            if line and len(line) > 5:
-                tasks.append(line)
-        # tasks가 너무 많으면 앞 10개만
-        tasks = tasks[:10] if tasks else [title]
+        # 【職務詳細】 섹션에서 실제 담당 업무 추출
+        tasks = self._extract_section(desc, ["職務詳細", "担当業務", "業務内容", "主な業務"])
+        if not tasks:
+            # 폴백: 불릿 항목 추출
+            for line in desc.split("\n"):
+                line = line.strip().lstrip("・•●▶︎▼■□◆◇→▷―-").strip()
+                if line and len(line) > 5 and not line.startswith("【") and not line.startswith("http"):
+                    tasks.append(line)
+        # tasks가 너무 많으면 앞 8개만
+        tasks = tasks[:8] if tasks else [title]
 
         # ── 근무 형태 ─────────────────────────────────
         work_type = self.detect_work_type(desc)
@@ -175,6 +181,7 @@ class HitachiCrawler(BaseCrawler):
             tasks=tasks,
             work_type=work_type,
             tech_stack=tech_stack,
+            join_date="随時",           # 히타치는 수시 채용
             source_id=job_id,
             source_url=f"https://hitachi.jposting.net/u/entry.phtml?job_code1={job_id}",
         )
@@ -182,6 +189,36 @@ class HitachiCrawler(BaseCrawler):
     # ──────────────────────────────────────────
     # 유틸리티
     # ──────────────────────────────────────────
+
+    def _extract_section_text(self, text: str, headers: list) -> str:
+        """섹션 헤더 이후 텍스트를 문자열로 반환"""
+        for header in headers:
+            pattern = rf"【{header}[^】]*】(.*?)(?=【|\Z)"
+            match = re.search(pattern, text, re.DOTALL)
+            if match:
+                section = match.group(1).strip()
+                if len(section) >= 30:
+                    return section
+        return ""
+
+    def _extract_section(self, text: str, headers: list) -> list:
+        """
+        특정 섹션 헤더(【職務詳細】 등) 이후 내용 추출
+        불릿 항목을 tasks 리스트로 반환
+        """
+        tasks = []
+        for header in headers:
+            pattern = rf"【{header}[^】]*】(.*?)(?=【|\Z)"
+            match = re.search(pattern, text, re.DOTALL)
+            if match:
+                section = match.group(1)
+                for line in section.split("\n"):
+                    line = line.strip().lstrip("・•●▶︎▼■□◆◇→▷―-").strip()
+                    if line and len(line) > 5 and not line.startswith("http"):
+                        tasks.append(line)
+                if tasks:
+                    break
+        return tasks
 
     def _clean_text(self, text: str) -> str:
         """텍스트 정리"""
@@ -197,14 +234,26 @@ class HitachiCrawler(BaseCrawler):
         """HTML → 일반 텍스트 변환 (ruby 태그 등 불필요한 태그 제거)"""
         if not html_text:
             return ""
+        # 1차: BeautifulSoup으로 파싱
         soup = BeautifulSoup(html_text, "html.parser")
         # <ruby>, <rt>, <rp> 태그 제거 (후리가나 — 기술스택 오탐 방지)
         for tag in soup.find_all(["ruby", "rt", "rp"]):
             tag.decompose()
-        # <br>, <p>, <li> → 개행
+        # <br>, <p>, <li>, <div> → 개행 삽입
         for tag in soup.find_all(["br", "p", "li", "div"]):
             tag.insert_after("\n")
+        # <a> 태그는 URL 텍스트 제거 (URL 라인 오탐 방지)
+        for tag in soup.find_all("a"):
+            href = tag.get("href", "")
+            tag.replace_with(tag.get_text() if tag.get_text() != href else "")
         text = soup.get_text()
-        # 연속 개행 정리
+        # 2차 안전장치: 남은 HTML 태그를 regex로 제거
+        text = re.sub(r"<[^>]+>", "", text)
+        # URL 라인 제거 (https://... 로만 이루어진 줄)
+        lines = [l for l in text.split("\n") if not re.match(r"^\s*https?://\S+\s*$", l)]
+        text = "\n".join(lines)
+        # 연속 개행 정리, 탭 제거
+        text = re.sub(r"\t", " ", text)
+        text = re.sub(r"\r\n", "\n", text)
         text = re.sub(r"\n{3,}", "\n\n", text).strip()
         return text
