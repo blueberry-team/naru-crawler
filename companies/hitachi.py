@@ -120,7 +120,9 @@ class HitachiCrawler(BaseCrawler):
     def parse_job(self, raw: dict) -> Optional[NaruJob]:
         """히타치 raw 데이터를 NaruJob으로 변환"""
         job_id   = str(raw.get("id", ""))
-        title    = self._clean_text(raw.get("name", ""))
+        raw_title = self._clean_text(raw.get("name", ""))
+        # 【15】 같은 번호 prefix 제거
+        title    = re.sub(r'^【\d+】\s*', '', raw_title).strip()
         category = raw.get("_category", "")
         location_text = raw.get("location", "") or ""
 
