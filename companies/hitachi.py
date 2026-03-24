@@ -13,7 +13,7 @@ from companies.base import BaseCrawler
 from models.job import NaruJob
 from config import HITACHI_API_BASE, HITACHI_REFERER
 
-COMPANY_SLUG = "hitachi-rd"
+COMPANY_SLUG = "hitachi"  # DB의 기존 히타치제작소 slug (ID=22)
 
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",
@@ -183,7 +183,7 @@ class HitachiCrawler(BaseCrawler):
             tech_stack=tech_stack,
             join_date="随時",           # 히타치는 수시 채용
             source_id=job_id,
-            source_url=f"https://hitachi.jposting.net/u/entry.phtml?job_code1={job_id}",
+            source_url=f"https://hitachi.jposting.net/u/job.phtml?job_code={job_id}",
         )
 
     # ──────────────────────────────────────────

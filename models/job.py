@@ -40,7 +40,7 @@ class NaruJob:
             "overview": self.overview,
             "tasks": self.tasks,
             "workType": self.work_type,
-            "status": self.status,
+            "publishStatus": self.status,
         }
         if self.join_date:
             payload["joinDate"] = self.join_date
