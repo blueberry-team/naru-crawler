@@ -15,6 +15,23 @@ AI가 저지른 실수와 개선 사항을 기록합니다.
 
 ---
 
+### MISTAKE-002: fetch_job_detail이 잘못된 job 데이터 반환
+- **상황**: 상세 API(`?job_code1=N`) 호출 시 응답 JSON에서 "description" 있는 첫 dict 반환 → 항상 job 15 덮어씌움
+- **원인**: `_find_job_detail`이 job_id 일치 검사 없이 description 있는 첫 항목 반환
+- **증상**: limit=5로 실행 시 5개 공고가 모두 같은 job (ID=15) 표시
+- **해결**: 상세 API 호출 자체를 제거하고 목록 API `job_items[]` 파라미터로 통합
+
+### MISTAKE-003: 위치 오탐 (東京都 → KYOTO)
+- **상황**: "東京都"가 "京都" 키워드와 substring 매칭 → TOKYO + KYOTO 동시 반환
+- **원인**: 단순 `keyword in text` 매칭, 더 긴 지명 우선 처리 미흡
+- **해결**: "京都" → "京都府/京都市/京都駅/京都勤務"로 변경 (전체 지명 명시)
+
+### MISTAKE-004: HTML ruby 태그 기술스택 오탐
+- **상황**: description HTML의 `<ruby>` 태그(일본어 후리가나)가 plain text 변환 후 "ruby" 남아 Ruby(언어)로 오탐
+- **해결**: `_clean_html()` 에서 `<ruby>`, `<rt>`, `<rp>` 태그 먼저 제거
+
+---
+
 ## 앞으로 지켜야 할 원칙
 
 1. **데이터 생성 후 삭제는 명시적 지시 후에만**
