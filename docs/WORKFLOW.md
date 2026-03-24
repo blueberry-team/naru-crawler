@@ -128,7 +128,7 @@ GET /api/jobs?size=200     (PUBLISHED 목록)
 | `tasks` | 職務詳細 불릿 → 한국어 배열 (최대 7개) |
 | `targetAudience` | 모집 대상 → 한국어 한 문장 |
 | `targetCandidate` | 아래 구조 한국어로 채움 |
-| `selectionProcess` | 선발 단계 → 한국어 |
+| `selectionProcess` | 선발 단계 → 한국어. "복수 회" 사용 금지 → "2~3회" 또는 "여러 차례" |
 | `jobSourceUrl` | `job.phtml?job_code=` 형식 |
 | `salaryMin` | 공개 데이터 보수적 추정. 불명확하면 null |
 | `salaryMax` | 확신 없으면 null |
