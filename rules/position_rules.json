@@ -1,0 +1,69 @@
+{
+  "_comment": "제목/카테고리 키워드 → 나루 position enum 매핑 규칙. 순서대로 매칭 (위에 있을수록 우선순위 높음)",
+  "rules": [
+    {
+      "position": "AI_ML",
+      "keywords": ["AI", "機械学習", "深層学習", "生成AI", "LLM", "データサイエンス", "データサイエンティスト", "自然言語処理", "画像認識", "AIエンジニア", "AIアーキテクト", "生成AI", "MLエンジニア", "データ分析", "アナリティクス"]
+    },
+    {
+      "position": "DATA",
+      "keywords": ["データエンジニア", "データ基盤", "データウェアハウス", "データレイク", "ETL", "データパイプライン", "データプラットフォーム", "BI", "データ統合", "データモデリング"]
+    },
+    {
+      "position": "SECURITY",
+      "keywords": ["セキュリティ", "サイバーセキュリティ", "ゼロトラスト", "SOC", "SIEM", "脆弱性", "ペネトレーション", "セキュリティアナリスト", "情報セキュリティ", "暗号"]
+    },
+    {
+      "position": "DEVOPS",
+      "keywords": ["DevOps", "SRE", "インフラ", "クラウド", "AWS", "Azure", "GCP", "Kubernetes", "Docker", "CI/CD", "IaC", "Terraform", "Ansible", "コンテナ", "マルチクラウド", "プラットフォームエンジニア"]
+    },
+    {
+      "position": "BACKEND",
+      "keywords": ["バックエンド", "サーバーサイド", "API", "Java", "Spring", "Python", "Go", "Ruby", "Node.js", "マイクロサービス", "データベース設計", "システム開発", "アプリケーション開発", "SE", "システムエンジニア"]
+    },
+    {
+      "position": "FRONTEND",
+      "keywords": ["フロントエンド", "UI", "UX", "React", "Vue", "Angular", "JavaScript", "TypeScript", "CSS", "HTML", "Web開発"]
+    },
+    {
+      "position": "MOBILE",
+      "keywords": ["モバイル", "iOS", "Android", "Swift", "Kotlin", "React Native", "Flutter", "スマートフォン"]
+    },
+    {
+      "position": "EMBEDDED",
+      "keywords": ["組み込み", "ファームウェア", "FPGA", "RTOS", "マイコン", "制御システム", "監視制御", "SCADA", "PLC", "組込み"]
+    },
+    {
+      "position": "QA",
+      "keywords": ["品質保証", "テスト", "QA", "品質管理", "検証", "テストエンジニア", "品質保証エンジニア"]
+    },
+    {
+      "position": "PRODUCT",
+      "keywords": ["プロダクトマネージャー", "PdM", "プロダクト企画", "サービス企画", "事業企画", "新規事業", "事業開発", "プロダクトオーナー"]
+    },
+    {
+      "position": "DESIGN",
+      "keywords": ["デザイナー", "UXデザイン", "UIデザイン", "デザイン", "クリエイティブ"]
+    },
+    {
+      "position": "HR",
+      "keywords": ["人事", "HR", "採用", "人財", "タレントアクイジション", "人材", "組織開発", "労務", "研修"]
+    },
+    {
+      "position": "FINANCE",
+      "keywords": ["財務", "経理", "会計", "経営管理", "財務戦略", "IR", "税務", "経営企画", "ファイナンス", "資金調達"]
+    },
+    {
+      "position": "LEGAL",
+      "keywords": ["法務", "コンプライアンス", "契約", "知財", "知的財産", "リーガル"]
+    },
+    {
+      "position": "BUSINESS",
+      "keywords": ["営業", "セールス", "アカウント", "コンサルタント", "コンサルティング", "ソリューション営業", "提案営業", "プロジェクトマネージャー", "PM", "PL", "マーケティング"]
+    },
+    {
+      "position": "OTHER",
+      "keywords": []
+    }
+  ]
+}
