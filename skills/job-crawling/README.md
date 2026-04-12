@@ -178,6 +178,3 @@ API 호출은 하지 말고,
 - 일반적인 채용 절차를 상상해서 `selectionProcess` 를 보강하지 않는다.
 - 공고에 없는 정보를 추측으로 채우지 않는다.
 
-## 관련 문서
-
-- 현재 예시 skill: [SKILL.md](/naru-crawler/skills/job-crawling/job-search-new-grad/SKILL.md)

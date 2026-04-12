@@ -25,14 +25,7 @@ git clone git@github.com:blueberry-team/naru-crawler.git
 cd naru-crawler
 ```
 
-### 2. Python 환경
-```bash
-python3 -m venv .venv
-source .venv/bin/activate
-pip install -r backup/requirements.txt
-```
-
-### 3. 필수 환경 변수
+### 2. 필수 환경 변수
 ```bash
 export NARU_ADMIN_TOKEN="<발급받은_토큰>"
 export NARU_API_BASE="https://api.naru-recruit.com"
@@ -79,7 +72,7 @@ Claude Desktop에서 다음과 같이 호출한다:
    - 복리후생 키워드
 3. **로고 URL 수집** — `https://img.logo.dev/{domain}?token=$LOGO_DEV_TOKEN`
 4. **태그 생성** — 산업·기술·키워드 5~10개 추출
-5. **enum 매핑** — `backup/rules/`의 매핑 룰 또는 LLM 기반 분류
+5. **enum 매핑** — LLM 기반 분류
 6. **DRAFT 적재** — `POST /api/dev/companies` (`publishStatus: "DRAFT"`)
 7. **결과 보고** — companyId 와 어드민 링크 반환
 
@@ -115,6 +108,3 @@ Claude Desktop에서 다음과 같이 호출한다:
 
 ---
 
-## 관련 문서
-- [`docs/REVIEW_GUIDE.md`](../../docs/REVIEW_GUIDE.md) — 회사 메타 검증 기준
-- [`backup/README.md`](../../backup/README.md) — 이전 구조

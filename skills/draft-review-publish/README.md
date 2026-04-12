@@ -22,13 +22,10 @@ description: 나루 백엔드의 DRAFT 상태 채용 공고를 샘플링·검증
 
 ## 전제 조건 (Setup)
 
-### 1. 저장소 클론·환경
+### 1. 저장소 클론
 ```bash
 git clone git@github.com:blueberry-team/naru-crawler.git
 cd naru-crawler
-python3 -m venv .venv
-source .venv/bin/activate
-pip install -r backup/requirements.txt
 ```
 
 ### 2. 환경 변수
@@ -72,12 +69,12 @@ Claude Desktop에서 다음과 같이 호출한다:
    - 404/410 → ❌ 원본 삭제 (publish 보류, 사용자에게 알림)
    - WAF 차단·카테고리 페이지 → ⚠️ DB 데이터 양호 시 통과
 3. **채용 현행성 체크** — fetch한 본문에서 `募集終了`, `終了`, `締め切り`, `closed` 등 키워드 검색
-4. **데이터 품질 검사** — `docs/REVIEW_GUIDE.md` 기준으로 필드 완성도·분류 정확도·텍스트 품질 평가
+4. **데이터 품질 검사** — `REVIEW_GUIDE.md` 기준으로 필드 완성도·분류 정확도·텍스트 품질 평가
 5. **중복 검사** — 동일 source_url 또는 매우 유사한 title이 이미 PUBLISHED에 있는지 확인
 6. **결함 수정** — 발견된 문제는 사용자 승인 없이 즉시 PUT으로 부분 수정 (예: position, locations)
    - **PUT만 사용. DELETE→재생성 금지.** PUT은 부분 업데이트, 변경 필드만 전송, 204 반환
 7. **PUBLISH** — 모든 검증 통과 시 `PUT /api/dev/jobs/{id}/publish`
-8. **로그 기록** — `docs/REVIEW_LOG.md`에 회차별 표 형태로 결과 누적
+8. **로그 기록** — 회차별 표 형태로 결과 누적
 9. **사용자 보고** — Discord 또는 콘솔로 회차 결과 요약 + 어드민 확인 링크 전송
 
 ### API 참고
@@ -110,17 +107,12 @@ Claude Desktop에서 다음과 같이 호출한다:
 
 ## 주의 사항 (Do / Don't)
 
-- ✅ **PUT 부분 업데이트만 사용**. 절대 DELETE 후 재생성하지 말 것 (실수 사례 docs/MISTAKES.md 참고).
+- ✅ **PUT 부분 업데이트만 사용**. 절대 DELETE 후 재생성하지 말 것 (실수 사례 MISTAKES.md 참고).
 - ✅ 결함은 묻지 말고 즉시 수정 후 사용자에게 보고. 단, **PUBLISH 전환은 신중**하게.
-- ✅ 회차마다 `docs/REVIEW_LOG.md`에 누적 기록. 패턴 발견 시 별도 섹션으로 분리.
+- ✅ 회차마다 결과를 누적 기록. 패턴 발견 시 별도 섹션으로 분리.
 - ✅ 위치/직군 enum 부재 등 **크롤러 결함**으로 분류된 케이스는 별도 패턴 누적 후 구조 개선 PR로 연결.
 - ❌ 자동 PUBLISH가 위험한 공고 (404, 채용 종료 키워드 발견, 분류 모호) 는 보류.
 - ❌ 토큰을 로그·커밋·Discord 메시지에 노출 금지.
 
 ---
 
-## 관련 문서
-- [`docs/REVIEW_GUIDE.md`](../../docs/REVIEW_GUIDE.md) — 검증 기준
-- [`docs/REVIEW_LOG.md`](../../docs/REVIEW_LOG.md) — 누적 검토 로그
-- [`backup/docs/MISTAKES.md`](../../backup/docs/MISTAKES.md) — 과거 실수
-- [`docs/WORKFLOW.md`](../../docs/WORKFLOW.md) — 운영 워크플로우
