@@ -1,122 +1,183 @@
 ---
 name: job-crawling
-description: 기업 채용 사이트에서 채용 공고를 크롤링하여 나루(naru-recruit.com) DB에 DRAFT 상태로 적재한다. 공고 단건 단위 추출·정규화·품질 검증·업로드를 담당한다.
+description: Playwright MCP로 일본 채용 페이지를 수집하고, 공고 유형별 skill에서 필드 정규화와 번역을 수행한 뒤, 공고별로 NARU jobs API에 DRAFT payload를 적재한다.
 ---
 
-# job-crawling — 공고 크롤링 스킬
+# job-crawling
 
-## 무엇을 하는가
+이 디렉터리는 일본 채용 공고 수집용 skill 문서를 관리한다.
 
-지정한 기업의 채용 페이지에서 **개별 채용 공고**를 수집하여 나루 백엔드 API로 전송, `status: DRAFT` 상태로 적재한다.
+현재 기준의 실제 운영 흐름은 아래와 같다.
 
-- 입력: 회사 식별자(slug) 또는 공고 URL 목록
-- 처리: HTML/JSON 파싱 → 직무·근무지·경력 enum 매핑 → 필수 필드 검증
-- 출력: 나루 백엔드의 새 DRAFT 공고 (관리자 검토 대기 큐로 적재)
+- Playwright MCP로 실제 채용 사이트를 탐색한다.
+- 공고 유형에 맞는 skill에서 상세 공고를 수집한다.
+- 사용자 노출 텍스트를 일본어에서 한국어로 번역한다.
+- payload를 검증한다.
+- 공고별로 `POST /api/dev/jobs` 를 호출해 `publishStatus: "DRAFT"` 로 저장한다.
 
-이 스킬은 **공고 단건만 다룬다**. 기업 정보 등록·수정은 [`company-crawling`](../company-crawling/) 스킬을 사용한다.
+## 현재 기준 skill 구조
 
----
+실제 실행은 분리된 Claude skill 구조를 기준으로 본다.
 
-## 전제 조건 (Setup)
+## 기본 원칙
 
-이 스킬은 **다양한 사람이 Claude Desktop을 통해 처음 접근해서 실행하는 시나리오**를 가정한다. 따라서 처음 사용자는 아래 셋업을 한 번만 완료해야 한다.
+- `Playwright MCP` 를 기본 브라우징 도구로 사용한다.
+- `job-crawling` 아래에서는 공고 유형별 skill을 분리한다.
+- 예: `new_grad`, `mid`
+- 외부 채용 시스템으로 넘어가더라도 상세 공고가 있으면 계속 진행한다.
+- 목록 페이지에 여러 트랙이 있으면 모두 수집한다.
+- 한 페이지 안의 앵커 섹션도 공고 단위로 본다.
+- `1공고 = 1 payload = 1 POST` 로 처리한다.
+- bundle JSON 파일은 저장하지 않는다.
+- 명시되지 않은 사실은 추측하지 않는다.
+- `publishStatus` 는 항상 `DRAFT` 다.
 
-### 1. 저장소 클론
-```bash
-git clone git@github.com:blueberry-team/naru-crawler.git
-cd naru-crawler
+## 스킬 구조
+
+각 공고 유형은 분리된 Claude skill 디렉터리로 관리한다.
+
+현재 구현된 예시는 아래 경로다.
+
+- 메인 엔트리: [SKILL.md](/Users/jeonjunbae/Desktop/study/NARU/naru-crawler/skills/job-crawling/job-search-new-grad/SKILL.md)
+- 규칙: [/Users/jeonjunbae/Desktop/study/NARU/naru-crawler/skills/job-crawling/job-search-new-grad/rules](/Users/jeonjunbae/Desktop/study/NARU/naru-crawler/skills/job-crawling/job-search-new-grad/rules)
+- 참고 문서: [/Users/jeonjunbae/Desktop/study/NARU/naru-crawler/skills/job-crawling/job-search-new-grad/references](/Users/jeonjunbae/Desktop/study/NARU/naru-crawler/skills/job-crawling/job-search-new-grad/references)
+- 예시: [/Users/jeonjunbae/Desktop/study/NARU/naru-crawler/skills/job-crawling/job-search-new-grad/examples](/Users/jeonjunbae/Desktop/study/NARU/naru-crawler/skills/job-crawling/job-search-new-grad/examples)
+
+skill 디렉터리는 같은 레벨에서 유형별로 분리한다.
+
+- `job-search-new-grad`
+- `job-search-mid` 또는 이에 준하는 별도 skill
+
+현재 예시 skill의 주요 참고 파일:
+
+- payload 스키마: [payload-schema.md](/Users/jeonjunbae/Desktop/study/NARU/naru-crawler/skills/job-crawling/job-search-new-grad/references/payload-schema.md)
+- 체크리스트: [checklist.md](/Users/jeonjunbae/Desktop/study/NARU/naru-crawler/skills/job-crawling/job-search-new-grad/references/checklist.md)
+- 번역 glossary: [translation-glossary.md](/Users/jeonjunbae/Desktop/study/NARU/naru-crawler/skills/job-crawling/job-search-new-grad/references/translation-glossary.md)
+
+## 입력
+
+필수 입력:
+
+- 시작 URL
+- `companySlug`
+
+호출 형식은 skill마다 다르지만, 보통 아래 두 값을 받는다.
+
+현재 구현된 예시 skill 호출:
+
+```text
+/job-search-new-grad "https://www.softbank.jp/recruit/graduate/" softbank
 ```
 
-### 2. Python 환경
-```bash
-python3 -m venv .venv
-source .venv/bin/activate
-pip install -r backup/requirements.txt    # 기존 의존성 재사용
+한국어로 추가 조건을 붙여도 된다.
+
+```text
+/job-search-new-grad "https://www.softbank.jp/recruit/graduate/" softbank
+
+API 호출은 하지 말고,
+찾은 공고 수와 각 공고의 title, jobSourceUrl만 보여줘.
 ```
 
-### 3. 나루 어드민 토큰 등록
-나루 백엔드는 `X-Admin-Token` 헤더로 인증한다. 토큰은 어드민에게 별도로 받아 환경변수에 저장한다.
+## 추천 테스트 순서
 
-```bash
-export NARU_ADMIN_TOKEN="<발급받은_토큰>"
-export NARU_API_BASE="https://api.naru-recruit.com"
+아래 순서는 공고 유형과 무관하게 공통으로 적용한다.
+
+### 1. 수집 테스트
+
+목적:
+
+- 대상 채용 페이지 진입
+- 외부 채용 시스템 이동 처리
+- 공고 개수 인식
+- 상세 URL 또는 앵커 URL 추출
+
+예시:
+
+```text
+/job-search-new-grad "https://www.softbank.jp/recruit/graduate/" softbank
+
+API 호출은 하지 말고,
+찾은 공고 수와 각 공고의 title, jobSourceUrl만 보여줘.
 ```
 
-쉘 종료 시 재설정이 귀찮으면 `~/.zshrc` 등에 추가하거나 Claude Desktop의 환경변수 설정 화면에 등록한다.
+### 2. payload 테스트
 
-### 4. Claude Desktop 권한
-이 스킬은 `Bash`, `WebFetch`, `Read`, `Write` 도구를 사용한다. Claude Desktop의 권한 모드가 `acceptEdits` 또는 `bypassPermissions`로 설정되어 있어야 자동 실행이 원활하다.
+목적:
 
-### 5. 첫 실행 점검
-```bash
-# DRAFT 목록 조회로 토큰·네트워크 정상 여부 확인
-curl -s "$NARU_API_BASE/api/dev/jobs/drafts" -H "X-Admin-Token: $NARU_ADMIN_TOKEN" | head -c 200
-```
-JSON 응답이 돌아오면 셋업 완료.
+- 필드 정규화 확인
+- 일본어 -> 한국어 번역 확인
+- schema / checklist 기준 검증 확인
 
----
+예시:
 
-## 사용 방법
+```text
+/job-search-new-grad "https://www.softbank.jp/recruit/graduate/" softbank
 
-Claude Desktop에서 다음과 같이 호출한다:
-
-```
-/job-crawling 회사=hitachi 개수=10 dry-run
-/job-crawling URL=https://hrmos.co/pages/{company}/jobs/{id}
+API 호출은 하지 말고,
+첫 번째 공고 1건만 최종 payload JSON으로 보여줘.
 ```
 
-또는 자연어로:
+### 3. 실제 DRAFT 적재
 
-> "naru-crawler로 GMO미디어 채용 페이지에서 백엔드 공고 5개 크롤링해서 드래프트로 올려줘"
+목적:
 
-### 워크플로우
-1. **회사 식별** — 사용자가 지정한 slug 또는 URL에서 도메인 추출
-2. **공고 목록 조회** — 회사별 어댑터(`backup/companies/{slug}.py`)로 raw 공고 리스트 가져오기
-3. **상세 페이지 파싱** — 각 공고 URL을 fetch하여 제목/개요/자격/근무지 등 추출
-4. **enum 매핑** — `backup/rules/*.json` 룰을 적용해 position/location/experienceLevel 결정
-5. **품질 검증** — 필수 필드(title 5자+, overview 50자+, tasks 1개+, position/locations/experienceLevel 유효) 통과 확인
-6. **DRAFT 적재** — `POST /api/dev/jobs` (`status: "DRAFT"`)로 업로드
-7. **결과 보고** — 적재 성공/실패 건수와 jobId 목록을 반환
+- 공고별 `POST /api/dev/jobs` 실행
+- 성공 / 실패 보고
 
-### 기존 자산 재사용
-- 회사별 어댑터: `backup/companies/{slug}.py`
-- enum 매핑 룰: `backup/rules/{position,location,experience}_rules.json`
-- 모델 정의: `backup/models/job.py`
-- API 클라이언트: `backup/api/naru_client.py`
-- 검증기: `backup/validators/job_validator.py`
+예시:
 
-신규 회사를 추가하려면 `backup/companies/` 아래에 `BaseCrawler`를 상속한 모듈을 만들고 `runner.py`의 `CRAWLERS` dict에 등록한다.
+```text
+/job-search-new-grad "https://www.softbank.jp/recruit/graduate/" softbank
 
----
-
-## 출력 형식
-
-```
-✅ {company} 공고 크롤링 결과
-- 시도: 10건
-- DRAFT 적재 성공: 9건 (jobIds: [1153, 1154, ...])
-- 검증 실패: 1건
-  - https://...  →  overview 길이 부족 (32자, 최소 50자)
-
-확인 링크: https://www.naru-recruit.com/admin?token=<TOKEN>
+이 페이지의 대상 공고를 모두 수집하고,
+공고별로 1건씩 DRAFT로 저장해줘.
 ```
 
-실패 시 사유를 상세히 출력하여 사용자가 룰을 수정할 수 있도록 한다.
+## 워크플로우
 
----
+1. 시작 URL을 Playwright MCP로 연다.
+2. 선택한 skill의 규칙에 따라 대상 공고 동선을 찾는다.
+3. 외부 채용 시스템으로 이동했더라도 상세 공고가 있으면 계속 진행한다.
+4. 공고 목록, 카드, 탭, 페이지 내 앵커 섹션에서 공고 단위를 식별한다.
+5. 각 공고 상세에서 원문 사실을 추출한다.
+6. 규칙 문서 기준으로 `title`, `position`, `locations`, `joinDate`, `salaryMin`, `salaryMax`, `selectionProcess`, `targetCandidate`, `benefitDetail` 등을 정규화한다.
+7. 번역이 필요한 필드만 한국어로 번역한다.
+8. [payload-schema.md](/Users/jeonjunbae/Desktop/study/NARU/naru-crawler/skills/job-crawling/job-search-new-grad/references/payload-schema.md) 와 [checklist.md](/Users/jeonjunbae/Desktop/study/NARU/naru-crawler/skills/job-crawling/job-search-new-grad/references/checklist.md) 기준으로 payload를 검증한다.
+9. 적재 단계라면 공고별로 `POST /api/dev/jobs` 를 호출한다.
 
-## 주의 사항 (Do / Don't)
+## payload 핵심 규칙
 
-- ✅ 항상 **DRAFT 상태**로만 적재. 자동 PUBLISH 금지 — 검토는 [`draft-review-publish`](../draft-review-publish/) 스킬에서 수행한다.
-- ✅ 외부 사이트에 과도한 부하를 주지 않도록 요청 간 delay (1~2초) 적용.
-- ✅ User-Agent 헤더에 연락 가능한 식별자 포함.
-- ❌ 쿠키·세션 토큰을 코드에 하드코딩하지 말 것. 환경변수 사용.
-- ❌ 동일 source_url 중복 적재 방지 — 적재 전 기존 DRAFT 검색.
-- ❌ 채용 사이트의 robots.txt를 무시하지 말 것.
+- `companySlug` 는 기존 회사 slug 를 사용한다.
+- `experienceLevel` 은 선택한 skill의 대상 유형에 맞춰 채운다.
+- `publishStatus` 는 항상 `DRAFT`
+- `workType` 은 `REMOTE | ONSITE | HYBRID | UNKNOWN`
+- `locations` 는 빈 배열이면 안 된다.
+- `joinDate` 는 null 이면 안 된다.
+- `selectionProcess` 는 근거가 없을 때만 `null`
+- `benefitDetail` 과 `targetCandidate` 는 서로 중복 저장하지 않는다.
 
----
+전체 구조는 [payload-schema.md](/Users/jeonjunbae/Desktop/study/NARU/naru-crawler/skills/job-crawling/job-search-new-grad/references/payload-schema.md) 를 따른다.
+
+## 탐색 원칙
+
+- 프롬프트 안의 탐색 키워드는 사이트 원문 기준으로 적는다.
+- 예: `新卒`, `募集要項`, `選考フロー`, `Graduate`
+- 이유는 실제 채용 페이지의 메뉴, 버튼, 섹션명이 일본어 또는 영어로 표시되기 때문이다.
+- 즉 이 문자열들은 결과 출력용이 아니라 페이지 탐색용 navigation 규칙이다.
+
+## 번역 원칙
+
+- 최종 결과의 사용자 노출 텍스트는 모두 한국어로 번역한다.
+- 최종 결과에는 일본어가 남으면 안 된다.
+- enum, 숫자, URL, slug, payload key 는 번역하지 않는다.
+
+## 하지 않는 것
+
+- JSON 파일 번들 저장을 하지 않는다.
+- 회사 전체 복지 페이지까지 불필요하게 확장 수집하지 않는다.
+- 일반적인 채용 절차를 상상해서 `selectionProcess` 를 보강하지 않는다.
+- 공고에 없는 정보를 추측으로 채우지 않는다.
 
 ## 관련 문서
-- [`docs/REVIEW_GUIDE.md`](../../docs/REVIEW_GUIDE.md) — 품질 검증 기준
-- [`docs/MISTAKES.md`](../../backup/docs/MISTAKES.md) — 과거 실수 기록
-- [`backup/README.md`](../../backup/README.md) — 이전 README (구조·매핑 룰 상세)
+
+- 현재 예시 skill: [SKILL.md](/Users/jeonjunbae/Desktop/study/NARU/naru-crawler/skills/job-crawling/job-search-new-grad/SKILL.md)
