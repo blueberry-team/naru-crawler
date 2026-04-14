@@ -151,7 +151,7 @@
 ## 평가 결과 기록 형식
 
 ### history/ 폴더 구조
-```
+```text
 history/
 ├── history001-100.md    # jobId 기준 1~100번 공고
 ├── history101-200.md    # 101~200번 공고
