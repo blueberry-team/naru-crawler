@@ -215,17 +215,41 @@ print(f'PUBLISHED 총 {len(items)}건')"
 
 ---
 
+## history 기록 규칙
+
+모든 마감·정리 액션은 `history/` 폴더에 기록한다.
+
+### 기록 내용
+- **마감 처리**: jobId, 사유(deadline 경과/종료 키워드/404), 액션(`isDeadlinePassed=true` 또는 `unpublish`), 결과
+- **갱신**: jobId, 변경 필드, 이전값→신규값, API 응답
+- **플래그**: jobId, 사유(WAF/콘텐츠 변경), 사람 확인 필요 표시
+
+### 기록 위치
+- Deep Review가 기록된 `history/historyXXX-YYY.md` 파일의 해당 Job 섹션에 `[DEADLINE CHECK]` 추가
+- 별도 cleanup 전용 로그가 필요한 경우 `history/cleanup-log.md`에 회차별 기록
+
+### 기록 시점
+- PUT 실행 직후 즉시 기록
+- 회차 종료 시 요약 기록
+
+### 마감 처리 방식 (나루 백엔드 기준)
+- `PublishStatus` enum: `DRAFT` / `PUBLISHED` (CLOSED 없음)
+- 마감 표시: `PUT {"isDeadlinePassed": true}` (PUBLISHED 상태 유지)
+- 원본 삭제(404): `PUT /unpublish` (DRAFT로 되돌림)
+
+---
+
 ## 주의 사항 (Do / Don't)
 
 - ✅ **dry-run 우선**. 처음 운영하는 사람은 반드시 dry-run으로 영향 확인 후 실제 실행.
-- ✅ 일시적 네트워크 오류와 진짜 404 구분 — 1회 실패한 URL은 **404 후보 목록**에 넣고, 전체 점검 끝난 후 재시도 (대기 없이 자연 간격 확보).
+- ✅ 일시적 네트워크 오류와 진짜 404 구분 — 404 후보를 목록에 넣고, 전체 점검 끝난 후 재시도 (대기 없이 자연 간격).
 - ✅ deadline이 NULL인 공고도 정기 재검증 대상 (원본이 영구적이라는 전제는 위험).
-- ✅ 로그에 jobId·이전 상태·새 상태·근거를 **모두 기록** (감사 추적용).
+- ✅ 로그에 jobId·이전 상태·새 상태·근거를 모두 `history/` md에 기록 (감사 추적용).
 - ✅ unpublish 전에 **현재 PUBLISHED 총 건수 확인** — 대량 unpublish로 서비스 공고가 급감하면 안 됨.
 - ✅ 갱신 시 **변경 전 값을 로그에 기록** 후 PUT.
 - ❌ DELETE 절대 금지. 마감은 `isDeadlinePassed=true`, 원본 삭제는 `unpublish` 사용.
 - ❌ 한 번에 **20건 이상 상태 변경 시 사용자 승인** 필요 (대량 실수 방지).
-- ❌ WAF 차단 건을 자동 unpublish 하지 말 것 — 사람 확인 필요.
+- ❌ WAF 차단 건을 자동 처리하지 말 것 — 사람 확인 필요.
 - ❌ Discord·로그에 토큰 노출 금지.
 
 ---
