@@ -4408,6 +4408,21 @@ jobId 96, 97, 98: DB 미존재 (404). 스킵.
 
 **판정**: Fix+PUBLISH (URL만 업데이트).
 
+---
+
+## Job #23 [RE-REVIEW] — 덴츠디지털 | 오픈 포지션(OP) 2027 — URL Fix
+
+**소스**: https://dd.dentsudigital.co.jp/recruit/newrec/recruiting/
+
+### 리뷰 이력
+| 시각 | 액션 | 상세 |
+|------|------|------|
+| 04/15 19:47 | URL Fix | /course/ → /recruiting/ PUT 204 ✅ |
+
+#16~#22와 동일 패턴 (덴츠디지털 2027 본전형 OP — 코스 미결정자용 오픈 포지션). DB 기존값 원문 일치.
+
+**판정**: Fix+PUBLISH (URL만 업데이트).
+
 
 
 
