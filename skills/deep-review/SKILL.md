@@ -1,13 +1,13 @@
 ---
-name: draft-review
-description: 나루 백엔드의 DRAFT 공고를 샘플링하여 URL 유효성, 채용 현행성, enum 정합성, 데이터 품질, 중복 여부를 전수 검사한 뒤, 결함 수정 또는 PUBLISH 또는 HOLD 판정을 내린다.
+name: deep-review
+description: 나루 백엔드의 DRAFT/PUBLISHED 공고를 Playwright MCP로 원본 페이지를 직접 확인하여, 25개 평가 기준으로 Deep Review를 수행하고, 결함 수정 또는 PUBLISH 또는 HOLD 판정을 내린다.
 disable-model-invocation: true
 argument-hint: "개수=5 | jobIds=1153,1154 | company=hitachi 개수=10"
 ---
 
-# draft-review
+# deep-review
 
-이 스킬은 DRAFT 상태 공고를 리뷰하여 PUBLISH 가능 여부를 판정할 때 사용한다.
+이 스킬은 공고를 원본 채용 페이지와 대조하여 25개 기준으로 Deep Review할 때 사용한다.
 
 이 스킬은 task형 워크플로우다. 샘플링 조건을 넘겨 직접 호출하는 것을 전제로 한다.
 
@@ -37,11 +37,51 @@ argument-hint: "개수=5 | jobIds=1153,1154 | company=hitachi 개수=10"
 - [`examples/fix-and-publish.md`](./examples/fix-and-publish.md)
 - [`examples/hold.md`](./examples/hold.md)
 
+## 전제 조건: Playwright MCP 설정
+
+원본 채용 페이지 확인 시 **Playwright MCP를 기본으로 사용**한다.
+WebFetch는 Playwright가 사용 불가능한 경우에만 fallback으로 사용한다.
+
+### Playwright MCP 설정 방법
+
+Claude Desktop의 MCP 설정 파일(`~/.claude/mcp_settings.json` 또는 Claude Desktop 설정 화면)에 추가:
+
+```json
+{
+  "mcpServers": {
+    "playwright": {
+      "command": "npx",
+      "args": ["@anthropic-ai/mcp-playwright"]
+    }
+  }
+}
+```
+
+설치 확인:
+```bash
+npx @anthropic-ai/mcp-playwright --version
+```
+
+### 왜 Playwright MCP인가
+
+| 방식 | 장점 | 한계 |
+|------|------|------|
+| WebFetch | 빠름, 간편 | WAF 차단(IBM/NEC), JS 미렌더링, 봇 감지 |
+| Playwright MCP | 실제 브라우저, WAF 우회, JS 렌더링, 정확한 DOM | 느림, 설정 필요 |
+
+Deep Review에서 원본 확인은 **정확성이 최우선**이므로 Playwright MCP를 기본으로 한다.
+
+### Playwright MCP 사용 시 주의
+
+- 勤務地, 給与, 仕事内容 등 **개별 공고의 해당 섹션만** 확인
+- 회사 전체 정보와 개별 공고 정보를 혼동 금지 ([상세](../../docs/REVIEW_GUIDE.md))
+- 페이지 로딩 후 충분히 대기 (SPA 등 동적 렌더링 고려)
+
 ## 실행 규칙
 
 - `GET /api/dev/jobs/drafts` 로 DRAFT 목록을 가져온다.
 - 각 공고마다 `GET /api/dev/jobs/{id}` 로 전체 필드를 조회한다.
-- 각 공고의 `jobSourceUrl` 에 Playwright MCP 또는 WebFetch로 접근하여 원본 페이지를 확인한다.
+- 각 공고의 `jobSourceUrl` 에 **Playwright MCP로 접근**하여 원본 페이지를 확인한다. (Playwright 불가 시 WebFetch fallback)
 - rules 파일 순서대로 검증을 수행한다.
 - 검증 결과에 따라 PUBLISH, FIX+PUBLISH, HOLD 를 판정한다.
 - FIX 항목은 `PUT /api/dev/jobs/{id}` 로 즉시 수정한다.
