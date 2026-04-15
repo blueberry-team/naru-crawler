@@ -4378,6 +4378,21 @@ jobId 96, 97, 98: DB 미존재 (404). 스킵.
 
 **판정**: Fix+PUBLISH (URL만 업데이트).
 
+---
+
+## Job #21 [RE-REVIEW] — 덴츠디지털 | 글로벌(GL) 2027 — URL Fix
+
+**소스**: https://dd.dentsudigital.co.jp/recruit/newrec/recruiting/
+
+### 리뷰 이력
+| 시각 | 액션 | 상세 |
+|------|------|------|
+| 04/15 19:27 | URL Fix | /course/ → /recruiting/ PUT 204 ✅ |
+
+#16~#20과 동일 패턴 (덴츠디지털 2027 본전형 GL 코스). /recruiting/ 페이지에서 글로벌 코스 포함 확인, 기존 데이터 일치.
+
+**판정**: Fix+PUBLISH (URL만 업데이트).
+
 
 
 
