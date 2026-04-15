@@ -4220,3 +4220,36 @@ jobId 96, 97, 98: DB 미존재 (404). 스킵.
 
 **판정**: PUBLISH 유지. KANAGAWA revert 후 DB 완벽 상태 확인.
 
+---
+
+## Job #15 [RE-RE-REVIEW] — DeNA | 디자이너직 (Playwright MCP 검증 + Fix 3건)
+
+**상태**: PUBLISHED
+**소스**: https://student.dena.com/aigeneralist/ (기존 /job/designer 에서 리다이렉트)
+**나루 공고**: https://www.naru-recruit.com/jobs/15
+**어드민**: https://www.naru-recruit.com/admin/jobs/15?token=jungwoo_naru_server_password_0129
+
+### 리뷰 이력
+| 시각 | 액션 | 상세 |
+|------|------|------|
+| 04/15 18:43 | 재검증 | Playwright → /job/designer 리다이렉트 → /aigeneralist/description/#designer. 3건 불일치 발견, 자동 수정 적용 |
+
+### 원문 검증 (Playwright)
+- **구조 변경**: DeNA 디자이너직은 이제 "AIジェネラリストコース_デザイナー職" 로 편입
+- **勤務地**: 渋谷オフィス(東京) + 横浜オフィス(神奈川) 병기 — **KANAGAWA 추가 필요** ⚠️
+- **給与**:
+  - 改定前: 標準年収 5,000,000円~
+  - **改定後 (2026-03-06~)**: 標準年収 **6,000,000円~**
+  - DB 기존: 4,500,000 ← 틀림 (改定前 조차 5,000,000 이상)
+- **모집상태**: 募集終了 없음, 활성 ✅
+
+### Fix 적용 내역
+| 항목 | 수정 전 | 수정 후 | API |
+|------|---------|---------|-----|
+| jobSourceUrl | /job/designer (deprecated) | https://student.dena.com/aigeneralist/ | PUT 204 ✅ |
+| locations | ["TOKYO"] | ["TOKYO", "KANAGAWA"] | PUT 204 ✅ |
+| salaryMin | 4,500,000 | 6,000,000 (改定後) | PUT 204 ✅ |
+
+**판정**: Fix+PUBLISH.
+
+
