@@ -4969,3 +4969,17 @@ jobId 96, 97, 98: DB 미존재 (404). 스킵.
 | 04/16 02:17 | 재검증 | 페이지 활성, title 일치 |
 
 **판정**: PUBLISH 유지. Fix 없음.
+
+---
+
+## Job #60 [RE-REVIEW] — MIXI | 디자인직 (그래픽 디자이너) 2027 (DRAFT 유지)
+
+**상태**: DRAFT (이전 unpublish 적용됨)
+**소스**: https://mixigroup-recruit.mixi.co.jp/recruitment-category/new-graduate/13517/ — **HTTP 404**
+
+### 리뷰 이력
+| 시각 | 액션 | 상세 |
+|------|------|------|
+| 04/16 02:27 | 재검증 | URL 여전히 404, publishStatus=DRAFT 정확 |
+
+**판정**: DRAFT 유지 (원본 삭제됨). 추가 조치 불필요.
