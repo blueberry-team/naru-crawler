@@ -113,3 +113,16 @@
 | 04/16 08:46 | 재검증 | 페이지 활성, 勤務地 "テクノロジーコンサルタントコース：東京" DB ["TOKYO"] 일치. salaryMin 4,665,600 = 388,800 × 12 (학부 월급×12 보수 산정, 想定年収 6,226,000 제외) |
 
 **판정**: PUBLISH 유지. Fix 없음.
+
+---
+
+## Job #103 [RE-REVIEW] — 아빔 | Solution Consultant / AI 컨설턴트 코스 (PUBLISH 유지)
+
+**소스**: https://www.abeam.com/jp/ja/recruit/newgrad/requirements2027/solution-cs/ (#102와 동일)
+
+### 리뷰 이력
+| 시각 | 액션 | 상세 |
+|------|------|------|
+| 04/16 08:57 | 재검증 | 동일 URL 활성, 勤務地 "AIコンサルタントコース：東京" DB ["TOKYO"] 일치 |
+
+**판정**: PUBLISH 유지. Fix 없음.
