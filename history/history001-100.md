@@ -4393,6 +4393,21 @@ jobId 96, 97, 98: DB 미존재 (404). 스킵.
 
 **판정**: Fix+PUBLISH (URL만 업데이트).
 
+---
+
+## Job #22 [RE-REVIEW] — 덴츠디지털 | 비즈니스 프로듀스(BP) 2027 — URL Fix
+
+**소스**: https://dd.dentsudigital.co.jp/recruit/newrec/recruiting/
+
+### 리뷰 이력
+| 시각 | 액션 | 상세 |
+|------|------|------|
+| 04/15 19:37 | URL Fix | /course/ → /recruiting/ PUT 204 ✅ |
+
+#16~#21과 동일 패턴 (덴츠디지털 2027 본전형 BP 코스). DB 기존값(TOKYO+OSAKA, 4,394,700) 원문 일치.
+
+**판정**: Fix+PUBLISH (URL만 업데이트).
+
 
 
 
