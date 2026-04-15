@@ -4191,6 +4191,13 @@ jobId 96, 97, 98: DB 미존재 (404). 스킵.
 
 **판정**: PUBLISH 유지. **Fix 3건 사용자 승인 대기** — Discord 로 보고.
 
+### 사용자 승인 후 Fix 적용 (04/15 18:36)
+| 항목 | 수정 전 | 수정 후 | API |
+|------|---------|---------|-----|
+| jobSourceUrl | /job/aispecialist | https://student.dena.com/aispecialist/ | PUT 204 ✅ |
+| locations | ["TOKYO"] | ["TOKYO", "KANAGAWA"] | PUT 204 ✅ |
+| salaryMin | 6,000,000 | 7,000,000 (2026-03-06 改定後) | PUT 204 ✅ |
+
 ---
 
 ## Job #14 [RE-RE-REVIEW] — DeNA | 비즈니스직 본전형 (Playwright MCP 검증)
