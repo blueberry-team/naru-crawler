@@ -1,0 +1,353 @@
+# Enum Reference
+
+중도채용 스킬에서 사용하는 enum 값의 기준 문서다.
+
+## 공통 원칙
+
+- enum 이름은 백엔드 정의와 완전히 일치해야 한다.
+- 문서에 없는 enum 이름을 임의로 만들지 않는다.
+- `position` 은 가능한 한 세부 enum 에 매핑한다.
+- 정확히 맞는 세부 enum 이 없을 때만 같은 카테고리의 `*_OTHER` 를 사용한다.
+- 중도채용 스킬에서는 `GRADUATE_*` enum 을 사용하지 않는다.
+
+## experienceLevel
+
+- `MID_CAREER`
+
+참고:
+
+- `NEW_GRAD` 는 신입용이므로 이 스킬에서 금지
+
+## workType
+
+- `REMOTE`
+- `ONSITE`
+- `HYBRID`
+- `UNKNOWN`
+
+## locations
+
+- `NATIONWIDE`
+- `HOKKAIDO`
+- `AOMORI`
+- `IWATE`
+- `MIYAGI`
+- `AKITA`
+- `YAMAGATA`
+- `FUKUSHIMA`
+- `IBARAKI`
+- `TOCHIGI`
+- `GUNMA`
+- `SAITAMA`
+- `CHIBA`
+- `TOKYO`
+- `KANAGAWA`
+- `NIIGATA`
+- `TOYAMA`
+- `ISHIKAWA`
+- `FUKUI`
+- `YAMANASHI`
+- `NAGANO`
+- `GIFU`
+- `SHIZUOKA`
+- `AICHI`
+- `MIE`
+- `SHIGA`
+- `KYOTO`
+- `OSAKA`
+- `HYOGO`
+- `NARA`
+- `WAKAYAMA`
+- `TOTTORI`
+- `SHIMANE`
+- `OKAYAMA`
+- `HIROSHIMA`
+- `YAMAGUCHI`
+- `TOKUSHIMA`
+- `KAGAWA`
+- `EHIME`
+- `KOCHI`
+- `FUKUOKA`
+- `SAGA`
+- `NAGASAKI`
+- `KUMAMOTO`
+- `OITA`
+- `MIYAZAKI`
+- `KAGOSHIMA`
+- `OKINAWA`
+- `UNKNOWN`
+
+## position
+
+아래는 백엔드 `Position` enum 전체 목록이다.
+
+### IT·개발
+
+- `BACKEND`
+- `FRONTEND`
+- `FULLSTACK`
+- `ANDROID`
+- `IOS`
+- `CROSS_PLATFORM`
+- `DEVOPS`
+- `CLOUD`
+- `INFRA`
+- `SECURITY`
+- `QA_TEST`
+- `DBA`
+- `IT_DEV_OTHER`
+
+### AI·데이터
+
+- `DATA_ANALYST`
+- `DATA_ENGINEER`
+- `ML_ENGINEER`
+- `AI_RESEARCH`
+- `MLOPS`
+- `BI_ANALYTICS`
+- `DATA_SCIENTIST`
+- `NLP`
+- `COMPUTER_VISION`
+- `DATA_GOVERNANCE`
+- `AI_DATA_OTHER`
+
+### 게임
+
+- `GAME_CLIENT`
+- `GAME_SERVER`
+- `GAME_ENGINE`
+- `GAME_GRAPHICS`
+- `GAME_PLANNER`
+- `GAME_QA`
+- `GAME_OPERATION`
+- `GAME_SECURITY`
+- `GAME_OTHER`
+
+### 디자인
+
+- `UX_UI`
+- `GRAPHIC`
+- `BRAND`
+- `PRODUCT_DESIGN`
+- `ILLUSTRATION`
+- `MOTION`
+- `EDITORIAL`
+- `DESIGN_SYSTEM`
+- `DESIGN_OTHER`
+
+### 기획·전략
+
+- `PM_PO`
+- `SERVICE_PLANNING`
+- `BUSINESS_STRATEGY`
+- `CORPORATE_STRATEGY`
+- `NEW_BUSINESS`
+- `OPERATION_PLANNING`
+- `POLICY_PLANNING`
+- `PLANNING_STRATEGY_OTHER`
+
+### 마케팅·광고
+
+- `PERFORMANCE_MARKETING`
+- `BRAND_MARKETING`
+- `CONTENT_MARKETING`
+- `SEO`
+- `CRM_MARKETING`
+- `SOCIAL_MARKETING`
+- `AD_PLANNING`
+- `MARKETING_AD_OTHER`
+
+### 상품기획·MD
+
+- `PRODUCT_MD`
+- `PRODUCT_PLANNING`
+- `MERCHANDISING`
+- `ECOMMERCE_MD`
+- `CATEGORY_MANAGER`
+- `PROCUREMENT`
+- `PRODUCT_PLANNING_MD_OTHER`
+
+### 영업
+
+- `B2B_SALES`
+- `B2C_SALES`
+- `KEY_ACCOUNT`
+- `INSIDE_SALES`
+- `SALES_ENGINEER`
+- `PARTNER_SALES`
+- `SALES_OTHER`
+
+### 무역·물류
+
+- `EXPORT_IMPORT`
+- `LOGISTICS_OPERATION`
+- `FORWARDING`
+- `WAREHOUSE`
+- `SCM`
+- `CUSTOMS`
+- `TRADE_LOGISTICS_OTHER`
+
+### 운송·배송
+
+- `DELIVERY_DRIVER`
+- `TRANSPORT_DRIVER`
+- `DISPATCH_CONTROL`
+- `LAST_MILE`
+- `RIDER`
+- `TRANSPORT_DELIVERY_OTHER`
+
+### 법률·법무
+
+- `LEGAL_COUNSEL`
+- `COMPLIANCE`
+- `CONTRACT_REVIEW`
+- `IP_PATENT`
+- `PRIVACY`
+- `LEGAL_COMPLIANCE_OTHER`
+
+### HR·총무
+
+- `RECRUITING`
+- `HRD`
+- `HRBP`
+- `PAYROLL`
+- `GENERAL_AFFAIRS`
+- `LABOR_RELATIONS`
+- `HR_GENERAL_AFFAIRS_OTHER`
+
+### 회계·세무·재무
+
+- `ACCOUNTING`
+- `TAX`
+- `FINANCE`
+- `MANAGEMENT_ACCOUNTING`
+- `IR`
+- `FPNA`
+- `ACCOUNTING_TAX_FINANCE_OTHER`
+
+### 증권·운용
+
+- `INVESTMENT_MGMT`
+- `TRADING`
+- `EQUITY_RESEARCH`
+- `RISK_MGMT`
+- `COMPLIANCE_FIN`
+- `SECURITIES_ASSET_MGMT_OTHER`
+
+### 은행·카드·보험
+
+- `RETAIL_BANKING`
+- `CORPORATE_BANKING`
+- `CARD_SERVICE`
+- `INSURANCE_UNDERWRITING`
+- `CLAIMS`
+- `FINTECH_PLANNING`
+- `BANK_CARD_INSURANCE_OTHER`
+
+### 엔지니어링·R&D
+
+- `MECHANICAL`
+- `ELECTRICAL_ELECTRONICS`
+- `EMBEDDED`
+- `ROBOTICS`
+- `MATERIALS`
+- `QA_QC`
+- `ENGINEERING_RD_OTHER`
+
+### 건설·건축
+
+- `ARCHITECT`
+- `CONSTRUCTION_PM`
+- `CIVIL_ENGINEERING`
+- `INTERIOR`
+- `SAFETY`
+- `FACILITY_MAINTENANCE`
+- `CONSTRUCTION_ARCHITECTURE_OTHER`
+
+### 생산·기능직
+
+- `PRODUCTION_OPERATOR`
+- `MANUFACTURING`
+- `MAINTENANCE`
+- `QUALITY_INSPECTION`
+- `PROCESS_MGMT`
+- `TECHNICIAN`
+- `PRODUCTION_TECHNICAL_OTHER`
+
+### 의료·보건
+
+- `NURSE`
+- `MEDICAL_TECH`
+- `PHARMACY`
+- `HEALTH_ADMIN`
+- `THERAPY`
+- `PUBLIC_HEALTH`
+- `MEDICAL_HEALTH_OTHER`
+
+### 공공·복지
+
+- `PUBLIC_ADMIN`
+- `SOCIAL_WORK`
+- `POLICY_RESEARCH`
+- `NGO_NPO`
+- `WELFARE_OPERATION`
+- `PUBLIC_WELFARE_OTHER`
+
+### 교육
+
+- `SCHOOL_TEACHER`
+- `ACADEMY_INSTRUCTOR`
+- `CURRICULUM`
+- `EDUCATION_CONTENT`
+- `EDTECH`
+- `COUNSELING`
+- `EDUCATION_OTHER`
+
+### 미디어·엔터
+
+- `VIDEO_PRODUCTION`
+- `PD_DIRECTOR`
+- `WRITER`
+- `MUSIC`
+- `MANAGEMENT`
+- `CONTENT_OPERATION`
+- `MEDIA_ENTERTAINMENT_OTHER`
+
+### 고객상담·TM
+
+- `CS_INBOUND`
+- `CS_OUTBOUND`
+- `CS_MANAGER`
+- `QA_MONITORING`
+- `VOC_ANALYST`
+- `CUSTOMER_SUPPORT_TM_OTHER`
+
+### 서비스
+
+- `STORE_MANAGER`
+- `CUSTOMER_SERVICE`
+- `EVENT_OPERATION`
+- `BEAUTY_SERVICE`
+- `TRAVEL_SERVICE`
+- `SERVICE_OTHER`
+
+### 식음료
+
+- `CHEF_COOK`
+- `BARISTA`
+- `HALL_SERVICE`
+- `FOOD_RND`
+- `FOOD_MANUFACTURING`
+- `FRANCHISE_OPERATION`
+- `FOOD_BEVERAGE_OTHER`
+
+## 매핑 원칙 요약
+
+- 직무명이 특정 기술/직군을 직접 가리키면 세부 enum 사용
+  - 예: `バックエンドエンジニア` → `BACKEND`
+  - 예: `データサイエンティスト` → `DATA_SCIENTIST`
+  - 예: `法人営業` → `B2B_SALES`
+- 특정 카테고리는 알겠지만 세부 직군이 모호하면 해당 `*_OTHER` 사용
+  - 예: 일반적인 `ITエンジニア`인데 세부 스택/역할이 불명확 → `IT_DEV_OTHER`
+  - 예: 일반적인 `マーケティング担当`인데 퍼포먼스/브랜드/CRM 구분이 불명확 → `MARKETING_AD_OTHER`
+- 관리직 여부는 `title` / `targetAudience` / `targetCandidate` 로 보완하고, `position` 자체는 직무축 기준으로 잡는다.
