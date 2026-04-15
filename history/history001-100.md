@@ -4544,3 +4544,21 @@ jobId 96, 97, 98: DB 미존재 (404). 스킵.
 
 
 
+
+---
+
+## Job #30 [RE-REVIEW] — 라쿠텐 | 2027년도 엔지니어직 본전형 (마감 유지)
+
+**소스**: https://corp.rakuten.co.jp/careers/graduates/recruit_engineer/
+
+### 리뷰 이력
+| 시각 | 액션 | 상세 |
+|------|------|------|
+| 04/15 20:57 | 재검증 | 원문 勤務地/賃金 DB 완전 일치, isDeadlinePassed=true 유지 |
+
+### 원문 검증
+- **勤務地**: "東京本社をはじめ、国内支社、海外支社" → DB ["TOKYO"] ✅ (주요 거점)
+- **賃金**: 月額 370,000円 × 12 = 4,440,000 → DB salaryMin 일치 ✅
+- **isDeadlinePassed**: true (이미 반영됨)
+
+**판정**: PUBLISH 유지. Fix 없음.
