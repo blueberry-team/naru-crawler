@@ -4798,3 +4798,16 @@ jobId 96, 97, 98: DB 미존재 (404). 스킵.
 - 勤務地/급여는 MyPage 상세에서 노출 (DB 기존값 유지)
 
 **판정**: PUBLISH 유지. Fix 없음.
+
+---
+
+## Job #47 [RE-REVIEW] — 사이버에이전트 | 게임 엔지니어 (PUBLISH 유지)
+
+**소스**: https://www.cyberagent.co.jp/careers/students/tech/jobs/detail/id=27085
+
+### 리뷰 이력
+| 시각 | 액션 | 상세 |
+|------|------|------|
+| 04/16 00:17 | 재검증 | 페이지 활성, h1="ゲームクライアントエンジニア" DB title 일치, 종료 키워드 없음 |
+
+**판정**: PUBLISH 유지. Fix 없음.
