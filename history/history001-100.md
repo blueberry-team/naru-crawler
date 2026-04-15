@@ -5305,3 +5305,16 @@ jobId 96, 97, 98: DB 미존재 (404). 스킵.
 | 04/16 06:27 | 재검증 | 페이지 활성 (closed.html 리다이렉트 아님), title 일치 |
 
 **판정**: PUBLISH 유지. Fix 없음.
+
+---
+
+## Job #86 [RE-REVIEW] — 사이보즈 | 법무직 2027년 졸업 (PUBLISH 유지)
+
+**소스**: https://cybozu.co.jp/recruit/entry/newgrad/internal-control-asst2027.html
+
+### 리뷰 이력
+| 시각 | 액션 | 상세 |
+|------|------|------|
+| 04/16 06:37 | 재검증 | 페이지 활성 (closed.html 아님), title="法務職 2027年卒 募集要項" 일치 |
+
+**판정**: PUBLISH 유지. Fix 없음.
