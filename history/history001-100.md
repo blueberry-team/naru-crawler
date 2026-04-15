@@ -5279,3 +5279,16 @@ jobId 96, 97, 98: DB 미존재 (404). 스킵.
 | 04/16 06:07 | 재검증 | 페이지 활성, title="ビジネス職 2027年卒 募集要項" DB 일치, 종료 키워드 없음 |
 
 **판정**: PUBLISH 유지. Fix 없음.
+
+---
+
+## Job #84 [RE-REVIEW] — 사이보즈 | 시스템 컨설팅직 2027년 졸업 (PUBLISH 유지)
+
+**소스**: https://cybozu.co.jp/recruit/entry/newgrad/systemconsulting2027.html
+
+### 리뷰 이력
+| 시각 | 액션 | 상세 |
+|------|------|------|
+| 04/16 06:17 | 재검증 | 페이지 활성 (closed.html로 리다이렉트 아님), title 일치 |
+
+**판정**: PUBLISH 유지. Fix 없음.
