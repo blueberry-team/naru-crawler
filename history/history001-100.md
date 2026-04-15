@@ -3225,4 +3225,53 @@ jobId 73: DB에 존재하지 않음 (404). 스킵.
 **Fix 액션**: 없음. salaryMax=5100000 PUT 가능하나 학부/석사 차등이므로 HOLD.
 **Deadline 액션**: 없음. deadline=null, 원본 활성.
 
-> 📊 GREE 2건 (#77 디자인 21/25, #78 엔지니어 20/25). 엔지니어가 디자이너보다 1점 낮음(techStack 빈배열 때문). 엔지니어 연봉 480만은 #77 디자이너 420만보다 60만 높음.
+> 📊 GREE 2건: 디자인 21, 엔지니어 20 (techStack 빈배열).
+
+---
+
+## Job #79 — GREE Holdings | 2027년도 비즈니스직
+
+**상태**: PUBLISHED
+**소스**: https://hd.gree.net/jp/ja/recruit/position/
+**나루 공고**: https://www.naru-recruit.com/jobs/79
+**어드민**: https://www.naru-recruit.com/admin/jobs/79?token=jungwoo_naru_server_password_0129
+
+### 리뷰 이력
+| 시각 | 액션 | 상세 |
+|------|------|------|
+| 04/15 12:15 | 리뷰 | 21/25 ⚠️4 (A-2, C-9, G-22 공통URL, G-24) → PUBLISH 유지 |
+
+| # | 평가 항목 | 결과 | 코멘트 |
+|---|----------|------|--------|
+| A-1 | 연봉 출처 | ✅ | salaryMin=4200000. 원본 "ビジネス: 420万~450만" 하한 일치 |
+| A-2 | 연봉 범위 일치 | ⚠️ | salaryMax=null. 석사 450만 미반영 |
+| A-3 | 통화·단위 | ✅ | 엔, 연봉 기준 |
+| B-4 | overview 발췌 | ✅ | "신규 사업 기획, PM, 마케팅, 영업, 관리" — 비즈니스 직군 폭넓은 범위 적절 |
+| B-5 | tasks 일치 | ✅ | 5개 항목 — 신규 사업/PM/마케팅/영업/코포레이트 — 적절 |
+| B-6 | targetCandidate 일치 | ✅ | mustHave 3개 — 졸업/긍정적 사고/집념 — 마인드셋 중심, 기술 요건 없음 |
+| B-7 | selectionProcess 일치 | ✅ | GREE 공통 (엔트리→WebTest→면접→내정) |
+| C-8 | 업종·사업 특성 | ✅ | "사업 확장 주도" — 그로스 중심 |
+| C-9 | 기업 규모·문화 차별화 | ⚠️ | REALITY/메타버스 맥락 미기재 |
+| C-10 | 기업명 정확성 | ✅ | gree-holdings 정확 |
+| D-11 | position 정확성 | ✅ | GRADUATE_GENERAL 적합 |
+| D-12 | locations 정확성 | ✅ | TOKYO |
+| D-13 | experienceLevel 정확성 | ✅ | NEW_GRAD 정확 |
+| D-14 | workType 정확성 | ✅ | HYBRID |
+| E-15 | 필수 필드 누락 | ✅ | 모두 존재 |
+| E-16 | techStack 정확성 | ✅ | 빈 배열 [] — 비즈니스 적절 |
+| E-17 | deadline 정확성 | ✅ | null — 수시, 원본 활성 |
+| E-18 | joinDate 정확성 | ✅ | "2027년 4월" 정확 |
+| F-19 | HTML 잔여물 | ✅ | 깨끗함 |
+| F-20 | 한국어 번역 | ✅ | 자연스러움 |
+| F-21 | 보일러플레이트 | ✅ | 적절 |
+| G-22 | source_url 접근 | ⚠️ | 전 직종 공통 페이지 |
+| G-23 | 채용 종료 키워드 | ✅ | 없음, 활성 |
+| G-24 | 중복 공고 | ⚠️ | #77~78과 동일 source_url |
+| G-25 | 제목 일치 | ✅ | "ビジネス職" → "비즈니스직" 정확 |
+
+**종합**: ✅ 21/25 통과, ⚠️ 4, ❌ 0
+**판정**: PUBLISH 유지 적합.
+**Fix 액션**: 없음.
+**Deadline 액션**: 없음. deadline=null, 원본 활성.
+
+> 📊 GREE 3건 완료 (#77~79): 디자이너 21, 엔지니어 20, 비즈니스 21. 평균 20.7/25. 연봉: 엔지니어 480만 > 디자이너/비즈니스 420만. 전 직종 공통 URL.
