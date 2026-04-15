@@ -8,13 +8,19 @@
 
 ### 1단계: 접근 가능 여부
 
-`jobSourceUrl` 에 HTTP GET 요청을 보낸다. Playwright MCP 또는 WebFetch 를 사용한다.
+`jobSourceUrl` 에 **Playwright MCP**로 접근한다. Playwright 불가 시에만 WebFetch fallback.
+
+Playwright MCP 워크플로우:
+1. `browser_navigate` 로 URL 이동
+2. 페이지 로딩 완료 대기
+3. `browser_snapshot` 으로 DOM 스냅샷 확인
+4. 勤務地, 給与 등 **개별 공고 섹션만** 확인 (회사 전체 정보 혼동 금지)
 
 | 응답 | 처리 |
 |------|------|
-| 200 | 2단계로 진행 |
+| 200 (정상 렌더링) | 2단계로 진행 |
 | 3xx | 최종 도착 URL 확인 → 2단계로 진행 |
-| 403 (WAF/Cloudflare) | 5분 후 1회 재시도 → 여전히 차단이면 HOLD |
+| 403 (WAF/Cloudflare) | Playwright로 재시도 → 여전히 차단이면 HOLD |
 | 404 / 410 | HOLD — "원본 URL 접근 불가 (404)" |
 | 5xx | HOLD — "원본 서버 오류 ({상태코드})" |
 | 타임아웃 | 1회 재시도 → 여전히 타임아웃이면 HOLD |
