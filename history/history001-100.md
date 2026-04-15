@@ -4956,3 +4956,16 @@ jobId 96, 97, 98: DB 미존재 (404). 스킵.
 | 04/16 02:07 | 재검증 | 페이지 활성, title 일치, 종료 키워드 없음 |
 
 **판정**: PUBLISH 유지. Fix 없음.
+
+---
+
+## Job #59 [RE-REVIEW] — MIXI | 엔지니어직 2027 (PUBLISH 유지)
+
+**소스**: https://mixigroup-recruit.mixi.co.jp/recruitment-category/new-graduate/13170/
+
+### 리뷰 이력
+| 시각 | 액션 | 상세 |
+|------|------|------|
+| 04/16 02:17 | 재검증 | 페이지 활성, title 일치 |
+
+**판정**: PUBLISH 유지. Fix 없음.
