@@ -8,7 +8,7 @@
 
 ### 1단계: 접근 가능 여부
 
-`jobSourceUrl` 에 **Playwright MCP**로 접근한다. Playwright 불가 시에만 WebFetch fallback.
+`jobSourceUrl` 에 **Playwright MCP**로 접근한다.
 
 Playwright MCP 워크플로우:
 1. `browser_navigate` 로 URL 이동
