@@ -5409,3 +5409,16 @@ jobId 96, 97, 98: DB 미존재 (404). 스킵.
 | 04/16 07:47 | 재검증 | #24/#25와 동일 패턴 — "2027年度新卒採用エントリー受付は終了" 명시, isDeadlinePassed=true 유지 |
 
 **판정**: PUBLISH 유지. Fix 없음.
+
+---
+
+## Job #99 [RE-REVIEW] — 아빔 | Strategy Consultant 코스 2027 (PUBLISH 유지)
+
+**소스**: https://www.abeam.com/jp/ja/recruit/newgrad/requirements2027/strategy-cs/
+
+### 리뷰 이력
+| 시각 | 액션 | 상세 |
+|------|------|------|
+| 04/16 07:57 | 재검증 | 페이지 활성, 勤務地 "戦略コンサルタントコース：東京" DB ["TOKYO"] 완전 일치 |
+
+**판정**: PUBLISH 유지. Fix 없음.
