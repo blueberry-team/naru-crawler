@@ -4585,3 +4585,18 @@ jobId 96, 97, 98: DB 미존재 (404). 스킵.
 | isDeadlinePassed | null | true | PUT 204 ✅ |
 
 **판정**: PUBLISH + 마감 플래그 적용.
+
+---
+
+## Job #32 [RE-REVIEW] — 라쿠텐 | 2027년도 마케팅 코스 본전형 (마감 Fix)
+
+**소스**: https://corp.rakuten.co.jp/careers/graduates/recruit_business/marketing.html
+
+### 리뷰 이력
+| 시각 | 액션 | 상세 |
+|------|------|------|
+| 04/15 21:27 | 마감 Fix | deadline 2026-02-12 경과 → isDeadlinePassed null→true. PUT 204 ✅ |
+
+就業場所 東京 (楽天クリムゾンハウス) DB 일치, 2027 본선고 종료. #26/#29/#31과 동일 패턴.
+
+**판정**: PUBLISH + 마감 플래그 적용.
