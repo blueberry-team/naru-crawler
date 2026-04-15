@@ -4562,3 +4562,26 @@ jobId 96, 97, 98: DB 미존재 (404). 스킵.
 - **isDeadlinePassed**: true (이미 반영됨)
 
 **판정**: PUBLISH 유지. Fix 없음.
+
+---
+
+## Job #31 [RE-REVIEW] — 라쿠텐 | 2027년도 FinTech 코스 본전형 (마감 Fix)
+
+**소스**: https://corp.rakuten.co.jp/careers/graduates/recruit_business/fintech.html
+
+### 리뷰 이력
+| 시각 | 액션 | 상세 |
+|------|------|------|
+| 04/15 21:07 | 마감 Fix | deadline 2026-02-12 경과 → isDeadlinePassed null→true. PUT 204 ✅ |
+
+### 원문 검증
+- 就業場所: 東京都世田谷区玉川 楽天クリムゾンハウス → TOKYO ✅
+- 2026년 10월 입사 우회 안내 있음, 2027 본선고 종료
+- #26/#29와 동일 패턴
+
+### Fix 적용 내역
+| 항목 | 수정 전 | 수정 후 | API |
+|------|---------|---------|-----|
+| isDeadlinePassed | null | true | PUT 204 ✅ |
+
+**판정**: PUBLISH + 마감 플래그 적용.
