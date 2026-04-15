@@ -4902,3 +4902,17 @@ jobId 96, 97, 98: DB 미존재 (404). 스킵.
 | 04/16 01:27 | 재검증 | 페이지에 "デザイナー総合職" 섹션 포함 확인 (#46 리뷰시 snapshot), 활성 |
 
 **판정**: PUBLISH 유지. Fix 없음.
+
+---
+
+## Job #55 [RE-REVIEW] — MIXI | 비즈니스 플래너직 (DRAFT 유지)
+
+**상태**: DRAFT (이전 unpublish 적용됨)
+**소스**: https://mixigroup-recruit.mixi.co.jp/recruitment-category/13482/ — **HTTP 404**
+
+### 리뷰 이력
+| 시각 | 액션 | 상세 |
+|------|------|------|
+| 04/16 01:37 | 재검증 | URL 여전히 404, publishStatus=DRAFT 정확 (이전 unpublish 적용됨) |
+
+**판정**: DRAFT 유지 (원본 삭제됨). 추가 조치 불필요.
