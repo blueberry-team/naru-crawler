@@ -4500,6 +4500,22 @@ jobId 96, 97, 98: DB 미존재 (404). 스킵.
 
 **판정**: PUBLISH 유지. Fix 없음.
 
+---
+
+## Job #28 [RE-REVIEW] — LY Corp | 프로덕트 플래너 (마감 유지)
+
+**소스**: https://www.lycorp.co.jp/ja/recruit/newgrads/product-planner/
+
+### 리뷰 이력
+| 시각 | 액션 | 상세 |
+|------|------|------|
+| 04/15 20:37 | 재검증 | 원문 "2027年度新卒採用エントリー受付は終了" 명시, 근무지 東京 DB 일치 |
+
+- 勤務場所: 東京 千代田区 紀尾井町 (TOKYO only) → DB ["TOKYO"] ✅
+- 2027 entry 종료 확인, isDeadlinePassed=true 유지
+
+**판정**: PUBLISH 유지. Fix 없음.
+
 
 
 
