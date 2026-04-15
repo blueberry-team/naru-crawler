@@ -4302,6 +4302,24 @@ jobId 96, 97, 98: DB 미존재 (404). 스킵.
 
 **판정**: PUBLISH 유지. Fix 없음.
 
+---
+
+## Job #16, #17 [URL-FIX] — 덴츠디지털 CR/DS 2027 (course → recruiting 페이지로 업데이트)
+
+**사유**: 유저 피드백 — `/course/` 는 일반 소개 페이지, `/recruiting/` 이 연도별 실제 모집요강. /recruiting/ 페이지에서 원문 검증 완료:
+- **勤務地**: 【東京】汐留オフィス + 【大阪】関西オフィス — TOKYO+OSAKA DB 일치 ✅
+- **給与**: 基本給 288,000円 + 割増見合手当 78,225円 → 연 약 4,394,700円 — DB salaryMin 4,394,700 완전 일치 ✅
+- **응모자격**: 2027年3月末까지 卒業/修了 예정 ✅
+
+### Fix 적용 내역
+| jobId | 수정 전 | 수정 후 | API |
+|-------|---------|---------|-----|
+| 16 | /recruit/newrec/course/ | /recruit/newrec/recruiting/ | PUT 204 ✅ |
+| 17 | /recruit/newrec/course/ | /recruit/newrec/recruiting/ | PUT 204 ✅ |
+
+**판정**: Fix+PUBLISH (URL만 업데이트).
+
+
 
 
 
