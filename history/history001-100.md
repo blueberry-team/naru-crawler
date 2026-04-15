@@ -3765,4 +3765,53 @@ jobId 73: DB에 존재하지 않음 (404). 스킵.
 **Fix 액션**: 없음.
 **Deadline 액션**: 없음. deadline=null, 원본 활성.
 
-> 📊 freee 첫 등장! 15번째 회사. 연봉 400~600만(min+max 모두!) — MIXI #59(420~700만)에 이어 2번째 범위 공고. "어드밴스 코스" — 일정 수준 경험 보유자 대상. techStack Ruby on Rails/Go/React/TS/AWS.
+> 📊 freee 첫 등장! 어드밴스 400~600만. RoR/Go/React/TS/AWS.
+
+---
+
+## Job #90 — freee | 엔지니어직 톱건 코스
+
+**상태**: PUBLISHED
+**소스**: https://jobs.freee.co.jp/entry/newgrads/
+**나루 공고**: https://www.naru-recruit.com/jobs/90
+**어드민**: https://www.naru-recruit.com/admin/jobs/90?token=jungwoo_naru_server_password_0129
+
+### 리뷰 이력
+| 시각 | 액션 | 상세 |
+|------|------|------|
+| 04/15 14:25 | 리뷰 | 21/25 ⚠️4 (A-2, C-9, G-22 공통URL, G-24) → PUBLISH 유지 |
+
+| # | 평가 항목 | 결과 | 코멘트 |
+|---|----------|------|--------|
+| A-1 | 연봉 출처 | ✅ | salaryMin=6000000. **톱건 코스 600만~ — 어드밴스(#89) Max와 동일 시작점!** 즉 어드밴스 상한 = 톱건 하한 |
+| A-2 | 연봉 범위 일치 | ⚠️ | salaryMax=null. 톱건 상한 불명 |
+| A-3 | 통화·단위 | ✅ | 엔, 연봉 기준 |
+| B-4 | overview 발췌 | ✅ | "경력직에 준하는 즉시 전력감", "하이엔드 선발 코스" — 원본과 일치. 톱건 = 경력 수준 신졸 |
+| B-5 | tasks 일치 | ✅ | 5개 항목 — 아키텍처 설계/퍼포먼스·신뢰성/제로 베이스 구축/리드/기술 조사 — 시니어급 업무 |
+| B-6 | targetCandidate 일치 | ✅ | mustHave 3개 — 입사/경력직 필적 스킬/대규모 서비스 이해 — **역대 가장 높은 진입 장벽!** |
+| B-7 | selectionProcess 일치 | ✅ | "엔트리(스카우트)→고난도 코드테스트→기술면접(시니어·테크리드)→최종(CTO/VPoE)→오퍼" — **CTO 최종!** |
+| C-8 | 업종·사업 특성 | ✅ | "통합형 경영 플랫폼" — freee 사업 특성 |
+| C-9 | 기업 규모·문화 차별화 | ⚠️ | 기업 규모 미기재 |
+| C-10 | 기업명 정확성 | ✅ | freee 정확 |
+| D-11 | position 정확성 | ✅ | GRADUATE_ENGINEER 적합 |
+| D-12 | locations 정확성 | ✅ | TOKYO |
+| D-13 | experienceLevel 정확성 | ✅ | NEW_GRAD — 신졸이지만 경력급 요구 |
+| D-14 | workType 정확성 | ✅ | HYBRID |
+| E-15 | 필수 필드 누락 | ✅ | 모두 존재 |
+| E-16 | techStack 정확성 | ✅ | Ruby on Rails/Go/React/TypeScript/Kubernetes/AWS — 6개. 어드밴스(#89) 5개 + **K8s 추가** |
+| E-17 | deadline 정확성 | ✅ | null — 수시, 원본 활성 |
+| E-18 | joinDate 정확성 | ✅ | "2027년 4월" 정확 |
+| F-19 | HTML 잔여물 | ✅ | 깨끗함 |
+| F-20 | 한국어 번역 | ✅ | 자연스러움. "톱건", "제로 베이스" 등 적절 |
+| F-21 | 보일러플레이트 | ✅ | 적절 |
+| G-22 | source_url 접근 | ⚠️ | 전체 신졸 채용 포털 (#89와 공유) |
+| G-23 | 채용 종료 키워드 | ✅ | 없음, 활성 |
+| G-24 | 중복 공고 | ⚠️ | #89 어드밴스와 동일 source_url |
+| G-25 | 제목 일치 | ✅ | "トップガンコース" → "톱건 코스" 정확 |
+
+**종합**: ✅ 21/25 통과, ⚠️ 4, ❌ 0
+**판정**: PUBLISH 유지 적합. 톱건 = 경력 수준 신졸. CTO 최종 면접.
+**Fix 액션**: 없음.
+**Deadline 액션**: 없음. deadline=null, 원본 활성.
+
+> 📊 freee 연봉 체계: 어드밴스(#89) 400~600만 → 톱건(#90) 600만~. 어드밴스 Max = 톱건 Min으로 연결! mustHave "경력직 필적" — 역대 가장 높은 신졸 요구 수준. 전형에 CTO/VPoE 최종 — DMM(VPoE)과 유사하나 CTO 포함.
