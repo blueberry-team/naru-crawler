@@ -5048,3 +5048,21 @@ jobId 96, 97, 98: DB 미존재 (404). 스킵.
 | 04/16 03:17 | 재검증 | Playwright 로드 정상, title "営業・ビジネスデザイン職: マッチングガイド" 일치 |
 
 **판정**: PUBLISH 유지. Fix 없음.
+
+---
+
+## Job #66 [RE-REVIEW] — NEC | 법무·컴플라이언스직 2027 (URL Fix)
+
+**소스**: https://jpn.nec.com/recruit/newgraduate/matching/job/010/ (이전 null → 설정)
+
+### 리뷰 이력
+| 시각 | 액션 | 상세 |
+|------|------|------|
+| 04/16 03:27 | URL Fix | NEC 매칭 목록에서 "法務・コンプライアンス職" 링크 발견 → `/job/010/` 설정. PUT 204 ✅ |
+
+### Fix 적용 내역
+| 항목 | 수정 전 | 수정 후 | API |
+|------|---------|---------|-----|
+| jobSourceUrl | null | https://jpn.nec.com/recruit/newgraduate/matching/job/010/ | PUT 204 ✅ |
+
+**판정**: Fix+PUBLISH.
