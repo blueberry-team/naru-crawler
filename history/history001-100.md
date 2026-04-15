@@ -3078,4 +3078,53 @@ jobId 73: DB에 존재하지 않음 (404). 스킵.
 **Fix 액션**: 없음.
 **Deadline 액션**: 없음. deadline=null, 원본 활성.
 
-> 📊 LIFULL 2건 (#74 디자인, #75 엔지니어) 모두 22/25 고득점. techStack: 디자이너(Figma/Adobe 2개) vs 엔지니어(PHP/Go/TS/Swift/Kotlin/Ruby/Python/React/AWS/GCP 10개). 연봉 동일(396만). "어드바이저 면담" 독특 문화.
+> 📊 LIFULL 2건 모두 22/25 고득점. 연봉 동일(396만).
+
+---
+
+## Job #76 — LIFULL | 신입 채용 비즈니스
+
+**상태**: PUBLISHED
+**소스**: https://recruit.lifull.com/recruit/
+**나루 공고**: https://www.naru-recruit.com/jobs/76
+**어드민**: https://www.naru-recruit.com/admin/jobs/76?token=jungwoo_naru_server_password_0129
+
+### 리뷰 이력
+| 시각 | 액션 | 상세 |
+|------|------|------|
+| 04/15 11:45 | 리뷰 | 22/25 ⚠️3 (A-2, C-9, G-22 공통URL) → PUBLISH 유지 |
+
+| # | 평가 항목 | 결과 | 코멘트 |
+|---|----------|------|--------|
+| A-1 | 연봉 출처 | ✅ | salaryMin=3960000. LIFULL 공통 330,000×12 정확 일치 |
+| A-2 | 연봉 범위 일치 | ⚠️ | salaryMax=null |
+| A-3 | 통화·단위 | ✅ | 엔, 연봉 기준 |
+| B-4 | overview 발췌 | ✅ | "영업, 사업 전략, 서비스 기획, 마케팅, PM, 인사, 경영 관리" — 비즈니스 직군 폭넓은 범위 반영 |
+| B-5 | tasks 일치 | ✅ | 5개 항목 — 고객 접점·영업/프로모션/전략 제안/프로덕트 그로스/신규 플래닝 — 적절 |
+| B-6 | targetCandidate 일치 | ✅ | mustHave 2개 — 졸업/"잠재력 중시, 경험·자격 불문" — **역대 가장 낮은 진입 장벽!** |
+| B-7 | selectionProcess 일치 | ✅ | LIFULL 공통 (어드바이저 면담 포함) |
+| C-8 | 업종·사업 특성 | ✅ | "LIFULL HOME'S 프로모션", "하우징 어드바이저" — 부동산 테크 특성 |
+| C-9 | 기업 규모·문화 차별화 | ⚠️ | 기업 규모 미기재 |
+| C-10 | 기업명 정확성 | ✅ | lifull 정확 |
+| D-11 | position 정확성 | ✅ | GRADUATE_GENERAL — 비즈니스 적합 |
+| D-12 | locations 정확성 | ✅ | TOKYO |
+| D-13 | experienceLevel 정확성 | ✅ | NEW_GRAD 정확 |
+| D-14 | workType 정확성 | ✅ | HYBRID |
+| E-15 | 필수 필드 누락 | ✅ | 모두 존재 |
+| E-16 | techStack 정확성 | ✅ | 빈 배열 [] — 비즈니스 적절 |
+| E-17 | deadline 정확성 | ✅ | null — 수시, 원본 활성 |
+| E-18 | joinDate 정확성 | ✅ | "2027년 4월" 정확 |
+| F-19 | HTML 잔여물 | ✅ | 깨끗함 |
+| F-20 | 한국어 번역 | ✅ | 자연스러움. "하우징 어드바이저" 등 적절 |
+| F-21 | 보일러플레이트 | ✅ | 적절 |
+| G-22 | source_url 접근 | ⚠️ | 채용 전체 페이지 (#74~75와 공유) |
+| G-23 | 채용 종료 키워드 | ✅ | 없음, 활성 |
+| G-24 | 중복 공고 | ✅ | #74 디자인/#75 엔지니어와 다른 직종 |
+| G-25 | 제목 일치 | ✅ | "ビジネス" → "비즈니스" 정확 |
+
+**종합**: ✅ 22/25 통과, ⚠️ 3, ❌ 0
+**판정**: PUBLISH 유지 적합. LIFULL 3연속 22/25!
+**Fix 액션**: 없음.
+**Deadline 액션**: 없음. deadline=null, 원본 활성.
+
+> 📊 LIFULL 3건 (#74~76) **전부 22/25** — 가장 일관된 고품질 회사! 연봉 전 직종 동일(396만). "잠재력 중시, 경험·자격 불문" mustHave — 역대 가장 낮은 진입 장벽.
