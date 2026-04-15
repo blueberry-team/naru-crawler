@@ -5266,3 +5266,16 @@ jobId 96, 97, 98: DB 미존재 (404). 스킵.
 | isDeadlinePassed | null | true | PUT 204 ✅ |
 
 **판정**: PUBLISH + 마감 플래그 적용.
+
+---
+
+## Job #83 [RE-REVIEW] — 사이보즈 | 비즈니스직 2027년 졸업 (PUBLISH 유지)
+
+**소스**: https://cybozu.co.jp/recruit/entry/newgrad/business2027.html
+
+### 리뷰 이력
+| 시각 | 액션 | 상세 |
+|------|------|------|
+| 04/16 06:07 | 재검증 | 페이지 활성, title="ビジネス職 2027年卒 募集要項" DB 일치, 종료 키워드 없음 |
+
+**판정**: PUBLISH 유지. Fix 없음.
