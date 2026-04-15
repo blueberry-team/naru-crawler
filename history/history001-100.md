@@ -3372,4 +3372,53 @@ jobId 73: DB에 존재하지 않음 (404). 스킵.
 **Fix 액션**: D-12 locations TOKYO만 → AICHI/OSAKA 추가 가능하나 "배치처에 따라 다름"이므로 HOLD.
 **Deadline 액션**: 없음. "通年で受付", 원본 활성.
 
-> 📊 사이보즈 첫 등장! 13번째 회사. 연봉 602만 — **신졸 디자이너 역대 최고!** (기존 최고: 액센추어 디자인 null, MIXI 360만, GREE 420만, LIFULL 396만). 개별 전용 URL 사용 — 공통 URL 패턴이 아닌 독립 공고.
+> 📊 사이보즈 첫 등장! 연봉 602만 — 신졸 디자이너 최고. 개별 전용 URL.
+
+---
+
+## Job #82 — 사이보즈 | 프로덕트 엔지니어직 (2027년 졸업)
+
+**상태**: PUBLISHED
+**소스**: https://cybozu.co.jp/recruit/entry/newgrad/product-engineer2027.html
+**나루 공고**: https://www.naru-recruit.com/jobs/82
+**어드민**: https://www.naru-recruit.com/admin/jobs/82?token=jungwoo_naru_server_password_0129
+
+### 리뷰 이력
+| 시각 | 액션 | 상세 |
+|------|------|------|
+| 04/15 12:45 | 리뷰 | 21/25 ⚠️4 (A-2, C-9, D-12 locations 불완전, G-24 없음) → PUBLISH 유지 |
+
+| # | 평가 항목 | 결과 | 코멘트 |
+|---|----------|------|--------|
+| A-1 | 연봉 출처 | ✅ | salaryMin=6020000. 원본 "月額40万円~" + 보너스. #81 디자이너와 동일 — 직종 무관 균일 초봉! |
+| A-2 | 연봉 범위 일치 | ⚠️ | salaryMax=null |
+| A-3 | 통화·단위 | ✅ | 엔, 연봉 기준 |
+| B-4 | overview 발췌 | ✅ | "kintone, Garoon, Office 350만+ 사용자", "프로덕트 지향성" — 원본과 일치 |
+| B-5 | tasks 일치 | ✅ | 5개 항목 — 풀스택 개발/설계 개선/레거시 쇄신/Four Keys 릴리스/팀 협업 — 원본과 일치. **Four Keys** 언급 특이 |
+| B-6 | targetCandidate 일치 | ✅ | mustHave 4개 — 입사/취업 1년 미만/프로그래밍 경험/CS 기초 — 원본과 일치. CS 기초 요구 |
+| B-7 | selectionProcess 일치 | ✅ | 사이보즈 공통 ("알아보기→서류→면접 3~4회→내정") |
+| C-8 | 업종·사업 특성 | ✅ | "350만+ 사용자 클라우드 서비스" — B2B SaaS 규모 명시 |
+| C-9 | 기업 규모·문화 차별화 | ⚠️ | 기업 규모 미기재. "팀워크" 문화는 반영 |
+| C-10 | 기업명 정확성 | ✅ | cybozu 정확 |
+| D-11 | position 정확성 | ✅ | GRADUATE_ENGINEER 적합 |
+| D-12 | locations 정확성 | ⚠️ | TOKYO만 기재. #81과 동일 — 복수 오피스+리모트 미반영 |
+| D-13 | experienceLevel 정확성 | ✅ | NEW_GRAD 정확 |
+| D-14 | workType 정확성 | ✅ | HYBRID |
+| E-15 | 필수 필드 누락 | ✅ | 모두 존재 |
+| E-16 | techStack 정확성 | ✅ | Java/Go/TypeScript/PHP/React/MySQL/Docker/Kubernetes — 8개, 풀스택 웹 기술 적절 |
+| E-17 | deadline 정확성 | ✅ | null — 통년 수시 |
+| E-18 | joinDate 정확성 | ✅ | "2027년 4월" 정확 |
+| F-19 | HTML 잔여물 | ✅ | 깨끗함 |
+| F-20 | 한국어 번역 | ✅ | 자연스러움. "Four Keys", "기술 부채" 등 적절 |
+| F-21 | 보일러플레이트 | ✅ | 적절 |
+| G-22 | source_url 접근 | ✅ | 200 응답. 개별 전용 URL |
+| G-23 | 채용 종료 키워드 | ✅ | 없음, 활성 |
+| G-24 | 중복 공고 | ✅ | #81 디자이너와 다른 URL·직종 |
+| G-25 | 제목 일치 | ✅ | "プロダクトエンジニア職" → "프로덕트 엔지니어직" 정확 |
+
+**종합**: ✅ 21/25 통과, ⚠️ 4, ❌ 0
+**판정**: PUBLISH 유지 적합. techStack 8개 + 연봉 602만(디자이너와 동일!) + Four Keys 개발 문화.
+**Fix 액션**: 없음. D-12 locations → HOLD (#81과 동일).
+**Deadline 액션**: 없음. 통년 수시, 원본 활성.
+
+> 📊 사이보즈 2건 (#81~82) 모두 21/25, 연봉 602만 균일. 디자이너와 엔지니어 동일 급여 — **직종 무관 균일 초봉 체계!** techStack: 디자이너(Figma/Adobe 2개) vs 엔지니어(Java/Go/TS/PHP/React/MySQL/Docker/K8s 8개). 개별 전용 URL 사용.
