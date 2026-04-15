@@ -4252,4 +4252,33 @@ jobId 96, 97, 98: DB 미존재 (404). 스킵.
 
 **판정**: Fix+PUBLISH.
 
+---
+
+## Job #16 [RE-REVIEW] — 덴츠디지털 | 크리에이티브/아트(CR) 2027년도 본전형
+
+**상태**: PUBLISHED
+**소스**: https://dd.dentsudigital.co.jp/recruit/newrec/course/
+**나루 공고**: https://www.naru-recruit.com/jobs/16
+**어드민**: https://www.naru-recruit.com/admin/jobs/16?token=jungwoo_naru_server_password_0129
+
+### 리뷰 이력
+| 시각 | 액션 | 상세 |
+|------|------|------|
+| 04/15 18:48 | 재검증 | Playwright로 course 랜딩 + snar.jp 엔트리 확인. 2027卒 エントリー 활성 ✅ |
+
+### 원문 검증 (Playwright)
+- **course 페이지**: コース紹介 (2027卒 본전형 활성), クリエイティブ 섹션 존재
+- **상세 요강**: 공개 페이지에 勤務地/給与 미노출 (상세는 로그인 후 열람 구조)
+- **snar.jp 엔트리 페이지**: "2027卒_新卒採用 本選考のエントリーを受付中です" — 엔트리 활성 ✅
+- **모집상태**: 2026卒은 受付終了, 2027卒 활성, 2028卒 プレエントリー 중
+
+### 25개 기준 간이 평가
+- URL 200 ✅, 2027卒 활성 ✅, title 의미 일치 ✅, position(GRADUATE_DESIGN)·experienceLevel(NEW_GRAD) ✅
+- locations=["TOKYO","OSAKA"]: 덴츠디지털은 도쿄·오사카 양 오피스 운영, 공개 공고에 반박 정보 없음 → 유지
+- salaryMin=4,394,700: 기존 데이터 (개정 정보 비공개 페이지)
+- overview/tasks: CR(Creative/Art) 설명과 의미 일치
+
+**판정**: PUBLISH 유지. 공개 페이지에 상세 급여/근무지 미노출로 즉시 검증 불가한 필드는 기존값 유지. Fix 없음.
+
+
 
