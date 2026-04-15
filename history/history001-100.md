@@ -4346,6 +4346,22 @@ jobId 96, 97, 98: DB 미존재 (404). 스킵.
 
 **판정**: Fix+PUBLISH (URL만 업데이트).
 
+---
+
+## Job #19 [RE-REVIEW] — 덴츠디지털 | 마케팅 커뮤니케이션(MC) 2027 — URL Fix
+
+**소스**: https://dd.dentsudigital.co.jp/recruit/newrec/recruiting/ (기존 /course/ 에서 업데이트)
+**나루 공고**: https://www.naru-recruit.com/jobs/19
+
+### 리뷰 이력
+| 시각 | 액션 | 상세 |
+|------|------|------|
+| 04/15 19:07 | URL Fix | /course/ → /recruiting/ (#16~#18과 동일 패턴). PUT 204 ✅ |
+
+/recruiting/ 페이지의 "募集コース" 섹션에 마케팅/커뮤니케이션 관련 코스 포함 확인. DB 급여(4,394,700) 및 근무지(TOKYO+OSAKA)는 원문 /recruiting/ 과 완전 일치 (#16 리뷰에서 검증 완료).
+
+**판정**: Fix+PUBLISH (URL만 업데이트).
+
 
 
 
