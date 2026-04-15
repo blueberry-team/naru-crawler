@@ -4137,3 +4137,56 @@ jobId 96, 97, 98: DB 미존재 (404). 스킵.
 > - URL null: 1건 (#66)
 > - Fix 완료: 3건 (#12,13,14 DeNA +KANAGAWA)
 > - 회사 16개: DeNA, 덴츠디지털, LY Corp, 라쿠텐, 액센추어, 사이버에이전트, MIXI, NEC, 소프트뱅크, LIFULL, GREE, 사이보즈, DMM, freee, 아빔, 라쿠텐
+
+---
+
+## Job #12 [RE-RE-REVIEW] — DeNA | 엔지니어직 본전형 (Playwright MCP 검증)
+
+**상태**: PUBLISHED
+**소스**: https://dena.snar.jp/jobboard/detail.aspx?id=VzqdHIlOrLHIbVES5fPykA
+**나루 공고**: https://www.naru-recruit.com/jobs/12
+**어드민**: https://www.naru-recruit.com/admin/jobs/12?token=jungwoo_naru_server_password_0129
+
+### 리뷰 이력
+| 시각 | 액션 | 상세 |
+|------|------|------|
+| 04/15 18:15 | 재검증 | Playwright MCP 로 원문 재확인 — 勤務地=東京only 확정 |
+
+### 원문 검증 (Playwright)
+- **勤務地**: "東京 ＞本社（渋谷スクランブルスクエア）" — TOKYO only ✅
+- **給与**: 標準年収 5,000,000円~ ✅
+- **응모자격**: 2027년 4월 입사 (졸업년도/취업경험 무관) ✅
+- **모집상태**: エントリー 버튼 활성, 종료 키워드 없음 ✅
+
+**판정**: PUBLISH 유지. 이전 KANAGAWA revert 확정 — #12 jobSourceUrl 에는 神奈川 언급 없음.
+
+---
+
+## Job #13 [RE-RE-REVIEW] — DeNA | AI Specialist (Playwright MCP 검증)
+
+**상태**: PUBLISHED
+**소스**: https://student.dena.com/job/aispecialist → description page https://student.dena.com/aispecialist/description/
+**나루 공고**: https://www.naru-recruit.com/jobs/13
+**어드민**: https://www.naru-recruit.com/admin/jobs/13?token=jungwoo_naru_server_password_0129
+
+### 리뷰 이력
+| 시각 | 액션 | 상세 |
+|------|------|------|
+| 04/15 18:20 | 재검증 | Playwright 로 /aispecialist/description/ 검증 → 2건 불일치 발견 (locations, salary) — 사용자 승인 대기 |
+
+### 원문 검증 (Playwright — description 페이지)
+- **勤務地**: "渋谷オフィス(本社)：東京" + "横浜オフィス：神奈川県横浜市中区尾上町1-8" — **TOKYO + KANAGAWA 둘 다 명시** ⚠️
+- **給与**:
+  - 改定前: 標準年収 6,000,000円~
+  - **改定後 (2026년 3월 6일~)**: 標準年収 7,000,000円~
+  - 현재(2026-04-15)는 改定後 적용 시점
+- **모집상태**: 募集終了 키워드 없음, 활성 ✅
+
+### ⚠️ 불일치 사항 (사용자 승인 후 수정)
+| 항목 | DB 현재 | 원문 | 제안 수정 |
+|------|--------|------|----------|
+| locations | ["TOKYO"] | 東京 + 神奈川 (横浜) 병기 | +KANAGAWA |
+| salaryMin | 6,000,000 | 7,000,000 (2026-03-06 改定後) | 7,000,000 |
+| jobSourceUrl | /job/aispecialist (코스 소개) | /aispecialist/description/ (상세 모집요강) | description URL 로 변경 |
+
+**판정**: PUBLISH 유지. **Fix 3건 사용자 승인 대기** — Discord 로 보고.
