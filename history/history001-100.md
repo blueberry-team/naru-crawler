@@ -4190,3 +4190,26 @@ jobId 96, 97, 98: DB 미존재 (404). 스킵.
 | jobSourceUrl | /job/aispecialist (코스 소개) | /aispecialist/description/ (상세 모집요강) | description URL 로 변경 |
 
 **판정**: PUBLISH 유지. **Fix 3건 사용자 승인 대기** — Discord 로 보고.
+
+---
+
+## Job #14 [RE-RE-REVIEW] — DeNA | 비즈니스직 본전형 (Playwright MCP 검증)
+
+**상태**: PUBLISHED
+**소스**: https://dena.snar.jp/jobboard/detail.aspx?id=L7eq4XI5cPU5t6K5rHapeQ
+**나루 공고**: https://www.naru-recruit.com/jobs/14
+**어드민**: https://www.naru-recruit.com/admin/jobs/14?token=jungwoo_naru_server_password_0129
+
+### 리뷰 이력
+| 시각 | 액션 | 상세 |
+|------|------|------|
+| 04/15 18:32 | 재검증 | Playwright 로 snar.jp 상세 확인 — 勤務地=東京only, 급여 5M 완전 일치 → 수정 불필요 |
+
+### 원문 검증 (Playwright)
+- **heading**: "2027年度 ビジネス職 本選考" — title 일치 ✅
+- **勤務地**: "東京 ＞本社（渋谷スクランブルスクエア）" — TOKYO only ✅
+- **給与**: "基準年俸：5,000,000円（月次支給 + 年2回의 賞与）" — DB salaryMin=5,000,000 일치 ✅
+- **모집상태**: エントリー 버튼 활성, 募集終了 없음 ✅
+
+**판정**: PUBLISH 유지. KANAGAWA revert 후 DB 완벽 상태 확인.
+
