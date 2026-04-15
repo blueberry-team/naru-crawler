@@ -4443,6 +4443,20 @@ jobId 96, 97, 98: DB 미존재 (404). 스킵.
 
 **판정**: PUBLISH 유지 (마감 플래그 정확). Fix 없음.
 
+---
+
+## Job #25 [RE-REVIEW] — LY Corp | Infra Engineering Expert (마감 유지)
+
+**상태**: PUBLISHED (isDeadlinePassed=true)
+**소스**: https://www.lycorp.co.jp/ja/recruit/newgrads/engineer/jd0002/
+
+### 리뷰 이력
+| 시각 | 액션 | 상세 |
+|------|------|------|
+| 04/15 20:07 | 재검증 | #24와 동일 패턴 — "2027年度新卒採用エントリー受付は終了" 명시, 기존 마감 플래그 정확 |
+
+**판정**: PUBLISH 유지. Fix 없음.
+
 
 
 
