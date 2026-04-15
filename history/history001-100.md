@@ -4423,6 +4423,26 @@ jobId 96, 97, 98: DB 미존재 (404). 스킵.
 
 **판정**: Fix+PUBLISH (URL만 업데이트).
 
+---
+
+## Job #24 [RE-REVIEW] — LY Corp | Software Engineering Specialist (마감 유지)
+
+**상태**: PUBLISHED (isDeadlinePassed=true)
+**소스**: https://www.lycorp.co.jp/ja/recruit/newgrads/engineer/jd0001/
+
+### 리뷰 이력
+| 시각 | 액션 | 상세 |
+|------|------|------|
+| 04/15 19:57 | 재검증 | 원문에 "2027年度新卒採用エントリー受付は終了しました" 명시 — 기존 isDeadlinePassed=true 유지, 수정 불필요 |
+
+### 원문 검증
+- **응모 상태**: "2027年度新卒採用エントリー受付は終了しました" ← 명확히 종료 안내 ✅
+- **勤務地**: 東京都千代田区紀尾井町 (東京ガーデンテラス) → TOKYO ✅ DB 일치
+- **deadline**: 2026-02-02 (DB), 현재 2026-04-15 → 이미 경과
+- **isDeadlinePassed**: true (이미 반영됨)
+
+**판정**: PUBLISH 유지 (마감 플래그 정확). Fix 없음.
+
 
 
 
