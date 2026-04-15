@@ -40,7 +40,7 @@ argument-hint: "개수=5 | jobIds=1153,1154 | company=hitachi 개수=10"
 ## 전제 조건: Playwright MCP 설정
 
 원본 채용 페이지 확인 시 **Playwright MCP를 기본으로 사용**한다.
-WebFetch는 Playwright가 사용 불가능한 경우에만 fallback으로 사용한다.
+WebFetch는 사용하지 않는다.
 
 ### Playwright MCP 설정 방법
 
@@ -66,10 +66,7 @@ npx @anthropic-ai/mcp-playwright --version
 
 | 방식 | 장점 | 한계 |
 |------|------|------|
-| WebFetch | 빠름, 간편 | WAF 차단(IBM/NEC), JS 미렌더링, 봇 감지 |
-| Playwright MCP | 실제 브라우저, WAF 우회, JS 렌더링, 정확한 DOM | 느림, 설정 필요 |
-
-Deep Review에서 원본 확인은 **정확성이 최우선**이므로 Playwright MCP를 기본으로 한다.
+Deep Review에서 원본 확인은 **정확성이 최우선**이므로 Playwright MCP만 사용한다.
 
 ### Playwright MCP 사용 시 주의
 
@@ -81,7 +78,7 @@ Deep Review에서 원본 확인은 **정확성이 최우선**이므로 Playwrigh
 
 - `GET /api/dev/jobs/drafts` 로 DRAFT 목록을 가져온다.
 - 각 공고마다 `GET /api/dev/jobs/{id}` 로 전체 필드를 조회한다.
-- 각 공고의 `jobSourceUrl` 에 **Playwright MCP로 접근**하여 원본 페이지를 확인한다. (Playwright 불가 시 WebFetch fallback)
+- 각 공고의 `jobSourceUrl` 에 **Playwright MCP로 접근**하여 원본 페이지를 확인한다.
 - rules 파일 순서대로 검증을 수행한다.
 - 검증 결과에 따라 PUBLISH, FIX+PUBLISH, HOLD 를 판정한다.
 - FIX 항목은 `PUT /api/dev/jobs/{id}` 로 즉시 수정한다.
