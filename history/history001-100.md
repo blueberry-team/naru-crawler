@@ -5035,3 +5035,16 @@ jobId 96, 97, 98: DB 미존재 (404). 스킵.
 | 04/16 03:07 | 재검증 | Playwright 로드 정상, title "システムエンジニア職: マッチングガイド: 新卒採用｜NEC" 일치 (curl은 403이지만 브라우저 접근 정상) |
 
 **판정**: PUBLISH 유지. Fix 없음.
+
+---
+
+## Job #65 [RE-REVIEW] — NEC | 영업·비즈니스 디자인직 2027 (PUBLISH 유지)
+
+**소스**: https://jpn.nec.com/recruit/newgraduate/matching/job/015/
+
+### 리뷰 이력
+| 시각 | 액션 | 상세 |
+|------|------|------|
+| 04/16 03:17 | 재검증 | Playwright 로드 정상, title "営業・ビジネスデザイン職: マッチングガイド" 일치 |
+
+**판정**: PUBLISH 유지. Fix 없음.
