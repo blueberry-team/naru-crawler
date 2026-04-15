@@ -4319,6 +4319,34 @@ jobId 96, 97, 98: DB 미존재 (404). 스킵.
 
 **판정**: Fix+PUBLISH (URL만 업데이트).
 
+---
+
+## Job #18 [RE-REVIEW] — 덴츠디지털 | 소프트웨어/AI 시스템 엔지니어링(EG) 2027
+
+**상태**: PUBLISHED
+**소스**: https://dd.dentsudigital.co.jp/recruit/newrec/recruiting/ (기존 /course/ 에서 업데이트)
+**나루 공고**: https://www.naru-recruit.com/jobs/18
+**어드민**: https://www.naru-recruit.com/admin/jobs/18?token=jungwoo_naru_server_password_0129
+
+### 리뷰 이력
+| 시각 | 액션 | 상세 |
+|------|------|------|
+| 04/15 19:00 | 재검증+URL Fix | #16/#17 패턴 동일 — /course/ → /recruiting/ 로 PUT. 급여/근무지 DB 완전 일치 확인 |
+
+### 원문 검증 (/recruiting 페이지)
+- 給与 섹션에 "ソフトウェア/AIシステムエンジニアリングコース의 入社者" 명시 ✅
+- 基本給 288,000円 + 割増見合手当 78,225円 → 연 4,394,700 (DB 일치) ✅
+- 勤務地: 東京 汐留 + 大阪 関西오피스 = DB ["TOKYO","OSAKA"] ✅
+- 2027卒 응모자격, 엔트리 활성 ✅
+
+### Fix 적용 내역
+| 항목 | 수정 전 | 수정 후 | API |
+|------|---------|---------|-----|
+| jobSourceUrl | /course/ | /recruiting/ | PUT 204 ✅ |
+
+**판정**: Fix+PUBLISH (URL만 업데이트).
+
+
 
 
 
