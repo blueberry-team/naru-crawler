@@ -3029,4 +3029,53 @@ jobId 73: DB에 존재하지 않음 (404). 스킵.
 **Fix 액션**: 없음.
 **Deadline 액션**: 없음. deadline=null, 원본 활성.
 
-> 📊 LIFULL 첫 등장! 22/25 — 역대 높은 점수. 연봉 정확 일치, Figma/Adobe CC techStack 적절. 전형에 "어드바이저 면담(전형 아닌 조언 자리)" 포함 — 독특한 채용 문화.
+> 📊 LIFULL 첫 등장! 22/25 고득점. 어드바이저 면담 독특.
+
+---
+
+## Job #75 — LIFULL | 신입 채용 엔지니어
+
+**상태**: PUBLISHED
+**소스**: https://recruit.lifull.com/recruit/
+**나루 공고**: https://www.naru-recruit.com/jobs/75
+**어드민**: https://www.naru-recruit.com/admin/jobs/75?token=jungwoo_naru_server_password_0129
+
+### 리뷰 이력
+| 시각 | 액션 | 상세 |
+|------|------|------|
+| 04/15 11:25 | 리뷰 | 22/25 ⚠️3 (A-2, C-9, G-22 공통URL) → PUBLISH 유지 |
+
+| # | 평가 항목 | 결과 | 코멘트 |
+|---|----------|------|--------|
+| A-1 | 연봉 출처 | ✅ | salaryMin=3960000. 원본 "月給330,000円" = 330,000×12 정확 일치 |
+| A-2 | 연봉 범위 일치 | ⚠️ | salaryMax=null |
+| A-3 | 통화·단위 | ✅ | 엔, 연봉 기준 |
+| B-4 | overview 발췌 | ✅ | "엔지니어로서 경영을 리드한다", "기술로 비즈니스 가능성 확장" — LIFULL 엔지니어 비전 반영 |
+| B-5 | tasks 일치 | ✅ | 5개 항목 — HOME'S 개발/UX·운영/생성AI R&D/아키텍처/데이터 사이언스 — 원본과 일치. 생성 AI R&D 포함! |
+| B-6 | targetCandidate 일치 | ✅ | mustHave 3개 — 졸업/프로그래밍 경험/모노즈쿠리 좋아하는 분 — "모노즈쿠리" 표현이 독특 |
+| B-7 | selectionProcess 일치 | ✅ | #74 디자이너와 동일 (어드바이저 면담 포함) |
+| C-8 | 업종·사업 특성 | ✅ | "LIFULL HOME'S" — 부동산 테크 서비스 명시 |
+| C-9 | 기업 규모·문화 차별화 | ⚠️ | 기업 규모 미기재 |
+| C-10 | 기업명 정확성 | ✅ | lifull 정확 |
+| D-11 | position 정확성 | ✅ | GRADUATE_ENGINEER 적합 |
+| D-12 | locations 정확성 | ✅ | TOKYO |
+| D-13 | experienceLevel 정확성 | ✅ | NEW_GRAD 정확 |
+| D-14 | workType 정확성 | ✅ | HYBRID |
+| E-15 | 필수 필드 누락 | ✅ | 모두 존재 |
+| E-16 | techStack 정확성 | ✅ | PHP/Go/TypeScript/Swift/Kotlin/Ruby/Python/React/AWS/GCP — **10개**! 다양한 언어+클라우드. 부동산 테크 기업 치고 풍부 |
+| E-17 | deadline 정확성 | ✅ | null — 수시, 원본 활성 |
+| E-18 | joinDate 정확성 | ✅ | "2027년 4월" 정확 |
+| F-19 | HTML 잔여물 | ✅ | 깨끗함 |
+| F-20 | 한국어 번역 | ✅ | 자연스러움. "모노즈쿠리(만드는 것)" 적절 |
+| F-21 | 보일러플레이트 | ✅ | 적절 |
+| G-22 | source_url 접근 | ⚠️ | 채용 전체 페이지 (#74와 공유) |
+| G-23 | 채용 종료 키워드 | ✅ | 없음, 활성 |
+| G-24 | 중복 공고 | ✅ | #74 디자이너와 다른 직종 |
+| G-25 | 제목 일치 | ✅ | "エンジニア" → "엔지니어" 정확 |
+
+**종합**: ✅ 22/25 통과, ⚠️ 3, ❌ 0
+**판정**: PUBLISH 유지 적합. techStack 10개 + 연봉 정확 일치 + 생성AI R&D 포함. 데이터 품질 우수.
+**Fix 액션**: 없음.
+**Deadline 액션**: 없음. deadline=null, 원본 활성.
+
+> 📊 LIFULL 2건 (#74 디자인, #75 엔지니어) 모두 22/25 고득점. techStack: 디자이너(Figma/Adobe 2개) vs 엔지니어(PHP/Go/TS/Swift/Kotlin/Ruby/Python/React/AWS/GCP 10개). 연봉 동일(396만). "어드바이저 면담" 독특 문화.
