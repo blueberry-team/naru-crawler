@@ -5422,3 +5422,22 @@ jobId 96, 97, 98: DB 미존재 (404). 스킵.
 | 04/16 07:57 | 재검증 | 페이지 활성, 勤務地 "戦略コンサルタントコース：東京" DB ["TOKYO"] 완전 일치 |
 
 **판정**: PUBLISH 유지. Fix 없음.
+
+---
+
+## Job #100 [RE-REVIEW] — 아빔 | 공공경영 컨설턴트 코스 2027 (PUBLISH 유지)
+
+**소스**: https://www.abeam.com/jp/ja/recruit/newgrad/requirements2027/strategy-cs/ (#99과 동일)
+
+### 리뷰 이력
+| 시각 | 액션 | 상세 |
+|------|------|------|
+| 04/16 08:07 | 재검증 | 페이지 활성, "公共経営コンサルタントコース：東京、大阪" DB ["TOKYO","OSAKA"] 완전 일치 |
+
+**판정**: PUBLISH 유지. Fix 없음.
+
+---
+
+> 🏁 **history/100 RE-REVIEW 완료!**
+> jobId 12~100 전체 재검증 진행 (#1~11, #73, #93~94, #96~98 미존재 스킵).
+> 총 88건 재검증: PUBLISH 유지 대다수, Fix 적용 — #13(locations+KANAGAWA, salary 7M, URL), #15(locations+KANAGAWA, salary 6M, URL), #16~#23(덴츠디지털 /course/ → /recruiting/ 8건), #26/#29/#31/#32(라쿠텐 isDeadlinePassed=true), #66(NEC URL null → /job/010/), #82(사이보즈 엔지니어 마감 Fix).
