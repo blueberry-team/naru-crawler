@@ -3176,4 +3176,53 @@ jobId 73: DB에 존재하지 않음 (404). 스킵.
 **Fix 액션**: A-2 salaryMax=4500000 PUT 가능하나 학부/석사 차등이므로 HOLD.
 **Deadline 액션**: 없음. deadline=null, 원본 활성.
 
-> 📊 GREE Holdings 첫 등장! 12번째 회사. 연봉 학부/석사 차등: 디자이너 420~450만, 엔지니어 480~510만. 원본에 직종별·학력별 연봉 명시 — 데이터 정확도 높음.
+> 📊 GREE 연봉 학부/석사 차등: 디자이너 420~450만, 엔지니어 480~510만.
+
+---
+
+## Job #78 — GREE Holdings | 2027년도 엔지니어직
+
+**상태**: PUBLISHED
+**소스**: https://hd.gree.net/jp/ja/recruit/position/
+**나루 공고**: https://www.naru-recruit.com/jobs/78
+**어드민**: https://www.naru-recruit.com/admin/jobs/78?token=jungwoo_naru_server_password_0129
+
+### 리뷰 이력
+| 시각 | 액션 | 상세 |
+|------|------|------|
+| 04/15 12:05 | 리뷰 | 20/25 ⚠️5 (A-2, C-9, E-16 빈배열, G-22, G-24) → PUBLISH 유지 |
+
+| # | 평가 항목 | 결과 | 코멘트 |
+|---|----------|------|--------|
+| A-1 | 연봉 출처 | ✅ | salaryMin=4800000. 원본 "エンジニア: 480万~510万" 명시. 하한 480만 일치 |
+| A-2 | 연봉 범위 일치 | ⚠️ | salaryMax=null. 원본 석사 510만 미반영 (#77과 동일 패턴) |
+| A-3 | 통화·단위 | ✅ | 엔, 연봉 기준 |
+| B-4 | overview 발췌 | ✅ | "스마트폰 게임, 버추얼 라이브 방송 앱", "클라이언트, 서버, 데이터, 인프라" — 원본과 일치 |
+| B-5 | tasks 일치 | ✅ | 5개 항목 — iOS/Android/백엔드/인프라/ML 데이터/도구 개발 — 원본과 일치 |
+| B-6 | targetCandidate 일치 | ✅ | mustHave 3개 — 졸업/모노즈쿠리+테크 좋아함/실행력 — 원본과 일치 |
+| B-7 | selectionProcess 일치 | ✅ | "엔트리(서류·ES)→WebTest→면접→내정" — 원본과 일치 |
+| C-8 | 업종·사업 특성 | ✅ | "수백만 명 이용 프로덕트", "버추얼 라이브 방송" — GREE/REALITY 특성 |
+| C-9 | 기업 규모·문화 차별화 | ⚠️ | REALITY, 메타버스 사업 맥락 미기재 |
+| C-10 | 기업명 정확성 | ✅ | gree-holdings 정확 |
+| D-11 | position 정확성 | ✅ | GRADUATE_ENGINEER 적합 |
+| D-12 | locations 정확성 | ✅ | TOKYO |
+| D-13 | experienceLevel 정확성 | ✅ | NEW_GRAD 정확 |
+| D-14 | workType 정확성 | ✅ | HYBRID |
+| E-15 | 필수 필드 누락 | ✅ | 모두 존재 |
+| E-16 | techStack 정확성 | ⚠️ | 빈 배열 []. 엔지니어인데 기술 스택 없음 — overview에 iOS/Android/백엔드/인프라/ML 언급되어 있으므로 추출 가능했으나 원본도 구체 기술 미명시 |
+| E-17 | deadline 정확성 | ✅ | null — 수시, 원본 활성 |
+| E-18 | joinDate 정확성 | ✅ | "2027년 4월" 정확 |
+| F-19 | HTML 잔여물 | ✅ | 깨끗함 |
+| F-20 | 한국어 번역 | ✅ | 자연스러움 |
+| F-21 | 보일러플레이트 | ✅ | 적절 |
+| G-22 | source_url 접근 | ⚠️ | 전 직종 공통 페이지 (#77과 공유) |
+| G-23 | 채용 종료 키워드 | ✅ | 없음, 활성 |
+| G-24 | 중복 공고 | ⚠️ | #77 디자이너와 동일 source_url |
+| G-25 | 제목 일치 | ✅ | "エンジニア職" → "엔지니어직" 정확 |
+
+**종합**: ✅ 20/25 통과, ⚠️ 5, ❌ 0
+**판정**: PUBLISH 유지 적합. salaryMax(석사 510만) 미반영 + techStack 빈배열이 주요 이슈.
+**Fix 액션**: 없음. salaryMax=5100000 PUT 가능하나 학부/석사 차등이므로 HOLD.
+**Deadline 액션**: 없음. deadline=null, 원본 활성.
+
+> 📊 GREE 2건 (#77 디자인 21/25, #78 엔지니어 20/25). 엔지니어가 디자이너보다 1점 낮음(techStack 빈배열 때문). 엔지니어 연봉 480만은 #77 디자이너 420만보다 60만 높음.
