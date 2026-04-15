@@ -4837,3 +4837,16 @@ jobId 96, 97, 98: DB 미존재 (404). 스킵.
 | 04/16 00:37 | 재검증 | 페이지 활성, title="インフラエンジニア" DB 일치 |
 
 **판정**: PUBLISH 유지. Fix 없음.
+
+---
+
+## Job #50 [RE-REVIEW] — 사이버에이전트 | 클라이언트 엔지니어 (Web, Android, iOS, Flutter) (PUBLISH 유지)
+
+**소스**: https://www.cyberagent.co.jp/careers/students/tech/jobs/detail/id=27088
+
+### 리뷰 이력
+| 시각 | 액션 | 상세 |
+|------|------|------|
+| 04/16 00:47 | 재검증 | 페이지 활성, title="クライアントエンジニア(Web,Android,iOS,Flutter)" DB 일치 |
+
+**판정**: PUBLISH 유지. Fix 없음.
