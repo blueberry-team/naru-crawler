@@ -4362,6 +4362,22 @@ jobId 96, 97, 98: DB 미존재 (404). 스킵.
 
 **판정**: Fix+PUBLISH (URL만 업데이트).
 
+---
+
+## Job #20 [RE-REVIEW] — 덴츠디지털 | 마케팅 DX(DX) 2027 — URL Fix
+
+**소스**: https://dd.dentsudigital.co.jp/recruit/newrec/recruiting/
+**나루 공고**: https://www.naru-recruit.com/jobs/20
+
+### 리뷰 이력
+| 시각 | 액션 | 상세 |
+|------|------|------|
+| 04/15 19:17 | URL Fix | /course/ → /recruiting/ (#16~#19와 동일 패턴). PUT 204 ✅ |
+
+/recruiting/ 페이지 원문 검증 (#16 리뷰에서 수행) — 勤務地=東京+大阪, 給与=4,394,700 DB 완전 일치.
+
+**판정**: Fix+PUBLISH (URL만 업데이트).
+
 
 
 
