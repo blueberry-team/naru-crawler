@@ -4481,6 +4481,25 @@ jobId 96, 97, 98: DB 미존재 (404). 스킵.
 
 **판정**: PUBLISH + 마감 플래그 적용.
 
+---
+
+## Job #27 [RE-REVIEW] — LY Corp | 비즈니스 컨설턴트 (마감 유지)
+
+**상태**: PUBLISHED (isDeadlinePassed=true)
+**소스**: https://www.lycorp.co.jp/ja/recruit/newgrads/business-consultant/
+
+### 리뷰 이력
+| 시각 | 액션 | 상세 |
+|------|------|------|
+| 04/15 20:27 | 재검증 | "2027年度新卒採用エントリー受付は終了" 명시, 근무지 3곳(도쿄/오사카/후쿠오카) DB 일치 |
+
+### 원문 검증
+- **勤務場所**: 本社 東京(紀尾井町) + 事業所 大阪, 福岡 → DB ["TOKYO","OSAKA","FUKUOKA"] ✅ 완전 일치
+- **2027 entry**: 종료 안내 확인
+- **isDeadlinePassed**: true (이미 반영됨)
+
+**판정**: PUBLISH 유지. Fix 없음.
+
 
 
 
