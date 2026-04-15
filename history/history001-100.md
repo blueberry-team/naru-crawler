@@ -5066,3 +5066,16 @@ jobId 96, 97, 98: DB 미존재 (404). 스킵.
 | jobSourceUrl | null | https://jpn.nec.com/recruit/newgraduate/matching/job/010/ | PUT 204 ✅ |
 
 **판정**: Fix+PUBLISH.
+
+---
+
+## Job #67 [RE-REVIEW] — 소프트뱅크 | OPEN 엔지니어 코스 2027 (PUBLISH 유지)
+
+**소스**: https://www.softbank.jp/recruit/graduate/recruit/flow/
+
+### 리뷰 이력
+| 시각 | 액션 | 상세 |
+|------|------|------|
+| 04/16 03:37 | 재검증 | 페이지 활성, "OPENエンジニア" 섹션 포함 확인 |
+
+**판정**: PUBLISH 유지. Fix 없음.
