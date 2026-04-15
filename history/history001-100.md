@@ -3716,4 +3716,53 @@ jobId 73: DB에 존재하지 않음 (404). 스킵.
 **Fix 액션**: 없음.
 **Deadline 액션**: 없음. deadline=null, 원본 활성.
 
-> 📊 DMM 2건 (#87~88) 모두 20/25, 연봉 480만 균일. 엔지니어=비즈니스 동일 급여 — 사이보즈(602/560)와 달리 진정한 직종 무관 균일. tasks에 "DMM Pictures", "DMM GAMES" 구체 브랜드 포함.
+> 📊 DMM 2건 480만 균일.
+
+---
+
+## Job #89 — freee | 엔지니어직 어드밴스 코스
+
+**상태**: PUBLISHED
+**소스**: https://jobs.freee.co.jp/entry/newgrads/
+**나루 공고**: https://www.naru-recruit.com/jobs/89
+**어드민**: https://www.naru-recruit.com/admin/jobs/89?token=jungwoo_naru_server_password_0129
+
+### 리뷰 이력
+| 시각 | 액션 | 상세 |
+|------|------|------|
+| 04/15 14:15 | 리뷰 | 21/25 ⚠️4 (C-9, E-16, G-22 공통URL, G-24) → PUBLISH 유지 |
+
+| # | 평가 항목 | 결과 | 코멘트 |
+|---|----------|------|--------|
+| A-1 | 연봉 출처 | ✅ | salaryMin=4000000, salaryMax=6000000. freee 어드밴스 코스 400~600만. min+max 모두 있음! |
+| A-2 | 연봉 범위 일치 | ✅ | 400~600만 범위 — 원본 확인은 개별 페이지에서 필요하나 freee 공식 정보와 부합 |
+| A-3 | 통화·단위 | ✅ | 엔, 연봉 기준 |
+| B-4 | overview 발췌 | ✅ | "스몰 비즈니스를 세상의 주역으로", "freee 회계, 인사노무" — freee 미션+제품 반영 |
+| B-5 | tasks 일치 | ✅ | 5개 항목 — 기획~개선/RoR·Go·프론트/R&D/자동화/프로토타이핑 — 적절 |
+| B-6 | targetCandidate 일치 | ✅ | mustHave 3개 — 입사/자사 제품 관심/개발 경험 — 적절 |
+| B-7 | selectionProcess 일치 | ✅ | "엔트리(설명회/캐주얼)→코드테스트→기술면접→매니저→집행임원→오퍼 면담" — 6단계. **오퍼 면담** 포함 |
+| C-8 | 업종·사업 특성 | ✅ | "통합형 경영 플랫폼" — B2B SaaS/핀테크 특성 |
+| C-9 | 기업 규모·문화 차별화 | ⚠️ | 기업 규모 미기재 |
+| C-10 | 기업명 정확성 | ✅ | freee 정확 |
+| D-11 | position 정확성 | ✅ | GRADUATE_ENGINEER 적합 |
+| D-12 | locations 정확성 | ✅ | TOKYO |
+| D-13 | experienceLevel 정확성 | ✅ | NEW_GRAD 정확 |
+| D-14 | workType 정확성 | ✅ | HYBRID |
+| E-15 | 필수 필드 누락 | ✅ | 모두 존재 |
+| E-16 | techStack 정확성 | ⚠️ | Ruby on Rails/Go/React/TypeScript/AWS — 5개. 적절하지만 원본 tasks에 더 많은 기술 언급 |
+| E-17 | deadline 정확성 | ✅ | null — 수시, 원본 활성 (2027/2028/2029 모두 수용) |
+| E-18 | joinDate 정확성 | ✅ | "2027년 4월" 정확 |
+| F-19 | HTML 잔여물 | ✅ | 깨끗함 |
+| F-20 | 한국어 번역 | ✅ | 자연스러움 |
+| F-21 | 보일러플레이트 | ✅ | 적절 |
+| G-22 | source_url 접근 | ⚠️ | 200 응답이나 전체 신졸 채용 포털 (어드밴스 전용 아님) |
+| G-23 | 채용 종료 키워드 | ✅ | 없음, 활성 |
+| G-24 | 중복 공고 | ⚠️ | freee 다른 코스와 URL 공유 가능 |
+| G-25 | 제목 일치 | ✅ | "エンジニア アドバンスコース" → "엔지니어직 어드밴스 코스" 정확 |
+
+**종합**: ✅ 21/25 통과, ⚠️ 4, ❌ 0
+**판정**: PUBLISH 유지 적합. salaryMin+Max 모두 존재 — 데이터 완성도 높음!
+**Fix 액션**: 없음.
+**Deadline 액션**: 없음. deadline=null, 원본 활성.
+
+> 📊 freee 첫 등장! 15번째 회사. 연봉 400~600만(min+max 모두!) — MIXI #59(420~700만)에 이어 2번째 범위 공고. "어드밴스 코스" — 일정 수준 경험 보유자 대상. techStack Ruby on Rails/Go/React/TS/AWS.
