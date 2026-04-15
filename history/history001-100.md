@@ -5009,3 +5009,16 @@ jobId 96, 97, 98: DB 미존재 (404). 스킵.
 | 04/16 02:47 | 재검증 | 페이지 활성 (200), title 일치 |
 
 **판정**: PUBLISH 유지. Fix 없음.
+
+---
+
+## Job #63 [RE-REVIEW] — NEC | 연구직 2027 잡 매칭 (PUBLISH 유지)
+
+**소스**: https://jpn.nec.com/recruit/newgraduate/matching/job/001/
+
+### 리뷰 이력
+| 시각 | 액션 | 상세 |
+|------|------|------|
+| 04/16 02:57 | 재검증 | 페이지 활성, title "研究職: マッチングガイド: 新卒採用｜NEC" 일치 |
+
+**판정**: PUBLISH 유지. Fix 없음.
