@@ -4280,5 +4280,28 @@ jobId 96, 97, 98: DB 미존재 (404). 스킵.
 
 **판정**: PUBLISH 유지. 공개 페이지에 상세 급여/근무지 미노출로 즉시 검증 불가한 필드는 기존값 유지. Fix 없음.
 
+---
+
+## Job #17 [RE-REVIEW] — 덴츠디지털 | 데이터 사이언스(DS) 2027년도 본전형
+
+**상태**: PUBLISHED
+**소스**: https://dd.dentsudigital.co.jp/recruit/newrec/course/
+**나루 공고**: https://www.naru-recruit.com/jobs/17
+**어드민**: https://www.naru-recruit.com/admin/jobs/17?token=jungwoo_naru_server_password_0129
+
+### 리뷰 이력
+| 시각 | 액션 | 상세 |
+|------|------|------|
+| 04/15 18:57 | 재검증 | #16과 동일한 course 랜딩 URL, 2027卒 snar.jp 엔트리 활성 재확인 → PUBLISH 유지 |
+
+### 원문 검증
+- URL 200 ✅ (#16 리뷰와 동일 URL)
+- 2027卒 snar.jp 엔트리 (`dentsudigital.snar.jp`) 활성 ✅
+- 공개 페이지 내 상세 급여/근무지 미노출 → 기존값 유지
+- DS 코스: 코스 소개 페이지 내 "데이터 사이언스" 섹션 존재 확인 (position=GRADUATE_ENGINEER 적합)
+
+**판정**: PUBLISH 유지. Fix 없음.
+
+
 
 
