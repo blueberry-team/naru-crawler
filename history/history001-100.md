@@ -5248,3 +5248,21 @@ jobId 96, 97, 98: DB 미존재 (404). 스킵.
 | 04/16 05:47 | 재검증 | 페이지 활성, title="プロダクトデザイナー職 2027年卒 募集要項" DB 일치 |
 
 **판정**: PUBLISH 유지. Fix 없음.
+
+---
+
+## Job #82 [RE-REVIEW] — 사이보즈 | 프로덕트 엔지니어직 2027년 졸업 (마감 Fix)
+
+**소스**: https://cybozu.co.jp/recruit/entry/newgrad/product-engineer2027.html → 리다이렉트 "この募集は終了しました"
+
+### 리뷰 이력
+| 시각 | 액션 | 상세 |
+|------|------|------|
+| 04/16 05:57 | 마감 Fix | URL이 closed.html 로 리다이렉트 (Applications closed). isDeadlinePassed null→true. PUT 204 ✅ |
+
+### Fix 적용 내역
+| 항목 | 수정 전 | 수정 후 | API |
+|------|---------|---------|-----|
+| isDeadlinePassed | null | true | PUT 204 ✅ |
+
+**판정**: PUBLISH + 마감 플래그 적용.
