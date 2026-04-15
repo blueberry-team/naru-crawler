@@ -5383,3 +5383,16 @@ jobId 96, 97, 98: DB 미존재 (404). 스킵.
 | 04/16 07:27 | 재검증 | 동일 URL 활성, 원문에 札幌/名古屋/大阪 지역 확약 코스 확인 — DB locations ["HOKKAIDO","OSAKA","AICHI"] 원문 일치 |
 
 **판정**: PUBLISH 유지. Fix 없음.
+
+---
+
+## Job #92 [RE-REVIEW] — freee | 비즈니스직 본전형 2027 졸업 (PUBLISH 유지)
+
+**소스**: https://jobs.freee.co.jp/entry/newgrads/ (#89~#91과 동일)
+
+### 리뷰 이력
+| 시각 | 액션 | 상세 |
+|------|------|------|
+| 04/16 07:37 | 재검증 | 동일 URL 활성, 비즈니스직 카테고리 포함 |
+
+**판정**: PUBLISH 유지. Fix 없음.
