@@ -5396,3 +5396,16 @@ jobId 96, 97, 98: DB 미존재 (404). 스킵.
 | 04/16 07:37 | 재검증 | 동일 URL 활성, 비즈니스직 카테고리 포함 |
 
 **판정**: PUBLISH 유지. Fix 없음.
+
+---
+
+## Job #95 [RE-REVIEW] — LY Corp | Security Engineering Expert (마감 유지)
+
+**소스**: https://www.lycorp.co.jp/ja/recruit/newgrads/engineer/jd0003/
+
+### 리뷰 이력
+| 시각 | 액션 | 상세 |
+|------|------|------|
+| 04/16 07:47 | 재검증 | #24/#25와 동일 패턴 — "2027年度新卒採用エントリー受付は終了" 명시, isDeadlinePassed=true 유지 |
+
+**판정**: PUBLISH 유지. Fix 없음.
