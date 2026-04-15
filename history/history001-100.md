@@ -4619,3 +4619,16 @@ jobId 96, 97, 98: DB 미존재 (404). 스킵.
 - deadline null + isDeadlinePassed null → 아직 진행중이므로 적절
 
 **판정**: PUBLISH 유지. Fix 없음.
+
+---
+
+## Job #34 [RE-REVIEW] — 액센추어 | 2027년도 콘텐츠 디자인 본전형 (PUBLISH 유지)
+
+**소스**: https://www.accenture.com/jp-ja/careers/life-at-accenture/entry-level (#33과 동일)
+
+### 리뷰 이력
+| 시각 | 액션 | 상세 |
+|------|------|------|
+| 04/15 21:47 | 재검증 | #33에서 동일 URL 확인 — "2027年卒 エントリー受付中", 募集職種 리스트에 "コンテンツデザイン" 포함 |
+
+**판정**: PUBLISH 유지. Fix 없음.
