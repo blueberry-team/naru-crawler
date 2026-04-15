@@ -4723,3 +4723,16 @@ jobId 96, 97, 98: DB 미존재 (404). 스킵.
 | 04/15 22:57 | 재검증 | 동일 URL 엔트리 활성. 근무지 TOKYO+OSAKA 유지 |
 
 **판정**: PUBLISH 유지. Fix 없음.
+
+---
+
+## Job #42 [RE-REVIEW] — 액센추어 | 2027년도 마케팅 본전형 (PUBLISH 유지)
+
+**소스**: https://www.accenture.com/jp-ja/careers/life-at-accenture/entry-level (#33~#41과 동일)
+
+### 리뷰 이력
+| 시각 | 액션 | 상세 |
+|------|------|------|
+| 04/15 23:07 | 재검증 | 동일 URL 엔트리 활성. 근무지 TOKYO 유지 |
+
+**판정**: PUBLISH 유지. Fix 없음.
