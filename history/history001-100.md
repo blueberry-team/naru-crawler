@@ -4983,3 +4983,16 @@ jobId 96, 97, 98: DB 미존재 (404). 스킵.
 | 04/16 02:27 | 재검증 | URL 여전히 404, publishStatus=DRAFT 정확 |
 
 **판정**: DRAFT 유지 (원본 삭제됨). 추가 조치 불필요.
+
+---
+
+## Job #61 [RE-REVIEW] — MIXI | 디자인직 게임 UI 디자이너 2027 (PUBLISH 유지)
+
+**소스**: https://mixigroup-recruit.mixi.co.jp/recruitment-category/new-graduate/13536/
+
+### 리뷰 이력
+| 시각 | 액션 | 상세 |
+|------|------|------|
+| 04/16 02:37 | 재검증 | 페이지 활성 (200), title 일치, 종료 키워드 없음 |
+
+**판정**: PUBLISH 유지. Fix 없음.
