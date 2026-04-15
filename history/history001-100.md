@@ -4996,3 +4996,16 @@ jobId 96, 97, 98: DB 미존재 (404). 스킵.
 | 04/16 02:37 | 재검증 | 페이지 활성 (200), title 일치, 종료 키워드 없음 |
 
 **판정**: PUBLISH 유지. Fix 없음.
+
+---
+
+## Job #62 [RE-REVIEW] — MIXI | 디자인직 CG 영상 크리에이터 2027 (PUBLISH 유지)
+
+**소스**: https://mixigroup-recruit.mixi.co.jp/recruitment-category/new-graduate/13672/
+
+### 리뷰 이력
+| 시각 | 액션 | 상세 |
+|------|------|------|
+| 04/16 02:47 | 재검증 | 페이지 활성 (200), title 일치 |
+
+**판정**: PUBLISH 유지. Fix 없음.
