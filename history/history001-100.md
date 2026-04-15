@@ -4930,3 +4930,16 @@ jobId 96, 97, 98: DB 미존재 (404). 스킵.
 | 04/16 01:47 | 재검증 | URL 여전히 404, publishStatus=DRAFT 정확 |
 
 **판정**: DRAFT 유지 (원본 삭제됨). 추가 조치 불필요.
+
+---
+
+## Job #57 [RE-REVIEW] — MIXI | 엔지니어직 (게임 클라이언트, 몬스터 스트라이크 확약) (PUBLISH 유지)
+
+**소스**: https://mixigroup-recruit.mixi.co.jp/occupation/engineer/13425/
+
+### 리뷰 이력
+| 시각 | 액션 | 상세 |
+|------|------|------|
+| 04/16 01:57 | 재검증 | 페이지 활성, title 일치, 종료 키워드 없음 |
+
+**판정**: PUBLISH 유지. Fix 없음.
