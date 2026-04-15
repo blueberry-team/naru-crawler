@@ -5292,3 +5292,16 @@ jobId 96, 97, 98: DB 미존재 (404). 스킵.
 | 04/16 06:17 | 재검증 | 페이지 활성 (closed.html로 리다이렉트 아님), title 일치 |
 
 **판정**: PUBLISH 유지. Fix 없음.
+
+---
+
+## Job #85 [RE-REVIEW] — 사이보즈 | 프로덕트 매니저직 2027년 졸업 (PUBLISH 유지)
+
+**소스**: https://cybozu.co.jp/recruit/entry/newgrad/product-manager2027.html
+
+### 리뷰 이력
+| 시각 | 액션 | 상세 |
+|------|------|------|
+| 04/16 06:27 | 재검증 | 페이지 활성 (closed.html 리다이렉트 아님), title 일치 |
+
+**판정**: PUBLISH 유지. Fix 없음.
