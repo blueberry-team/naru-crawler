@@ -763,3 +763,24 @@
 - **모집상태**: 활성
 
 **최종 판정**: PUBLISH 유지. Fix 없음.
+
+---
+
+## Job #239 — コロプラ | 사운드 크리에이터
+
+**상태**: PUBLISHED
+**소스**: https://colopl-recruit.snar.jp/entry.aspx?entryid=76679003-1b23-4a8b-b560-dcdcad7806f5
+**나루 공고**: https://www.naru-recruit.com/jobs/239
+**어드민**: https://www.naru-recruit.com/admin/jobs/239?token=jungwoo_naru_server_password_0129
+
+### 리뷰 이력
+| 시각 | 액션 | 상세 |
+|------|------|------|
+| 04/17 08:08 | 재검증 | 페이지 활성 ("現在募集中" 확인) |
+
+### 원문 현황 (최신)
+- **勤務地**: DB TOKYO 유지
+- **給与**: 4,140,000 (DB)
+- **모집상태**: 활성
+
+**최종 판정**: PUBLISH 유지. Fix 없음.
