@@ -842,3 +842,19 @@
 | 04/17 08:38 | Unpublish | HRMOS URL → "ページが見つかりませんでした". PUT 204 ✅ |
 
 **최종 판정**: Unpublish (DRAFT 복귀).
+
+---
+
+## Job #243 — GO | 2028년 엔지니어 인턴
+
+**상태**: DRAFT (unpublish 적용)
+**소스**: https://public.n-ats.hrmos.co/goinc/jobs/2229436005803479040 — **not-found 리다이렉트**
+**나루 공고**: https://www.naru-recruit.com/jobs/243
+**어드민**: https://www.naru-recruit.com/admin/jobs/243?token=jungwoo_naru_server_password_0129
+
+### 리뷰 이력
+| 시각 | 액션 | 상세 |
+|------|------|------|
+| 04/17 08:48 | Unpublish | HRMOS URL → not-found. GO 2건(#242/#243) 모두 삭제됨. PUT 204 ✅ |
+
+**최종 판정**: Unpublish (DRAFT 복귀).
