@@ -1713,3 +1713,24 @@
 - **모집상태**: 활성
 
 **최종 판정**: PUBLISH 유지. Fix 없음.
+
+---
+
+## Job #182 — Sansan | 27졸 머신러닝 엔지니어
+
+**상태**: PUBLISHED
+**소스**: https://jp.corp-sansan.com/recruit/newgrads/jobs/machine-learning-2027/
+**나루 공고**: https://www.naru-recruit.com/jobs/182
+**어드민**: https://www.naru-recruit.com/admin/jobs/182?token=jungwoo_naru_server_password_0129
+
+### 리뷰 이력
+| 시각 | 액션 | 상세 |
+|------|------|------|
+| 04/16 21:51 | 재검증 | 페이지 활성, title 일치 |
+
+### 원문 현황 (최신)
+- **勤務地**: DB TOKYO/AICHI/OSAKA/FUKUOKA 유지
+- **給与**: 5,680,000 (DB)
+- **모집상태**: 활성
+
+**최종 판정**: PUBLISH 유지. Fix 없음.
