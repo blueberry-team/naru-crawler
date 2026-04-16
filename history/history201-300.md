@@ -658,3 +658,24 @@
 - **모집상태**: 활성
 
 **최종 판정**: PUBLISH 유지. Fix 없음.
+
+---
+
+## Job #234 — コロプラ | 디자이너
+
+**상태**: PUBLISHED
+**소스**: https://colopl-recruit.snar.jp/entry.aspx?entryid=1a3f720d-b6ad-4ee2-9cba-ae1ce94bf0d9
+**나루 공고**: https://www.naru-recruit.com/jobs/234
+**어드민**: https://www.naru-recruit.com/admin/jobs/234?token=jungwoo_naru_server_password_0129
+
+### 리뷰 이력
+| 시각 | 액션 | 상세 |
+|------|------|------|
+| 04/17 07:18 | 재검증 | 페이지에 "募集終了"(과거 선고 차수) + "現在募集中"(本選考) 공존 — 본선고 활성 |
+
+### 원문 현황 (최신)
+- **勤務地**: DB TOKYO 유지
+- **給与**: 4,140,000 (DB)
+- **모집상태**: 활성 (本選考 모집 중)
+
+**최종 판정**: PUBLISH 유지. Fix 없음.
