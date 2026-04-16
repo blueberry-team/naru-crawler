@@ -959,3 +959,23 @@
 | 04/16 15:41 | Unpublish | #143/#144와 동일 — Workable URL not_found. PUT 204 ✅ |
 
 **최종 판정**: Unpublish (DRAFT 복귀). Mercari 전 공고 (#143~#145) Workable에서 삭제됨.
+
+---
+
+## Job #146 — Mercari | 사전 지원 / Pre Entry (NewGrads)
+
+**상태**: PUBLISHED
+**소스**: https://apply.workable.com/mercari/j/A1AB519400/
+**나루 공고**: https://www.naru-recruit.com/jobs/146
+**어드민**: https://www.naru-recruit.com/admin/jobs/146?token=jungwoo_naru_server_password_0129
+
+### 리뷰 이력
+| 시각 | 액션 | 상세 |
+|------|------|------|
+| 04/16 15:51 | 재검증 | 페이지 활성 (not_found 아님), title="プレエントリー / Pre Entry (NewGrads)" 일치 |
+
+### 원문 현황 (최신)
+- **勤務地**: DB TOKYO 유지
+- **모집상태**: 활성 (프리엔트리 접수 중)
+
+**최종 판정**: PUBLISH 유지. Fix 없음.
