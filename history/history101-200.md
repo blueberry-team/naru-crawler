@@ -210,3 +210,24 @@
 - **모집상태**: 활성
 
 **최종 판정**: PUBLISH 유지. Fix 없음.
+
+---
+
+## Job #108 — KDDI | 디자인
+
+**상태**: PUBLISHED
+**소스**: https://career.kddi.com/freshers/recruit/
+**나루 공고**: https://www.naru-recruit.com/jobs/108
+**어드민**: https://www.naru-recruit.com/admin/jobs/108?token=jungwoo_naru_server_password_0129
+
+### 리뷰 이력
+| 시각 | 액션 | 상세 |
+|------|------|------|
+| 04/16 09:51 | 재검증 | 페이지 활성, "デザイン" 직종 포함 확인, 종료 키워드 없음 |
+
+### 원문 현황 (최신)
+- **勤務地**: (공개 페이지 미노출, DB 기존값 유지)
+- **給与**: 3,660,000 (DB)
+- **모집상태**: 활성
+
+**최종 판정**: PUBLISH 유지. Fix 없음.
