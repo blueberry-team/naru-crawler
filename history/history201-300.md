@@ -858,3 +858,24 @@
 | 04/17 08:48 | Unpublish | HRMOS URL → not-found. GO 2건(#242/#243) 모두 삭제됨. PUT 204 ✅ |
 
 **최종 판정**: Unpublish (DRAFT 복귀).
+
+---
+
+## Job #244 — GO | 2027년 신입 채용(비즈니스 종합직)
+
+**상태**: PUBLISHED
+**소스**: https://hrmos.co/pages/goinc/jobs/2012061588896153628
+**나루 공고**: https://www.naru-recruit.com/jobs/244
+**어드민**: https://www.naru-recruit.com/admin/jobs/244?token=jungwoo_naru_server_password_0129
+
+### 리뷰 이력
+| 시각 | 액션 | 상세 |
+|------|------|------|
+| 04/17 08:58 | 재검증 | 페이지 활성, title 일치. (#242/#243은 404였지만 이 공고는 활성) |
+
+### 원문 현황 (최신)
+- **勤務地**: DB TOKYO 유지
+- **給与**: 4,500,000 (DB)
+- **모집상태**: 활성
+
+**최종 판정**: PUBLISH 유지. Fix 없음.
