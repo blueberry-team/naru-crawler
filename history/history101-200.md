@@ -1801,3 +1801,24 @@
 - **모집상태**: 활성
 
 **최종 판정**: PUBLISH 유지. Fix 없음.
+
+---
+
+## Job #192 — SmartHR | 신입 프로덕트 엔지니어(2027년 입사)
+
+**상태**: PUBLISHED
+**소스**: https://open.talentio.com/r/1/c/smarthr/pages/112855
+**나루 공고**: https://www.naru-recruit.com/jobs/192
+**어드민**: https://www.naru-recruit.com/admin/jobs/192?token=jungwoo_naru_server_password_0129
+
+### 리뷰 이력
+| 시각 | 액션 | 상세 |
+|------|------|------|
+| 04/16 22:31 | 재검증 | 페이지 활성, title 일치 |
+
+### 원문 현황 (최신)
+- **勤務地**: DB TOKYO 유지
+- **給与**: 5,040,000 (DB)
+- **모집상태**: 활성
+
+**최종 판정**: PUBLISH 유지. Fix 없음.
