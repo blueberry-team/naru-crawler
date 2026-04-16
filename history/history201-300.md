@@ -219,3 +219,23 @@
 - **모집상태**: 활성
 
 **최종 판정**: PUBLISH 유지. Fix 없음.
+
+---
+
+## Job #212 — トランスコスモス | BPO 서비스 매니지먼트
+
+**상태**: PUBLISHED
+**소스**: https://www.trans-cosmos.co.jp/saiyou/fresh/career/servicemanagement/
+**나루 공고**: https://www.naru-recruit.com/jobs/212
+**어드민**: https://www.naru-recruit.com/admin/jobs/212?token=jungwoo_naru_server_password_0129
+
+### 리뷰 이력
+| 시각 | 액션 | 상세 |
+|------|------|------|
+| 04/17 03:48 | 재검증 | 페이지 활성, title 일치 |
+
+### 원문 현황 (최신)
+- **勤務地**: DB 7곳 유지
+- **모집상태**: 활성
+
+**최종 판정**: PUBLISH 유지. Fix 없음.
