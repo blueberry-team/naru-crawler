@@ -1189,3 +1189,24 @@
 - **모집상태**: 활성
 
 **최종 판정**: PUBLISH 유지. Fix 없음.
+
+---
+
+## Job #157 — Visional | 2027년 비즈니스 직무 겨울 전형
+
+**상태**: PUBLISHED
+**소스**: https://public.n-ats.hrmos.co/rookie/jobs/2148935460271534080
+**나루 공고**: https://www.naru-recruit.com/jobs/157
+**어드민**: https://www.naru-recruit.com/admin/jobs/157?token=jungwoo_naru_server_password_0129
+
+### 리뷰 이력
+| 시각 | 액션 | 상세 |
+|------|------|------|
+| 04/16 17:41 | 재검증 | 페이지 활성, title 일치 |
+
+### 원문 현황 (최신)
+- **勤務地**: DB TOKYO 유지
+- **給与**: 5,000,000 (DB)
+- **모집상태**: 활성
+
+**최종 판정**: PUBLISH 유지. Fix 없음.
