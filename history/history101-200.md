@@ -1168,3 +1168,24 @@
 - **모집상태**: 활성
 
 **최종 판정**: PUBLISH 유지. Fix 없음.
+
+---
+
+## Job #156 — Visional | 2028년 비즈니스 직무 신입 채용 여름 전형
+
+**상태**: PUBLISHED
+**소스**: https://public.n-ats.hrmos.co/rookie/jobs/2217199433668956160
+**나루 공고**: https://www.naru-recruit.com/jobs/156
+**어드민**: https://www.naru-recruit.com/admin/jobs/156?token=jungwoo_naru_server_password_0129
+
+### 리뷰 이력
+| 시각 | 액션 | 상세 |
+|------|------|------|
+| 04/16 17:31 | 재검증 | 페이지 활성, title="2028年 ビジネス職新卒採用 夏選考" 일치 |
+
+### 원문 현황 (최신)
+- **勤務地**: DB TOKYO 유지
+- **給与**: 5,000,000 (DB)
+- **모집상태**: 활성
+
+**최종 판정**: PUBLISH 유지. Fix 없음.
