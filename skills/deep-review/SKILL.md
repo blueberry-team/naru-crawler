@@ -30,7 +30,8 @@ argument-hint: "개수=5 | jobIds=1153,1154 | company=hitachi 개수=10"
 7. [`rules/04-quality.md`](./rules/04-quality.md)
 8. [`rules/05-duplicate.md`](./rules/05-duplicate.md)
 9. [`rules/06-decision.md`](./rules/06-decision.md)
-10. [`rules/07-history-log.md`](./rules/07-history-log.md)
+
+히스토리 기록 포맷은 공용 스킬 [`../log-history/SKILL.md`](../log-history/SKILL.md)를 따른다.
 
 출력 형식이 흔들리지 않도록 필요하면 예시 파일도 읽는다.
 

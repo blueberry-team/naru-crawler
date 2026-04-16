@@ -258,3 +258,8 @@ print(f'PUBLISHED 총 {len(items)}건')"
 - [`docs/REVIEW_GUIDE.md`](../../docs/REVIEW_GUIDE.md) — 25개 평가 기준
 - [`skills/deep-review-fix/`](../deep-review-fix/) — Deep Review 후 수정 스킬
 - [`history/`](../../history/) — Deep Review 결과 + cleanup 로그
+
+
+## 히스토리 기록
+
+작업 결과는 공용 포맷을 따라 `history/` md 파일에 기록한다: [`../log-history/SKILL.md`](../log-history/SKILL.md).

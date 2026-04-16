@@ -108,4 +108,4 @@ skills/{동사}-{명사}/
 - `publishStatus`는 항상 `DRAFT` (크롤링 시)
 - 명시되지 않은 사실은 추측하지 않음
 - 회사 전체 정보와 개별 공고 정보를 구분 ([상세](../docs/REVIEW_GUIDE.md))
-- 모든 작업 결과는 `history/` 폴더에 기록
+- 모든 작업 결과는 `history/` 폴더에 기록 — 포맷은 [`log-history`](log-history/SKILL.md) 공용 스킬을 따름
