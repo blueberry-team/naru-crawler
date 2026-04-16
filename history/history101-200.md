@@ -168,3 +168,24 @@
 - **모집상태**: 활성
 
 **최종 판정**: PUBLISH 유지. Fix 없음.
+
+---
+
+## Job #106 — 아빔 | Planning & Operation / 법무 코스
+
+**상태**: PUBLISHED
+**소스**: https://www.abeam.com/jp/ja/recruit/newgrad/requirements2027/po/ (#104/#105와 동일)
+**나루 공고**: https://www.naru-recruit.com/jobs/106
+**어드민**: https://www.naru-recruit.com/admin/jobs/106?token=jungwoo_naru_server_password_0129
+
+### 리뷰 이력
+| 시각 | 액션 | 상세 |
+|------|------|------|
+| 04/16 09:31 | 재검증 | #104와 동일 P&O 페이지 확인, 勤務地=東京 + 월급×12=3,928,800 일치 |
+
+### 원문 현황 (최신)
+- **勤務地**: 東京
+- **給与**: 학부 월급 327,400 × 12 = 3,928,800
+- **모집상태**: 활성
+
+**최종 판정**: PUBLISH 유지. Fix 없음.
