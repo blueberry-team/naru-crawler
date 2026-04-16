@@ -907,3 +907,23 @@
 - **모집상태**: 활성
 
 **최종 판정**: PUBLISH 유지. Fix 없음.
+
+---
+
+## Job #143 — Mercari | Service Designer 2027졸
+
+**상태**: DRAFT (unpublish 적용)
+**소스**: https://apply.workable.com/mercari/j/FBBCBC0979/ — **리다이렉트 → ?not_found=true (공고 삭제)**
+**나루 공고**: https://www.naru-recruit.com/jobs/143
+**어드민**: https://www.naru-recruit.com/admin/jobs/143?token=jungwoo_naru_server_password_0129
+
+### 리뷰 이력
+| 시각 | 액션 | 상세 |
+|------|------|------|
+| 04/16 15:21 | Unpublish | Workable URL → not_found 리다이렉트. 원본 삭제 확인 → publishStatus DRAFT 복귀. PUT 204 ✅ |
+
+### 원문 현황 (최신)
+- **URL 상태**: 404 (not_found=true 리다이렉트)
+- **모집상태**: 원본 삭제됨
+
+**최종 판정**: Unpublish (DRAFT 복귀).
