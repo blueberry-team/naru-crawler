@@ -1968,3 +1968,33 @@
 - **모집상태**: 활성
 
 **최종 판정**: PUBLISH 유지. Fix 없음.
+
+---
+
+## Job #200 — トランスコスモス | 컨택센터 매니저
+
+**상태**: PUBLISHED
+**소스**: https://www.trans-cosmos.co.jp/saiyou/fresh/career/ccmanager/
+**나루 공고**: https://www.naru-recruit.com/jobs/200
+**어드민**: https://www.naru-recruit.com/admin/jobs/200?token=jungwoo_naru_server_password_0129
+
+### 리뷰 이력
+| 시각 | 액션 | 상세 |
+|------|------|------|
+| 04/16 23:51 | 재검증 | 페이지 활성, title="コンタクトセンターマネジャー" 일치 |
+
+### 원문 현황 (최신)
+- **勤務地**: DB 7곳 유지
+- **모집상태**: 활성
+
+**최종 판정**: PUBLISH 유지. Fix 없음.
+
+---
+
+> 🏁 **history/200 완료!**
+> jobId 101~200 전체 재검증 완료.
+> - 실존: 91건 (#124/#125/#185~#190 404 스킵 = 8건 미존재)
+> - PUBLISH 유지: 대다수
+> - Unpublish (DRAFT 복귀): #143/#144/#145 Mercari (3건, Workable URL 삭제)
+> - 마감 Fix (isDeadlinePassed=true): #194 SmartHR 비즈니스
+> - 회사: 아빔, KDDI, NRI, SMBC, Mercari, JSOL, Visional, 레버리지즈, 덴츠소켄, Simplex, NSSOL, CTC, CTC-T, Sansan, SmartHR, トランスコスモス
