@@ -571,3 +571,24 @@
 - **모집상태**: 활성
 
 **최종 판정**: PUBLISH 유지. Fix 없음.
+
+---
+
+## Job #127 — NRI | 애플리케이션 엔지니어
+
+**상태**: PUBLISHED
+**소스**: https://working.nri.co.jp/recruit/2027/contents/recruiting/application.html
+**나루 공고**: https://www.naru-recruit.com/jobs/127
+**어드민**: https://www.naru-recruit.com/admin/jobs/127?token=jungwoo_naru_server_password_0129
+
+### 리뷰 이력
+| 시각 | 액션 | 상세 |
+|------|------|------|
+| 04/16 12:41 | 재검증 | 勤務地=国内事業所+海外 DB NATIONWIDE 일치, 대졸 336,500×12=4,038,000 DB 일치 |
+
+### 원문 현황 (최신)
+- **勤務地**: 国内事業所、海外拠点 — DB ["NATIONWIDE"] ✅
+- **給与**: 대졸 336,500円/월 × 12 = 4,038,000 (DB 일치)
+- **모집상태**: 활성
+
+**최종 판정**: PUBLISH 유지. Fix 없음.
