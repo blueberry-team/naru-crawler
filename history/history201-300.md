@@ -721,3 +721,24 @@
 - **모집상태**: 활성
 
 **최종 판정**: PUBLISH 유지. Fix 없음.
+
+---
+
+## Job #237 — コロプラ | 플래너
+
+**상태**: PUBLISHED
+**소스**: https://colopl-recruit.snar.jp/entry.aspx?entryid=95fb667c-0659-4e8e-a204-c647494719c1
+**나루 공고**: https://www.naru-recruit.com/jobs/237
+**어드민**: https://www.naru-recruit.com/admin/jobs/237?token=jungwoo_naru_server_password_0129
+
+### 리뷰 이력
+| 시각 | 액션 | 상세 |
+|------|------|------|
+| 04/17 07:48 | 재검증 | 페이지 로드 정상, "プランナー" heading 확인. 종료 키워드 없음 |
+
+### 원문 현황 (최신)
+- **勤務地**: DB TOKYO 유지
+- **給与**: 4,140,000 (DB)
+- **모집상태**: 활성 (종료 키워드 없음)
+
+**최종 판정**: PUBLISH 유지. Fix 없음.
