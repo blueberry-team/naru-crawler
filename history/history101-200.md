@@ -546,3 +546,28 @@
 - **모집상태**: 활성
 
 **최종 판정**: PUBLISH 유지. Fix 없음.
+
+---
+
+## Job #124, #125 — 미존재 (404 스킵)
+
+---
+
+## Job #126 — NRI | 에리어직 시스템 엔지니어(삿포로·후쿠오카)
+
+**상태**: PUBLISHED
+**소스**: https://working.nri.co.jp/recruit/2027/contents/recruiting/application_area.html
+**나루 공고**: https://www.naru-recruit.com/jobs/126
+**어드민**: https://www.naru-recruit.com/admin/jobs/126?token=jungwoo_naru_server_password_0129
+
+### 리뷰 이력
+| 시각 | 액션 | 상세 |
+|------|------|------|
+| 04/16 12:31 | 재검증 | Playwright 원문 확인 — 勤務地=札幌/福岡 DB 일치, 초임급 316,500×12=3,798,000 DB 일치 |
+
+### 원문 현황 (최신)
+- **勤務地**: 札幌(NRI札幌開発センター) or 福岡(NRI福岡開発センター) — DB ["HOKKAIDO","FUKUOKA"] ✅
+- **給与**: 대졸 316,500円/월 × 12 = 3,798,000 (DB 일치)
+- **모집상태**: 활성
+
+**최종 판정**: PUBLISH 유지. Fix 없음.
