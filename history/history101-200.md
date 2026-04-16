@@ -979,3 +979,24 @@
 - **모집상태**: 활성 (프리엔트리 접수 중)
 
 **최종 판정**: PUBLISH 유지. Fix 없음.
+
+---
+
+## Job #147 — JSOL | ERP(SAP·Biz∫) 코스
+
+**상태**: PUBLISHED
+**소스**: https://www.jsol-recruit.com/recruit/requirement.html
+**나루 공고**: https://www.naru-recruit.com/jobs/147
+**어드민**: https://www.naru-recruit.com/admin/jobs/147?token=jungwoo_naru_server_password_0129
+
+### 리뷰 이력
+| 시각 | 액션 | 상세 |
+|------|------|------|
+| 04/16 16:01 | 재검증 | 페이지 활성, ERP/SAP 키워드 포함 확인 |
+
+### 원문 현황 (최신)
+- **勤務地**: DB TOKYO/OSAKA/AICHI 유지
+- **給与**: 2,922,000 (DB)
+- **모집상태**: 활성
+
+**최종 판정**: PUBLISH 유지. Fix 없음.
