@@ -126,3 +126,24 @@
 | 04/16 08:57 | 재검증 | 동일 URL 활성, 勤務地 "AIコンサルタントコース：東京" DB ["TOKYO"] 일치 |
 
 **판정**: PUBLISH 유지. Fix 없음.
+
+---
+
+## Job #104 — 아빔 | Planning & Operation / 경영관리 코스
+
+**상태**: PUBLISHED
+**소스**: https://www.abeam.com/jp/ja/recruit/newgrad/requirements2027/po/
+**나루 공고**: https://www.naru-recruit.com/jobs/104
+**어드민**: https://www.naru-recruit.com/admin/jobs/104?token=jungwoo_naru_server_password_0129
+
+### 리뷰 이력
+| 시각 | 액션 | 상세 |
+|------|------|------|
+| 04/16 09:11 | 재검증 | Playwright 원문 확인 — 勤務地=東京 DB 일치, 월급×12=3,928,800 (salaryMin 정확 일치) |
+
+### 원문 현황 (최신)
+- **勤務地**: 東京
+- **給与**: 학부 月額 327,400 (想定年収 5,329,000) / 수료 354,500 (5,753,400)
+- **모집상태**: 활성 (募集終了 키워드 없음)
+
+**최종 판정**: PUBLISH 유지. Fix 없음.
