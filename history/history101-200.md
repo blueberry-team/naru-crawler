@@ -927,3 +927,19 @@
 - **모집상태**: 원본 삭제됨
 
 **최종 판정**: Unpublish (DRAFT 복귀).
+
+---
+
+## Job #144 — Mercari | UI/UX Designer 2027졸
+
+**상태**: DRAFT (unpublish 적용)
+**소스**: https://apply.workable.com/mercari/j/578C32DC7C/ — **리다이렉트 → ?not_found=true**
+**나루 공고**: https://www.naru-recruit.com/jobs/144
+**어드민**: https://www.naru-recruit.com/admin/jobs/144?token=jungwoo_naru_server_password_0129
+
+### 리뷰 이력
+| 시각 | 액션 | 상세 |
+|------|------|------|
+| 04/16 15:31 | Unpublish | #143과 동일 — Workable URL not_found. PUT 204 ✅ |
+
+**최종 판정**: Unpublish (DRAFT 복귀).
