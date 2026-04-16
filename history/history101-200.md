@@ -483,3 +483,24 @@
 - **모집상태**: 활성
 
 **최종 판정**: PUBLISH 유지. Fix 없음.
+
+---
+
+## Job #121 — KDDI | 리걸 & 라이선스
+
+**상태**: PUBLISHED
+**소스**: https://career.kddi.com/freshers/recruit/ (#108~#120과 동일)
+**나루 공고**: https://www.naru-recruit.com/jobs/121
+**어드민**: https://www.naru-recruit.com/admin/jobs/121?token=jungwoo_naru_server_password_0129
+
+### 리뷰 이력
+| 시각 | 액션 | 상세 |
+|------|------|------|
+| 04/16 12:01 | 재검증 | 동일 URL 활성 |
+
+### 원문 현황 (최신)
+- **勤務地**: DB TOKYO 유지
+- **給与**: 3,660,000 (DB)
+- **모집상태**: 활성
+
+**최종 판정**: PUBLISH 유지. Fix 없음.
