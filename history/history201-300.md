@@ -339,3 +339,24 @@
 - **모집상태**: 활성
 
 **최종 판정**: PUBLISH 유지. Fix 없음.
+
+---
+
+## Job #218 — 후지소프트 | 기술
+
+**상태**: PUBLISHED
+**소스**: https://www.fsi.co.jp/recruit/recruit/info6.html
+**나루 공고**: https://www.naru-recruit.com/jobs/218
+**어드민**: https://www.naru-recruit.com/admin/jobs/218?token=jungwoo_naru_server_password_0129
+
+### 리뷰 이력
+| 시각 | 액션 | 상세 |
+|------|------|------|
+| 04/17 04:48 | 재검증 | 페이지 활성, title="新卒採用情報（2027年卒学生募集要項）| 富士ソフト" 일치 |
+
+### 원문 현황 (최신)
+- **勤務地**: DB NATIONWIDE 유지
+- **給与**: 2,796,000 (DB)
+- **모집상태**: 활성
+
+**최종 판정**: PUBLISH 유지. Fix 없음.
