@@ -592,3 +592,24 @@
 - **모집상태**: 활성
 
 **최종 판정**: PUBLISH 유지. Fix 없음.
+
+---
+
+## Job #128 — NRI | 테크니컬 엔지니어
+
+**상태**: PUBLISHED
+**소스**: https://working.nri.co.jp/recruit/2027/contents/recruiting/application.html (#127과 동일)
+**나루 공고**: https://www.naru-recruit.com/jobs/128
+**어드민**: https://www.naru-recruit.com/admin/jobs/128?token=jungwoo_naru_server_password_0129
+
+### 리뷰 이력
+| 시각 | 액션 | 상세 |
+|------|------|------|
+| 04/16 12:51 | 재검증 | 동일 URL 활성, 勤務地/給与 #127과 동일 체계 |
+
+### 원문 현황 (최신)
+- **勤務地**: DB NATIONWIDE 유지
+- **給与**: 4,038,000 (DB)
+- **모집상태**: 활성
+
+**최종 판정**: PUBLISH 유지. Fix 없음.
