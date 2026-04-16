@@ -360,3 +360,24 @@
 - **모집상태**: 활성
 
 **최종 판정**: PUBLISH 유지. Fix 없음.
+
+---
+
+## Job #219 — 후지소프트 | 영업
+
+**상태**: PUBLISHED
+**소스**: https://www.fsi.co.jp/recruit/recruit/info6.html (#218과 동일)
+**나루 공고**: https://www.naru-recruit.com/jobs/219
+**어드민**: https://www.naru-recruit.com/admin/jobs/219?token=jungwoo_naru_server_password_0129
+
+### 리뷰 이력
+| 시각 | 액션 | 상세 |
+|------|------|------|
+| 04/17 04:58 | 재검증 | 동일 URL 활성 |
+
+### 원문 현황 (최신)
+- **勤務地**: DB NATIONWIDE 유지
+- **給与**: 2,796,000 (DB)
+- **모집상태**: 활성
+
+**최종 판정**: PUBLISH 유지. Fix 없음.
