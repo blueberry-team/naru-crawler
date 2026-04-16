@@ -1210,3 +1210,24 @@
 - **모집상태**: 활성
 
 **최종 판정**: PUBLISH 유지. Fix 없음.
+
+---
+
+## Job #158 — 레버리지즈 | 2027년 졸업 예정 디자이너 코스
+
+**상태**: PUBLISHED
+**소스**: https://recruit.leverages.jp/recruit/graduates/information/
+**나루 공고**: https://www.naru-recruit.com/jobs/158
+**어드민**: https://www.naru-recruit.com/admin/jobs/158?token=jungwoo_naru_server_password_0129
+
+### 리뷰 이력
+| 시각 | 액션 | 상세 |
+|------|------|------|
+| 04/16 17:51 | 재검증 | 페이지 활성, "デザイナー" 키워드 포함 |
+
+### 원문 현황 (최신)
+- **勤務地**: DB NATIONWIDE 유지
+- **給与**: 5,000,000 (DB)
+- **모집상태**: 활성
+
+**최종 판정**: PUBLISH 유지. Fix 없음.
