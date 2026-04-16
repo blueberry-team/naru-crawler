@@ -886,3 +886,24 @@
 - **모집상태**: 활성
 
 **최종 판정**: PUBLISH 유지. Fix 없음.
+
+---
+
+## Job #142 — SMBC | 퀀트 코스
+
+**상태**: PUBLISHED
+**소스**: https://www.smbc-freshers.com/course05/
+**나루 공고**: https://www.naru-recruit.com/jobs/142
+**어드민**: https://www.naru-recruit.com/admin/jobs/142?token=jungwoo_naru_server_password_0129
+
+### 리뷰 이력
+| 시각 | 액션 | 상세 |
+|------|------|------|
+| 04/16 15:11 | 재검증 | 페이지 활성, title="クオンツコース | 三井住友銀行" 일치 |
+
+### 원문 현황 (최신)
+- **勤務地**: DB NATIONWIDE 유지
+- **給与**: 3,600,000 (DB)
+- **모집상태**: 활성
+
+**최종 판정**: PUBLISH 유지. Fix 없음.
