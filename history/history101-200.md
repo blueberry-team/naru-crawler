@@ -943,3 +943,19 @@
 | 04/16 15:31 | Unpublish | #143과 동일 — Workable URL not_found. PUT 204 ✅ |
 
 **최종 판정**: Unpublish (DRAFT 복귀).
+
+---
+
+## Job #145 — Mercari | 소프트웨어 엔지니어 2027졸
+
+**상태**: DRAFT (unpublish 적용)
+**소스**: https://apply.workable.com/mercari/j/7C8DA114D2/ — **리다이렉트 → ?not_found=true**
+**나루 공고**: https://www.naru-recruit.com/jobs/145
+**어드민**: https://www.naru-recruit.com/admin/jobs/145?token=jungwoo_naru_server_password_0129
+
+### 리뷰 이력
+| 시각 | 액션 | 상세 |
+|------|------|------|
+| 04/16 15:41 | Unpublish | #143/#144와 동일 — Workable URL not_found. PUT 204 ✅ |
+
+**최종 판정**: Unpublish (DRAFT 복귀). Mercari 전 공고 (#143~#145) Workable에서 삭제됨.
