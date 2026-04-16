@@ -189,3 +189,24 @@
 - **모집상태**: 활성
 
 **최종 판정**: PUBLISH 유지. Fix 없음.
+
+---
+
+## Job #107 — 아빔 | Planning & Operation / 인사 코스
+
+**상태**: PUBLISHED
+**소스**: https://www.abeam.com/jp/ja/recruit/newgrad/requirements2027/po/ (#104~#106과 동일)
+**나루 공고**: https://www.naru-recruit.com/jobs/107
+**어드민**: https://www.naru-recruit.com/admin/jobs/107?token=jungwoo_naru_server_password_0129
+
+### 리뷰 이력
+| 시각 | 액션 | 상세 |
+|------|------|------|
+| 04/16 09:41 | 재검증 | #104와 동일 P&O 페이지, 勤務地=東京 + 월급×12=3,928,800 일치 |
+
+### 원문 현황 (최신)
+- **勤務地**: 東京
+- **給与**: 학부 월급 327,400 × 12 = 3,928,800
+- **모집상태**: 활성
+
+**최종 판정**: PUBLISH 유지. Fix 없음.
