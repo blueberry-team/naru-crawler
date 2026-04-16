@@ -826,3 +826,19 @@
 - **모집상태**: 활성
 
 **최종 판정**: PUBLISH 유지. Fix 없음.
+
+---
+
+## Job #242 — GO | 2027년 신입 채용(엔지니어 코스)
+
+**상태**: DRAFT (unpublish 적용)
+**소스**: https://hrmos.co/pages/goinc/jobs/2012061588896153624 — **ページが見つかりませんでした (404)**
+**나루 공고**: https://www.naru-recruit.com/jobs/242
+**어드민**: https://www.naru-recruit.com/admin/jobs/242?token=jungwoo_naru_server_password_0129
+
+### 리뷰 이력
+| 시각 | 액션 | 상세 |
+|------|------|------|
+| 04/17 08:38 | Unpublish | HRMOS URL → "ページが見つかりませんでした". PUT 204 ✅ |
+
+**최종 판정**: Unpublish (DRAFT 복귀).
