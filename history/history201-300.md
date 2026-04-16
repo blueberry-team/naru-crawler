@@ -742,3 +742,24 @@
 - **모집상태**: 활성 (종료 키워드 없음)
 
 **최종 판정**: PUBLISH 유지. Fix 없음.
+
+---
+
+## Job #238 — コロプラ | 종합직
+
+**상태**: PUBLISHED
+**소스**: https://colopl-recruit.snar.jp/entry.aspx?entryid=6fe53c5b-2e15-4a92-a5e6-c92c0280971e
+**나루 공고**: https://www.naru-recruit.com/jobs/238
+**어드민**: https://www.naru-recruit.com/admin/jobs/238?token=jungwoo_naru_server_password_0129
+
+### 리뷰 이력
+| 시각 | 액션 | 상세 |
+|------|------|------|
+| 04/17 07:58 | 재검증 | 페이지 활성 ("現在募集中" 확인) |
+
+### 원문 현황 (최신)
+- **勤務地**: DB TOKYO 유지
+- **給与**: 4,140,000 (DB)
+- **모집상태**: 활성
+
+**최종 판정**: PUBLISH 유지. Fix 없음.
