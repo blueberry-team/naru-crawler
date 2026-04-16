@@ -1398,3 +1398,24 @@
 - **모집상태**: 활성
 
 **최종 판정**: PUBLISH 유지. Fix 없음.
+
+---
+
+## Job #167 — NSSOL | 종합직(SE·연구개발·IT 컨설턴트)
+
+**상태**: PUBLISHED
+**소스**: https://www.nssol.nipponsteel.com/recruiting/job/requirement/
+**나루 공고**: https://www.naru-recruit.com/jobs/167
+**어드민**: https://www.naru-recruit.com/admin/jobs/167?token=jungwoo_naru_server_password_0129
+
+### 리뷰 이력
+| 시각 | 액션 | 상세 |
+|------|------|------|
+| 04/16 19:21 | 재검증 | 페이지 활성, title="新卒採用 募集要項 | 日鉄ソリューションズ" 일치. locations=UNKNOWN 유지 (공개 페이지 勤務地 미노출) |
+
+### 원문 현황 (최신)
+- **勤務地**: DB UNKNOWN 유지 (원문 미노출)
+- **給与**: 3,336,000 (DB)
+- **모집상태**: 활성
+
+**최종 판정**: PUBLISH 유지. Fix 없음.
