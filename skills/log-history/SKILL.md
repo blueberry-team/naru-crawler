@@ -1,4 +1,9 @@
-# 리뷰 히스토리 기록 포맷
+---
+name: log-history
+description: 나루 공고 리뷰/수정/마감정리 작업을 history/ 폴더의 md 파일에 기록할 때 따르는 공통 포맷. deep-review, fix-reviewed, cleanup-deadline 등에서 공유.
+---
+
+# log-history — 리뷰 히스토리 기록 포맷
 
 ## 원칙
 

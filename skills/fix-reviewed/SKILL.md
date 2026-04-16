@@ -225,3 +225,8 @@ ls history/history*.md
 - [`docs/REVIEW_GUIDE.md`](../../docs/REVIEW_GUIDE.md) — 25개 평가 기준
 - [`history/`](../../history/) — Deep Review 결과 아카이브
 - [`skills/draft-review-publish/`](../draft-review-publish/) — 기존 리뷰·퍼블리쉬 스킬
+
+
+## 히스토리 기록
+
+작업 결과는 공용 포맷을 따라 `history/` md 파일에 기록한다: [`../log-history/SKILL.md`](../log-history/SKILL.md).
