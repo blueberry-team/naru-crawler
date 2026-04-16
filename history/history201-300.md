@@ -553,3 +553,24 @@
 - **모집상태**: 활성
 
 **최종 판정**: PUBLISH 유지. Fix 없음.
+
+---
+
+## Job #229 — CAPCOM | 아티스트
+
+**상태**: PUBLISHED
+**소스**: https://www.capcom.co.jp/recruit/graduate/
+**나루 공고**: https://www.naru-recruit.com/jobs/229
+**어드민**: https://www.naru-recruit.com/admin/jobs/229?token=jungwoo_naru_server_password_0129
+
+### 리뷰 이력
+| 시각 | 액션 | 상세 |
+|------|------|------|
+| 04/17 06:28 | 재검증 | 페이지 활성, title="カプコンI採用情報I新卒採用" 일치. 새 회사(CAPCOM) |
+
+### 원문 현황 (최신)
+- **勤務地**: DB OSAKA/TOKYO 유지
+- **給与**: 3,600,000 (DB)
+- **모집상태**: 활성
+
+**최종 판정**: PUBLISH 유지. Fix 없음.
