@@ -252,3 +252,24 @@
 - **모집상태**: 활성
 
 **최종 판정**: PUBLISH 유지. Fix 없음.
+
+---
+
+## Job #110 — KDDI | 솔루션 엔지니어
+
+**상태**: PUBLISHED
+**소스**: https://career.kddi.com/freshers/recruit/ (#108/#109와 동일)
+**나루 공고**: https://www.naru-recruit.com/jobs/110
+**어드민**: https://www.naru-recruit.com/admin/jobs/110?token=jungwoo_naru_server_password_0129
+
+### 리뷰 이력
+| 시각 | 액션 | 상세 |
+|------|------|------|
+| 04/16 10:11 | 재검증 | 동일 URL 활성, 솔루션 엔지니어 직종 포함 |
+
+### 원문 현황 (최신)
+- **勤務地**: (공개 페이지 미노출, DB 기존값 TOKYO/OSAKA/AICHI 유지)
+- **給与**: 3,660,000 (DB)
+- **모집상태**: 활성
+
+**최종 판정**: PUBLISH 유지. Fix 없음.
