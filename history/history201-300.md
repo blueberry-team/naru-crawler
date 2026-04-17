@@ -1262,3 +1262,19 @@
 | 04/17 12:28 | 마감 Fix | "受付終了" → isDeadlinePassed=true. PUT 204 ✅ |
 
 **최종 판정**: PUBLISH + 마감 플래그 적용.
+
+---
+
+## Job #266 — メンバーズ | 27졸 테크놀로지 컨설턴트 (마감 Fix)
+
+**상태**: PUBLISHED (isDeadlinePassed=true)
+**소스**: https://recruit.members.co.jp/freshers/producer-tc/
+**나루 공고**: https://www.naru-recruit.com/jobs/266
+**어드민**: https://www.naru-recruit.com/admin/jobs/266?token=jungwoo_naru_server_password_0129
+
+### 리뷰 이력
+| 시각 | 액션 | 상세 |
+|------|------|------|
+| 04/17 12:38 | 마감 Fix | "受付終了" → isDeadlinePassed=true. PUT 204 ✅ |
+
+**최종 판정**: PUBLISH + 마감 플래그 적용.
