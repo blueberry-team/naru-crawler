@@ -1150,3 +1150,19 @@
 | 04/17 11:18 | 마감 Fix | "受付終了" → isDeadlinePassed=true. PUT 204 ✅. メンバーズ 시리즈 #256~#258 전부 마감 |
 
 **최종 판정**: PUBLISH + 마감 플래그 적용.
+
+---
+
+## Job #259 — メンバーズ | 27졸 데이터 엔지니어 (마감 Fix)
+
+**상태**: PUBLISHED (isDeadlinePassed=true)
+**소스**: https://recruit.members.co.jp/freshers/engineer-da/
+**나루 공고**: https://www.naru-recruit.com/jobs/259
+**어드민**: https://www.naru-recruit.com/admin/jobs/259?token=jungwoo_naru_server_password_0129
+
+### 리뷰 이력
+| 시각 | 액션 | 상세 |
+|------|------|------|
+| 04/17 11:28 | 마감 Fix | "受付終了" → isDeadlinePassed=true. PUT 204 ✅ |
+
+**최종 판정**: PUBLISH + 마감 플래그 적용.
