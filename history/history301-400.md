@@ -1399,3 +1399,22 @@
 - **모집상태**: 활성
 
 **최종 판정**: PUBLISH 유지. Fix 없음.
+
+---
+
+## Job #373 — 日本製鉄 | 오퍼레이터·설비 메인터넌스직
+
+**상태**: PUBLISHED
+**소스**: https://www.nipponsteel.com/recruit/hq/recruitment/guideline/ (#371/#372와 동일)
+**나루 공고**: https://www.naru-recruit.com/jobs/373
+**어드민**: https://www.naru-recruit.com/admin/jobs/373?token=jungwoo_naru_server_password_0129
+
+### 리뷰 이력
+| 시각 | 액션 | 상세 |
+|------|------|------|
+| 04/18 05:48 | 재검증 | 동일 URL 활성. 日本製鉄 시리즈 #371~#373 완료 |
+
+### 원문 현황 (최신)
+- **모집상태**: 활성
+
+**최종 판정**: PUBLISH 유지. Fix 없음.
