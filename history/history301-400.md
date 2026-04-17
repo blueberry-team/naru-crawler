@@ -943,3 +943,28 @@
 - **모집상태**: 활성
 
 **최종 판정**: PUBLISH 유지. Fix 없음.
+
+---
+
+## Job #349 — 미존재 (404 스킵)
+
+---
+
+## Job #350 — 富士フイルムBI | 사무계 코스
+
+**상태**: PUBLISHED
+**소스**: https://www.fujifilm.com/fb/company/saiyo/graduates/recruit/fb (#348과 동일)
+**나루 공고**: https://www.naru-recruit.com/jobs/350
+**어드민**: https://www.naru-recruit.com/admin/jobs/350?token=jungwoo_naru_server_password_0129
+
+### 리뷰 이력
+| 시각 | 액션 | 상세 |
+|------|------|------|
+| 04/18 02:08 | 재검증 | 동일 URL 활성. #349 404 스킵 |
+
+### 원문 현황 (최신)
+- **勤務地**: DB NATIONWIDE 유지
+- **給与**: 3,552,000 (DB)
+- **모집상태**: 활성
+
+**최종 판정**: PUBLISH 유지. Fix 없음.
