@@ -523,3 +523,19 @@
 | 04/17 22:28 | 마감 Fix | "受付終了" → isDeadlinePassed=true. PUT 204 ✅. 새 회사(USEN/U-NEXT HOLDINGS) |
 
 **최종 판정**: PUBLISH + 마감 플래그 적용.
+
+---
+
+## Job #328 — USEN | 비즈니스 종합직 코스 (마감 Fix)
+
+**상태**: PUBLISHED (isDeadlinePassed=true)
+**소스**: https://usen-next.snar.jp/jobboard/detail.aspx?id=-MayykhtzRsgd51OfuKJvQ (#327과 동일)
+**나루 공고**: https://www.naru-recruit.com/jobs/328
+**어드민**: https://www.naru-recruit.com/admin/jobs/328?token=jungwoo_naru_server_password_0129
+
+### 리뷰 이력
+| 시각 | 액션 | 상세 |
+|------|------|------|
+| 04/17 22:38 | 마감 Fix | #327과 동일 URL "受付終了" → isDeadlinePassed=true. PUT 204 ✅ |
+
+**최종 판정**: PUBLISH + 마감 플래그 적용.
