@@ -899,3 +899,24 @@
 - **모집상태**: 활성
 
 **최종 판정**: PUBLISH 유지. Fix 없음.
+
+---
+
+## Job #246 — ぐるなび | 2027년도 신입 채용(기술직 코스)
+
+**상태**: PUBLISHED
+**소스**: https://gnavi.snar.jp/jobboard/detail.aspx?id=g-9ylifRZp4
+**나루 공고**: https://www.naru-recruit.com/jobs/246
+**어드민**: https://www.naru-recruit.com/admin/jobs/246?token=jungwoo_naru_server_password_0129
+
+### 리뷰 이력
+| 시각 | 액션 | 상세 |
+|------|------|------|
+| 04/17 09:18 | 재검증 | 페이지 활성, h3="2027年度新卒採用" 일치. 새 회사(ぐるなび) |
+
+### 원문 현황 (최신)
+- **勤務地**: DB TOKYO 유지
+- **給与**: 2,880,000 (DB)
+- **모집상태**: 활성
+
+**최종 판정**: PUBLISH 유지. Fix 없음.
