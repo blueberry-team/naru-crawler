@@ -1047,3 +1047,24 @@
 | 04/18 02:48 | Unpublish | URL 404 (ページが見つかりません). PUT 204 ✅. 새 회사(博報堂) |
 
 **최종 판정**: Unpublish (DRAFT 복귀).
+
+---
+
+## Job #355 — 博報堂 | 2027년도 신입채용 봄 공모
+
+**상태**: PUBLISHED
+**소스**: https://hakusuku.jp/recruit/information/entry/
+**나루 공고**: https://www.naru-recruit.com/jobs/355
+**어드민**: https://www.naru-recruit.com/admin/jobs/355?token=jungwoo_naru_server_password_0129
+
+### 리뷰 이력
+| 시각 | 액션 | 상세 |
+|------|------|------|
+| 04/18 02:58 | 재검증 | 페이지 활성, title 일치 (#354 디자이너 URL은 404였지만 이 공고는 활성) |
+
+### 원문 현황 (최신)
+- **勤務地**: DB NATIONWIDE 유지
+- **給与**: 3,600,000 (DB)
+- **모집상태**: 활성
+
+**최종 판정**: PUBLISH 유지. Fix 없음.
