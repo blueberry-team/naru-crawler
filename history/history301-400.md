@@ -1359,3 +1359,24 @@
 ---
 
 ## Job #370 — 미존재 (404 스킵)
+
+---
+
+## Job #371 — 日本製鉄 | 글로벌직(사무계 종합직)
+
+**상태**: PUBLISHED
+**소스**: https://www.nipponsteel.com/recruit/hq/recruitment/guideline/
+**나루 공고**: https://www.naru-recruit.com/jobs/371
+**어드민**: https://www.naru-recruit.com/admin/jobs/371?token=jungwoo_naru_server_password_0129
+
+### 리뷰 이력
+| 시각 | 액션 | 상세 |
+|------|------|------|
+| 04/18 05:28 | 재검증 | 페이지 활성, title 일치. 새 회사(日本製鉄/Nippon Steel) |
+
+### 원문 현황 (최신)
+- **勤務地**: DB 16곳 유지
+- **給与**: 3,060,000 (DB)
+- **모집상태**: 활성
+
+**최종 판정**: PUBLISH 유지. Fix 없음.
