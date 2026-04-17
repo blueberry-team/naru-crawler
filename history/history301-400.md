@@ -83,3 +83,24 @@
 - **모집상태**: 활성
 
 **최종 판정**: PUBLISH 유지. Fix 없음.
+
+---
+
+## Job #305 — SIE | R&D 차세대 PlayStation® 경험 연구개발
+
+**상태**: PUBLISHED
+**소스**: https://www.sie.com/jp/saiyo/newgrad/career-info.html (#301~#304와 동일)
+**나루 공고**: https://www.naru-recruit.com/jobs/305
+**어드민**: https://www.naru-recruit.com/admin/jobs/305?token=jungwoo_naru_server_password_0129
+
+### 리뷰 이력
+| 시각 | 액션 | 상세 |
+|------|------|------|
+| 04/17 19:08 | 재검증 | 동일 URL 활성 |
+
+### 원문 현황 (최신)
+- **勤務地**: DB TOKYO 유지
+- **給与**: 4,300,000 (DB)
+- **모집상태**: 활성
+
+**최종 판정**: PUBLISH 유지. Fix 없음.
