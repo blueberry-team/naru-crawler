@@ -981,3 +981,19 @@
 | 04/17 09:48 | 마감 Fix | #248과 동일 URL "受付終了" → isDeadlinePassed=true. PUT 204 ✅ |
 
 **최종 판정**: PUBLISH + 마감 플래그 적용.
+
+---
+
+## Job #250 — Hakuhodo DY ONE | 비즈니스 코스 (마감 Fix)
+
+**상태**: PUBLISHED (isDeadlinePassed=true)
+**소스**: https://recruit.hakuhodody-one.co.jp/recruit/recruitment/ (#248/#249와 동일)
+**나루 공고**: https://www.naru-recruit.com/jobs/250
+**어드민**: https://www.naru-recruit.com/admin/jobs/250?token=jungwoo_naru_server_password_0129
+
+### 리뷰 이력
+| 시각 | 액션 | 상세 |
+|------|------|------|
+| 04/17 09:58 | 마감 Fix | 동일 URL "受付終了" → isDeadlinePassed=true. PUT 204 ✅. Hakuhodo DY ONE 시리즈 #248~#250 완료 |
+
+**최종 판정**: PUBLISH + 마감 플래그 적용.
