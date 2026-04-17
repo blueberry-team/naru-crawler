@@ -188,3 +188,24 @@
 - **모집상태**: 활성
 
 **최종 판정**: PUBLISH 유지. Fix 없음.
+
+---
+
+## Job #310 — SQUARE ENIX | 사운드 디자이너 직군
+
+**상태**: PUBLISHED
+**소스**: https://www.jp.square-enix.com/recruit/fresh/recruitment/ (#306~#309와 동일)
+**나루 공고**: https://www.naru-recruit.com/jobs/310
+**어드민**: https://www.naru-recruit.com/admin/jobs/310?token=jungwoo_naru_server_password_0129
+
+### 리뷰 이력
+| 시각 | 액션 | 상세 |
+|------|------|------|
+| 04/17 19:58 | 재검증 | 동일 URL 활성 |
+
+### 원문 현황 (최신)
+- **勤務地**: DB TOKYO/OSAKA 유지
+- **給与**: 3,336,000 (DB)
+- **모집상태**: 활성
+
+**최종 판정**: PUBLISH 유지. Fix 없음.
