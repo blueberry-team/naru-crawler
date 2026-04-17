@@ -1458,3 +1458,19 @@
 - **모집상태**: 활성
 
 **최종 판정**: PUBLISH 유지. Fix 없음.
+
+---
+
+## Job #376 — NTTドコモ | 엔지니어 코스 (마감 Fix)
+
+**상태**: PUBLISHED (isDeadlinePassed=true)
+**소스**: https://information.nttdocomo-fresh.jp/fresh/recruit/outline/
+**나루 공고**: https://www.naru-recruit.com/jobs/376
+**어드민**: https://www.naru-recruit.com/admin/jobs/376?token=jungwoo_naru_server_password_0129
+
+### 리뷰 이력
+| 시각 | 액션 | 상세 |
+|------|------|------|
+| 04/18 06:18 | 마감 Fix | "エントリー終了" → isDeadlinePassed=true. PUT 204 ✅. 새 회사(NTTドコモ) |
+
+**최종 판정**: PUBLISH + 마감 플래그 적용.
