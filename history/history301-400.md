@@ -1233,3 +1233,23 @@
 - **모집상태**: 활성
 
 **최종 판정**: PUBLISH 유지. Fix 없음.
+
+---
+
+## Job #364 — 日本総研 | 본사 오픈코스
+
+**상태**: PUBLISHED
+**소스**: https://www.jri-career.com/newgraduates/recruit/requirements.html (#358~#363과 동일)
+**나루 공고**: https://www.naru-recruit.com/jobs/364
+**어드민**: https://www.naru-recruit.com/admin/jobs/364?token=jungwoo_naru_server_password_0129
+
+### 리뷰 이력
+| 시각 | 액션 | 상세 |
+|------|------|------|
+| 04/18 04:28 | 재검증 | 동일 URL 활성 |
+
+### 원문 현황 (최신)
+- **勤務地**: DB TOKYO/OSAKA 유지
+- **모집상태**: 활성
+
+**최종 판정**: PUBLISH 유지. Fix 없음.
