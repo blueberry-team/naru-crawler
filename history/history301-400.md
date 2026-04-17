@@ -1334,3 +1334,28 @@
 - **모집상태**: 활성
 
 **최종 판정**: PUBLISH 유지. Fix 없음.
+
+---
+
+## Job #369 — 三菱電機 | 기술계 종합직
+
+**상태**: PUBLISHED
+**소스**: https://www.mitsubishielectric.co.jp/saiyo/graduates/recruit/info/info_office/index.html (#368과 동일 회사)
+**나루 공고**: https://www.naru-recruit.com/jobs/369
+**어드민**: https://www.naru-recruit.com/admin/jobs/369?token=jungwoo_naru_server_password_0129
+
+### 리뷰 이력
+| 시각 | 액션 | 상세 |
+|------|------|------|
+| 04/18 05:18 | 재검증 | 동일 회사 채용 사이트 활성. 三菱電機 #368/#369 완료 |
+
+### 원문 현황 (최신)
+- **勤務地**: DB NATIONWIDE 유지
+- **給与**: 3,228,000 (DB)
+- **모집상태**: 활성
+
+**최종 판정**: PUBLISH 유지. Fix 없음.
+
+---
+
+## Job #370 — 미존재 (404 스킵)
