@@ -737,3 +737,24 @@
 - **모집상태**: 활성
 
 **최종 판정**: PUBLISH 유지. Fix 없음.
+
+---
+
+## Job #339 — 第一生命 | 오픈 코스
+
+**상태**: PUBLISHED
+**소스**: https://job.mynavi.jp/27/pc/corpinfo/displayEmployment/index/?corpId=7&recruitingCourseId=27045347
+**나루 공고**: https://www.naru-recruit.com/jobs/339
+**어드민**: https://www.naru-recruit.com/admin/jobs/339?token=jungwoo_naru_server_password_0129
+
+### 리뷰 이력
+| 시각 | 액션 | 상세 |
+|------|------|------|
+| 04/18 00:28 | 재검증 | 페이지 활성, title 일치. 새 회사(第一生命保険). 전국 47도도부현 근무지 |
+
+### 원문 현황 (최신)
+- **勤務地**: DB 47곳 (전국) 유지
+- **給与**: 3,019,080 (DB)
+- **모집상태**: 활성
+
+**최종 판정**: PUBLISH 유지. Fix 없음.
