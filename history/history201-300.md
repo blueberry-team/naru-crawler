@@ -1102,3 +1102,19 @@
 - **모집상태**: 활성
 
 **최종 판정**: PUBLISH 유지. Fix 없음.
+
+---
+
+## Job #256 — メンバーズ | 27졸 UX 디자이너 (마감 Fix)
+
+**상태**: PUBLISHED (isDeadlinePassed=true)
+**소스**: https://recruit.members.co.jp/freshers/producer-uxd/
+**나루 공고**: https://www.naru-recruit.com/jobs/256
+**어드민**: https://www.naru-recruit.com/admin/jobs/256?token=jungwoo_naru_server_password_0129
+
+### 리뷰 이력
+| 시각 | 액션 | 상세 |
+|------|------|------|
+| 04/17 10:58 | 마감 Fix | "受付終了" 확인 → isDeadlinePassed=true. PUT 204 ✅ |
+
+**최종 판정**: PUBLISH + 마감 플래그 적용.
