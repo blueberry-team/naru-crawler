@@ -901,3 +901,24 @@
 - **모집상태**: 활성
 
 **최종 판정**: PUBLISH 유지. Fix 없음.
+
+---
+
+## Job #347 — 大和ハウス | 종합직(기술계: 설비 부문)
+
+**상태**: PUBLISHED
+**소스**: https://www.daiwahouse.co.jp/recruit/freshers/requirement/index.html (#343~#346과 동일)
+**나루 공고**: https://www.naru-recruit.com/jobs/347
+**어드민**: https://www.naru-recruit.com/admin/jobs/347?token=jungwoo_naru_server_password_0129
+
+### 리뷰 이력
+| 시각 | 액션 | 상세 |
+|------|------|------|
+| 04/18 01:48 | 재검증 | 동일 URL 활성. 大和ハウス 시리즈 #343~#347 (5건) 완료 |
+
+### 원문 현황 (최신)
+- **勤務地**: DB NATIONWIDE 유지
+- **給与**: 4,176,000 (DB)
+- **모집상태**: 활성
+
+**최종 판정**: PUBLISH 유지. Fix 없음.
