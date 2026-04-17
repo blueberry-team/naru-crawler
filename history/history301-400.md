@@ -1439,3 +1439,22 @@
 - **모집상태**: 활성
 
 **최종 판정**: PUBLISH 유지. Fix 없음.
+
+---
+
+## Job #375 — 日産 | 기술계·기능계 직종(기술직/테크니컬 엔지니어직)
+
+**상태**: PUBLISHED
+**소스**: https://www.nissanmotor.jobs/japan/NE/recruit/requirements.html (#374와 동일)
+**나루 공고**: https://www.naru-recruit.com/jobs/375
+**어드민**: https://www.naru-recruit.com/admin/jobs/375?token=jungwoo_naru_server_password_0129
+
+### 리뷰 이력
+| 시각 | 액션 | 상세 |
+|------|------|------|
+| 04/18 06:08 | 재검증 | 동일 URL 활성. 日産 #374/#375 완료 |
+
+### 원문 현황 (최신)
+- **모집상태**: 활성
+
+**최종 판정**: PUBLISH 유지. Fix 없음.
