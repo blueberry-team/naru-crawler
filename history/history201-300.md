@@ -1602,3 +1602,24 @@
 - **모집상태**: 활성
 
 **최종 판정**: PUBLISH 유지. Fix 없음.
+
+---
+
+## Job #283 — SEGA | 프로그래머
+
+**상태**: PUBLISHED
+**소스**: https://www.sega.co.jp/recruit/jobs/#programmer (#281과 동일 base URL)
+**나루 공고**: https://www.naru-recruit.com/jobs/283
+**어드민**: https://www.naru-recruit.com/admin/jobs/283?token=jungwoo_naru_server_password_0129
+
+### 리뷰 이력
+| 시각 | 액션 | 상세 |
+|------|------|------|
+| 04/17 15:28 | 재검증 | 동일 base URL 활성 (#281에서 확인) |
+
+### 원문 현황 (최신)
+- **勤務地**: DB TOKYO 유지
+- **給与**: 3,703,200 (DB)
+- **모집상태**: 활성
+
+**최종 판정**: PUBLISH 유지. Fix 없음.
