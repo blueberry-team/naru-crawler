@@ -1947,3 +1947,33 @@
 - **모집상태**: 활성
 
 **최종 판정**: PUBLISH 유지. Fix 없음.
+
+---
+
+## Job #300 — SIE | 마케팅 【PlayStation®】
+
+**상태**: PUBLISHED
+**소스**: https://www.sie.com/jp/saiyo/newgrad/career-info.html (#288~#299와 동일)
+**나루 공고**: https://www.naru-recruit.com/jobs/300
+**어드민**: https://www.naru-recruit.com/admin/jobs/300?token=jungwoo_naru_server_password_0129
+
+### 리뷰 이력
+| 시각 | 액션 | 상세 |
+|------|------|------|
+| 04/17 18:18 | 재검증 | 동일 URL 활성. SIE 시리즈 #288~#300 (13건) 완료 |
+
+### 원문 현황 (최신)
+- **勤務地**: DB TOKYO 유지
+- **모집상태**: 활성
+
+**최종 판정**: PUBLISH 유지. Fix 없음.
+
+---
+
+> 🏁 **history/300 완료!**
+> jobId 201~300 전체 재검증 완료.
+> - 실존: 92건 (#222/#185~#190 404 스킵)
+> - PUBLISH 유지: 대다수
+> - Unpublish (DRAFT 복귀): #242/#243 GO (2건, HRMOS URL 삭제)
+> - 마감 Fix (isDeadlinePassed=true): #248/#249/#250 Hakuhodo DY ONE (3건), #256~#268 メンバーズ (13건 중 본 범위 7건+@), #194 SmartHR (history/200에서 처리)
+> - 회사: トランスコスモス, 후지소프트, NECソリューションイノベータ, TIS, ベイカレント, CAPCOM, コロプラ, DTS, GO, ぐるなび, Hakuhodo DY ONE, インテック, カカクコム, メンバーズ, 任天堂, オービック, オプト, パーソルクロステクノロジー, SEGA, SIE
