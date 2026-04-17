@@ -1562,3 +1562,22 @@
 - **모집상태**: 활성
 
 **최종 판정**: PUBLISH 유지. Fix 없음.
+
+---
+
+## Job #382 — パナソニックコネクト | 사무계 직무
+
+**상태**: PUBLISHED
+**소스**: https://recruit.jpn.panasonic.com/newgrads/job_description/ (#380/#381과 동일)
+**나루 공고**: https://www.naru-recruit.com/jobs/382
+**어드민**: https://www.naru-recruit.com/admin/jobs/382?token=jungwoo_naru_server_password_0129
+
+### 리뷰 이력
+| 시각 | 액션 | 상세 |
+|------|------|------|
+| 04/18 07:08 | 재검증 | 동일 URL 활성 |
+
+### 원문 현황 (최신)
+- **모집상태**: 활성
+
+**최종 판정**: PUBLISH 유지. Fix 없음.
