@@ -1490,3 +1490,35 @@
 | 04/18 06:28 | 마감 Fix | #376과 동일 URL "エントリー終了" → isDeadlinePassed=true. PUT 204 ✅ |
 
 **최종 판정**: PUBLISH + 마감 플래그 적용.
+
+---
+
+## Job #378 — NTTドコモビジネス | 엔지니어 코스 (마감 Fix)
+
+**상태**: PUBLISHED (isDeadlinePassed=true)
+**소스**: https://information.nttdocomo-fresh.jp/fresh/recruit/outline/ (#376/#377과 동일)
+**나루 공고**: https://www.naru-recruit.com/jobs/378
+**어드민**: https://www.naru-recruit.com/admin/jobs/378?token=jungwoo_naru_server_password_0129
+
+### 리뷰 이력
+| 시각 | 액션 | 상세 |
+|------|------|------|
+| 04/18 06:38 | 마감 Fix | 동일 URL "エントリー終了" → isDeadlinePassed=true. PUT 204 ✅ |
+
+**최종 판정**: PUBLISH + 마감 플래그 적용.
+
+---
+
+## Job #379 — NTTドコモビジネス | 종합 코스 (마감 Fix)
+
+**상태**: PUBLISHED (isDeadlinePassed=true)
+**소스**: https://information.nttdocomo-fresh.jp/fresh/recruit/outline/ (#376~#378과 동일)
+**나루 공고**: https://www.naru-recruit.com/jobs/379
+**어드민**: https://www.naru-recruit.com/admin/jobs/379?token=jungwoo_naru_server_password_0129
+
+### 리뷰 이력
+| 시각 | 액션 | 상세 |
+|------|------|------|
+| 04/18 06:38 | 마감 Fix | 동일 URL → isDeadlinePassed=true. PUT 204 ✅. ドコモ 시리즈 #376~#379 전부 마감 |
+
+**최종 판정**: PUBLISH + 마감 플래그 적용.
