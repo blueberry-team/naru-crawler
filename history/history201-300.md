@@ -1787,3 +1787,23 @@
 - **모집상태**: 활성
 
 **최종 판정**: PUBLISH 유지. Fix 없음.
+
+---
+
+## Job #292 — SIE | 네트워크 SDK·라이브러리 개발 【PlayStation®】
+
+**상태**: PUBLISHED
+**소스**: https://www.sie.com/jp/saiyo/newgrad/career-info.html (#288~#291과 동일)
+**나루 공고**: https://www.naru-recruit.com/jobs/292
+**어드민**: https://www.naru-recruit.com/admin/jobs/292?token=jungwoo_naru_server_password_0129
+
+### 리뷰 이력
+| 시각 | 액션 | 상세 |
+|------|------|------|
+| 04/17 16:58 | 재검증 | 동일 URL 활성 |
+
+### 원문 현황 (최신)
+- **勤務地**: DB TOKYO 유지
+- **모집상태**: 활성
+
+**최종 판정**: PUBLISH 유지. Fix 없음.
