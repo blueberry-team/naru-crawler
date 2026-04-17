@@ -1543,3 +1543,22 @@
 - **모집상태**: 활성
 
 **최종 판정**: PUBLISH 유지. Fix 없음.
+
+---
+
+## Job #381 — パナソニック | 기술계 직무
+
+**상태**: PUBLISHED
+**소스**: https://recruit.jpn.panasonic.com/newgrads/job_description/ (#380과 동일)
+**나루 공고**: https://www.naru-recruit.com/jobs/381
+**어드민**: https://www.naru-recruit.com/admin/jobs/381?token=jungwoo_naru_server_password_0129
+
+### 리뷰 이력
+| 시각 | 액션 | 상세 |
+|------|------|------|
+| 04/18 06:58 | 재검증 | 동일 URL 활성. パナソニック #380/#381 완료 |
+
+### 원문 현황 (최신)
+- **모집상태**: 활성
+
+**최종 판정**: PUBLISH 유지. Fix 없음.
