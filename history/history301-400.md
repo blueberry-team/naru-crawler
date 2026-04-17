@@ -697,3 +697,23 @@
 - **모집상태**: 활성
 
 **최종 판정**: PUBLISH 유지. Fix 없음.
+
+---
+
+## Job #337 — アカツキゲームス | 엔지니어
+
+**상태**: PUBLISHED
+**소스**: https://aktsk-games.notion.site/Engineer-Entrance-Book-d9a6283410fb4082b299d207e68d73d7
+**나루 공고**: https://www.naru-recruit.com/jobs/337
+**어드민**: https://www.naru-recruit.com/admin/jobs/337?token=jungwoo_naru_server_password_0129
+
+### 리뷰 이력
+| 시각 | 액션 | 상세 |
+|------|------|------|
+| 04/18 00:08 | 재검증 | Notion 페이지 활성, title="アカツキゲームス Engineer Entrance Book". 새 회사(Akatsuki Games) |
+
+### 원문 현황 (최신)
+- **勤務地**: DB UNKNOWN 유지
+- **모집상태**: 활성
+
+**최종 판정**: PUBLISH 유지. Fix 없음.
