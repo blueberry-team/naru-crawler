@@ -1246,3 +1246,19 @@
 | 04/17 12:18 | 마감 Fix | "受付終了" → isDeadlinePassed=true. PUT 204 ✅ |
 
 **최종 판정**: PUBLISH + 마감 플래그 적용.
+
+---
+
+## Job #265 — メンバーズ | 27졸 마케팅 커뮤니케이션 (마감 Fix)
+
+**상태**: PUBLISHED (isDeadlinePassed=true)
+**소스**: https://recruit.members.co.jp/freshers/producer-mc/
+**나루 공고**: https://www.naru-recruit.com/jobs/265
+**어드민**: https://www.naru-recruit.com/admin/jobs/265?token=jungwoo_naru_server_password_0129
+
+### 리뷰 이력
+| 시각 | 액션 | 상세 |
+|------|------|------|
+| 04/17 12:28 | 마감 Fix | "受付終了" → isDeadlinePassed=true. PUT 204 ✅ |
+
+**최종 판정**: PUBLISH + 마감 플래그 적용.
