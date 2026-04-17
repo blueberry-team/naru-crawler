@@ -555,3 +555,19 @@
 | 04/17 22:48 | 마감 Fix | 동일 URL "受付終了" → isDeadlinePassed=true. PUT 204 ✅ |
 
 **최종 판정**: PUBLISH + 마감 플래그 적용.
+
+---
+
+## Job #330 — USEN | 필드 엔지니어 직군 코스 (마감 Fix)
+
+**상태**: PUBLISHED (isDeadlinePassed=true)
+**소스**: https://usen-next.snar.jp/jobboard/detail.aspx?id=-MayykhtzRsgd51OfuKJvQ (#327~#329와 동일)
+**나루 공고**: https://www.naru-recruit.com/jobs/330
+**어드민**: https://www.naru-recruit.com/admin/jobs/330?token=jungwoo_naru_server_password_0129
+
+### 리뷰 이력
+| 시각 | 액션 | 상세 |
+|------|------|------|
+| 04/17 22:58 | 마감 Fix | 동일 URL "受付終了" → isDeadlinePassed=true. PUT 204 ✅. USEN 시리즈 #327~#330 전부 마감 |
+
+**최종 판정**: PUBLISH + 마감 플래그 적용.
