@@ -1198,3 +1198,19 @@
 | 04/17 11:48 | 마감 Fix | "受付終了" → isDeadlinePassed=true. PUT 204 ✅ |
 
 **최종 판정**: PUBLISH + 마감 플래그 적용.
+
+---
+
+## Job #262 — メンバーズ | 고등전문학교생 코스 (마감 Fix)
+
+**상태**: PUBLISHED (isDeadlinePassed=true)
+**소스**: https://recruit.members.co.jp/freshers/kosen/
+**나루 공고**: https://www.naru-recruit.com/jobs/262
+**어드민**: https://www.naru-recruit.com/admin/jobs/262?token=jungwoo_naru_server_password_0129
+
+### 리뷰 이력
+| 시각 | 액션 | 상세 |
+|------|------|------|
+| 04/17 11:58 | 마감 Fix | "受付終了" → isDeadlinePassed=true. PUT 204 ✅. メンバーズ 전 공고(#256~#262) 마감 |
+
+**최종 판정**: PUBLISH + 마감 플래그 적용.
