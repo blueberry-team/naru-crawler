@@ -1081,3 +1081,24 @@
 - **모집상태**: 활성
 
 **최종 판정**: PUBLISH 유지. Fix 없음.
+
+---
+
+## Job #255 — カカクコム | 2027년도 비즈니스직
+
+**상태**: PUBLISHED
+**소스**: https://hrmos.co/pages/kakakucom/jobs/100000035
+**나루 공고**: https://www.naru-recruit.com/jobs/255
+**어드민**: https://www.naru-recruit.com/admin/jobs/255?token=jungwoo_naru_server_password_0129
+
+### 리뷰 이력
+| 시각 | 액션 | 상세 |
+|------|------|------|
+| 04/17 10:48 | 재검증 | 페이지 활성, title 일치. カカクコム 시리즈 #253~#255 완료 |
+
+### 원문 현황 (최신)
+- **勤務地**: DB TOKYO 유지
+- **給与**: 4,500,000 (DB)
+- **모집상태**: 활성
+
+**최종 판정**: PUBLISH 유지. Fix 없음.
