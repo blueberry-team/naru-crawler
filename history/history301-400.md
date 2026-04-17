@@ -1581,3 +1581,22 @@
 - **모집상태**: 활성
 
 **최종 판정**: PUBLISH 유지. Fix 없음.
+
+---
+
+## Job #383 — パナソニックコネクト | 기술계 직무
+
+**상태**: PUBLISHED
+**소스**: https://recruit.jpn.panasonic.com/newgrads/job_description/ (#380~#382와 동일)
+**나루 공고**: https://www.naru-recruit.com/jobs/383
+**어드민**: https://www.naru-recruit.com/admin/jobs/383?token=jungwoo_naru_server_password_0129
+
+### 리뷰 이력
+| 시각 | 액션 | 상세 |
+|------|------|------|
+| 04/18 07:18 | 재검증 | 동일 URL 활성. パナソニック 시리즈 #380~#383 완료 |
+
+### 원문 현황 (최신)
+- **모집상태**: 활성
+
+**최종 판정**: PUBLISH 유지. Fix 없음.
