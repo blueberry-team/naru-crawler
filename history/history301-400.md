@@ -798,3 +798,22 @@
 - **모집상태**: 활성
 
 **최종 판정**: PUBLISH 유지. Fix 없음.
+
+---
+
+## Job #342 — 第一生命 | 스페셜티 코스
+
+**상태**: PUBLISHED
+**소스**: https://job.mynavi.jp/27/pc/corpinfo/displayEmployment/index/?corpId=7&recruitingCourseId=27045531
+**나루 공고**: https://www.naru-recruit.com/jobs/342
+**어드민**: https://www.naru-recruit.com/admin/jobs/342?token=jungwoo_naru_server_password_0129
+
+### 리뷰 이력
+| 시각 | 액션 | 상세 |
+|------|------|------|
+| 04/18 00:58 | 재검증 | 페이지 활성, title 일치. 第一生命 시리즈 #339~#342 완료 |
+
+### 원문 현황 (최신)
+- **모집상태**: 활성
+
+**최종 판정**: PUBLISH 유지. Fix 없음.
