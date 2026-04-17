@@ -758,3 +758,24 @@
 - **모집상태**: 활성
 
 **최종 판정**: PUBLISH 유지. Fix 없음.
+
+---
+
+## Job #340 — 第一生命 | 기관경영직
+
+**상태**: PUBLISHED
+**소스**: https://www.dai-ichi-kikankeiei-recruit.jp/recruit/index.html
+**나루 공고**: https://www.naru-recruit.com/jobs/340
+**어드민**: https://www.naru-recruit.com/admin/jobs/340?token=jungwoo_naru_server_password_0129
+
+### 리뷰 이력
+| 시각 | 액션 | 상세 |
+|------|------|------|
+| 04/18 00:38 | 재검증 | 페이지 활성, title 일치 |
+
+### 원문 현황 (최신)
+- **勤務地**: DB TOKYO/NATIONWIDE 유지
+- **給与**: 4,443,720 (DB)
+- **모집상태**: 활성
+
+**최종 판정**: PUBLISH 유지. Fix 없음.
