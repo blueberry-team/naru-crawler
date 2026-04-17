@@ -1646,3 +1646,22 @@
 | 04/18 07:38 | 마감 Fix 일괄 | #384 디자이너 페이지와 동일 사이트에서 종료 키워드 확인 → #385~#390 전부 isDeadlinePassed=true 일괄 PUT 204 ✅ |
 
 **최종 판정**: パーソルキャリア 전 공고(#384~#390, 7건) 마감 플래그 적용.
+
+---
+
+## Job #391 — りそな銀行 | IT 기획 코스
+
+**상태**: PUBLISHED
+**소스**: https://www.resona-saiyo.com/recruit/info/graduate/
+**나루 공고**: https://www.naru-recruit.com/jobs/391
+**어드민**: https://www.naru-recruit.com/admin/jobs/391?token=jungwoo_naru_server_password_0129
+
+### 리뷰 이력
+| 시각 | 액션 | 상세 |
+|------|------|------|
+| 04/18 07:48 | 재검증 | 페이지 활성. 새 회사(りそなグループ/Resona Bank). #391~#400 전부 동일 URL |
+
+### 원문 현황 (최신)
+- **모집상태**: 활성
+
+**최종 판정**: PUBLISH 유지. Fix 없음.
