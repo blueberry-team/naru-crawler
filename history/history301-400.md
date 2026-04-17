@@ -1031,3 +1031,19 @@
 - **모집상태**: 활성
 
 **최종 판정**: PUBLISH 유지. Fix 없음.
+
+---
+
+## Job #354 — 博報堂 | 2027년도 디자이너 채용
+
+**상태**: DRAFT (unpublish 적용)
+**소스**: https://hakusuku.jp/recruit/information/designer-entry/ — **ページが見つかりません (404)**
+**나루 공고**: https://www.naru-recruit.com/jobs/354
+**어드민**: https://www.naru-recruit.com/admin/jobs/354?token=jungwoo_naru_server_password_0129
+
+### 리뷰 이력
+| 시각 | 액션 | 상세 |
+|------|------|------|
+| 04/18 02:48 | Unpublish | URL 404 (ページが見つかりません). PUT 204 ✅. 새 회사(博報堂) |
+
+**최종 판정**: Unpublish (DRAFT 복귀).
