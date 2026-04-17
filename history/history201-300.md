@@ -941,3 +941,27 @@
 - **모집상태**: 활성
 
 **최종 판정**: PUBLISH 유지. Fix 없음.
+
+---
+
+## Job #248 — Hakuhodo DY ONE | 크리에이티브 코스 (마감 Fix)
+
+**상태**: PUBLISHED (isDeadlinePassed=true)
+**소스**: https://recruit.hakuhodody-one.co.jp/recruit/recruitment/
+**나루 공고**: https://www.naru-recruit.com/jobs/248
+**어드민**: https://www.naru-recruit.com/admin/jobs/248?token=jungwoo_naru_server_password_0129
+
+### 리뷰 이력
+| 시각 | 액션 | 상세 |
+|------|------|------|
+| 04/17 09:38 | 마감 Fix | 원문에 "受付終了" 확인 → isDeadlinePassed=true. PUT 204 ✅ |
+
+### 원문 현황 (최신)
+- **모집상태**: 受付終了
+
+### Fix 적용 내역
+| 항목 | 수정 전 | 수정 후 | API |
+|------|---------|---------|-----|
+| isDeadlinePassed | null | true | PUT 204 ✅ |
+
+**최종 판정**: PUBLISH + 마감 플래그 적용.
