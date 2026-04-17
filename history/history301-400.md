@@ -676,3 +676,24 @@
 - **모집상태**: 활성
 
 **최종 판정**: PUBLISH 유지. Fix 없음.
+
+---
+
+## Job #336 — アイシン | 기술직 포텐셜 코스
+
+**상태**: PUBLISHED
+**소스**: https://www.aisin.com/jp/recruit/newgraduate/flow/ (#331~#335와 동일)
+**나루 공고**: https://www.naru-recruit.com/jobs/336
+**어드민**: https://www.naru-recruit.com/admin/jobs/336?token=jungwoo_naru_server_password_0129
+
+### 리뷰 이력
+| 시각 | 액션 | 상세 |
+|------|------|------|
+| 04/17 23:58 | 재검증 | 동일 URL 활성. アイシン 시리즈 #331~#336 (6건) 완료 |
+
+### 원문 현황 (최신)
+- **勤務地**: DB AICHI/TOKYO/FUKUOKA/NATIONWIDE 유지
+- **給与**: 3,384,000 (DB)
+- **모집상태**: 활성
+
+**최종 판정**: PUBLISH 유지. Fix 없음.
