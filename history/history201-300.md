@@ -1182,3 +1182,19 @@
 | 04/17 11:38 | 마감 Fix | "受付終了" → isDeadlinePassed=true. PUT 204 ✅ |
 
 **최종 판정**: PUBLISH + 마감 플래그 적용.
+
+---
+
+## Job #261 — メンバーズ | 27졸 AI 엔지니어 (마감 Fix)
+
+**상태**: PUBLISHED (isDeadlinePassed=true)
+**소스**: https://recruit.members.co.jp/freshers/engineer-ai/
+**나루 공고**: https://www.naru-recruit.com/jobs/261
+**어드민**: https://www.naru-recruit.com/admin/jobs/261?token=jungwoo_naru_server_password_0129
+
+### 리뷰 이력
+| 시각 | 액션 | 상세 |
+|------|------|------|
+| 04/17 11:48 | 마감 Fix | "受付終了" → isDeadlinePassed=true. PUT 204 ✅ |
+
+**최종 판정**: PUBLISH + 마감 플래그 적용.
