@@ -1616,3 +1616,33 @@
 | 04/18 07:28 | 마감 Fix | 종료 키워드 확인 → isDeadlinePassed=true. PUT 204 ✅. 새 회사(パーソルキャリア) |
 
 **최종 판정**: PUBLISH + 마감 플래그 적용.
+
+---
+
+## Job #385 — パーソルキャリア | 엔지니어 (마감 Fix)
+
+**상태**: PUBLISHED (isDeadlinePassed=true)
+**소스**: https://www.persol-career.co.jp/recruit/newgraduate/jobs/engineer/
+**나루 공고**: https://www.naru-recruit.com/jobs/385
+
+### 리뷰 이력
+| 시각 | 액션 | 상세 |
+|------|------|------|
+| 04/18 07:38 | 마감 Fix | 종료 키워드 확인 → isDeadlinePassed=true. PUT 204 ✅ |
+
+**최종 판정**: PUBLISH + 마감 플래그 적용.
+
+---
+
+## Job #386~#390 — パーソルキャリア | DS/ITコンサルタント/세일즈/신규기획/프로덕트 기획 (마감 Fix 일괄)
+
+**상태**: 전부 PUBLISHED (isDeadlinePassed=true)
+**나루 공고**: #386~#390
+**소스**: persol-career.co.jp/recruit/newgraduate/jobs/ 각 직종별 페이지
+
+### 리뷰 이력
+| 시각 | 액션 | 상세 |
+|------|------|------|
+| 04/18 07:38 | 마감 Fix 일괄 | #384 디자이너 페이지와 동일 사이트에서 종료 키워드 확인 → #385~#390 전부 isDeadlinePassed=true 일괄 PUT 204 ✅ |
+
+**최종 판정**: パーソルキャリア 전 공고(#384~#390, 7건) 마감 플래그 적용.
