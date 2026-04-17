@@ -1499,3 +1499,24 @@
 - **모집상태**: 활성
 
 **최종 판정**: PUBLISH 유지. Fix 없음.
+
+---
+
+## Job #278 — オプト | 2027년 비즈니스 직군 본전형
+
+**상태**: PUBLISHED
+**소스**: https://opt.snar.jp/jobboard/detail.aspx?id=SXqgYHB1Gso
+**나루 공고**: https://www.naru-recruit.com/jobs/278
+**어드민**: https://www.naru-recruit.com/admin/jobs/278?token=jungwoo_naru_server_password_0129
+
+### 리뷰 이력
+| 시각 | 액션 | 상세 |
+|------|------|------|
+| 04/17 14:38 | 재검증 | 페이지 활성, title 일치 |
+
+### 원문 현황 (최신)
+- **勤務地**: DB UNKNOWN 유지
+- **給与**: 3,600,000 (DB)
+- **모집상태**: 활성
+
+**최종 판정**: PUBLISH 유지. Fix 없음.
