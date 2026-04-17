@@ -1089,3 +1089,24 @@
 - **모집상태**: 활성
 
 **최종 판정**: PUBLISH 유지. Fix 없음.
+
+---
+
+## Job #357 — Honda | 기술계 채용
+
+**상태**: PUBLISHED
+**소스**: https://www.honda-recruit.jp/information/recruiting/index.html (#356과 동일)
+**나루 공고**: https://www.naru-recruit.com/jobs/357
+**어드민**: https://www.naru-recruit.com/admin/jobs/357?token=jungwoo_naru_server_password_0129
+
+### 리뷰 이력
+| 시각 | 액션 | 상세 |
+|------|------|------|
+| 04/18 03:18 | 재검증 | 동일 URL 활성. Honda 시리즈 #356/#357 완료 |
+
+### 원문 현황 (최신)
+- **勤務地**: DB 7곳 유지
+- **給与**: 5,103,000 (DB)
+- **모집상태**: 활성
+
+**최종 판정**: PUBLISH 유지. Fix 없음.
