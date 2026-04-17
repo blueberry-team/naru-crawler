@@ -1110,3 +1110,24 @@
 - **모집상태**: 활성
 
 **최종 판정**: PUBLISH 유지. Fix 없음.
+
+---
+
+## Job #358 — 日本総研 | 시스템개발 오픈코스
+
+**상태**: PUBLISHED
+**소스**: https://www.jri-career.com/newgraduates/recruit/requirements.html
+**나루 공고**: https://www.naru-recruit.com/jobs/358
+**어드민**: https://www.naru-recruit.com/admin/jobs/358?token=jungwoo_naru_server_password_0129
+
+### 리뷰 이력
+| 시각 | 액션 | 상세 |
+|------|------|------|
+| 04/18 03:28 | 재검증 | 페이지 활성, title 일치. 새 회사(日本総合研究所/JRI) |
+
+### 원문 현황 (최신)
+- **勤務地**: DB TOKYO/OSAKA 유지
+- **給与**: 3,120,000 (DB)
+- **모집상태**: 활성
+
+**최종 판정**: PUBLISH 유지. Fix 없음.
