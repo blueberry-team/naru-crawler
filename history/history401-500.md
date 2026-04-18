@@ -96,3 +96,22 @@
 - **모집상태**: 활성
 
 **최종 판정**: PUBLISH 유지. Fix 없음.
+
+---
+
+## Job #406 — シャープ | 기술계 직무
+
+**상태**: PUBLISHED
+**소스**: https://corporate.jp.sharp/recruit/newgraduate/ (#405와 동일)
+**나루 공고**: https://www.naru-recruit.com/jobs/406
+**어드민**: https://www.naru-recruit.com/admin/jobs/406?token=jungwoo_naru_server_password_0129
+
+### 리뷰 이력
+| 시각 | 액션 | 상세 |
+|------|------|------|
+| 04/18 10:10 | 재검증 | 동일 URL 활성. シャープ #405/#406 완료 |
+
+### 원문 현황 (최신)
+- **모집상태**: 활성
+
+**최종 판정**: PUBLISH 유지. Fix 없음.
