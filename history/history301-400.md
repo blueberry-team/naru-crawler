@@ -1817,3 +1817,32 @@
 - **모집상태**: 활성
 
 **최종 판정**: PUBLISH 유지. Fix 없음.
+
+---
+
+## Job #400 — りそな銀行 | 글로벌 코스
+
+**상태**: PUBLISHED
+**소스**: https://www.resona-saiyo.com/recruit/info/graduate/ (#391~#399와 동일)
+**나루 공고**: https://www.naru-recruit.com/jobs/400
+**어드민**: https://www.naru-recruit.com/admin/jobs/400?token=jungwoo_naru_server_password_0129
+
+### 리뷰 이력
+| 시각 | 액션 | 상세 |
+|------|------|------|
+| 04/18 09:18 | 재검증 | 동일 URL 활성. りそな銀行 시리즈 #391~#400 (10건) 완료 |
+
+### 원문 현황 (최신)
+- **모집상태**: 활성
+
+**최종 판정**: PUBLISH 유지. Fix 없음.
+
+---
+
+> 🏁 **history/400 완료!**
+> jobId 301~400 전체 재검증 완료.
+> - 실존: 97건 (#325/#326/#349/#370 404 스킵 = 4건 미존재)
+> - PUBLISH 유지: 대다수
+> - Unpublish (DRAFT 복귀): #354 博報堂 디자이너 (1건, URL 404)
+> - 마감 Fix (isDeadlinePassed=true): #327~#330 USEN (4건), #376~#379 NTTドコモ/ドコモビジネス (4건), #384~#390 パーソルキャリア (7건)
+> - 회사: SIE, SQUARE ENIX, USEN, アイシン, アカツキゲームス, 第一生命, 大和ハウス, 富士フイルムBI, 博報堂, Honda, 日本総研, 三菱電機, 日本製鉄, 日産, NTTドコモ, パナソニック, パーソルキャリア, りそな銀行
