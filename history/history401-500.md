@@ -153,3 +153,22 @@
 - **모집상태**: 활성
 
 **최종 판정**: PUBLISH 유지. Fix 없음.
+
+---
+
+## Job #409 — SMBC日興証券 | 종합코스 오픈 채용 지역형
+
+**상태**: PUBLISHED
+**소스**: https://www.smbcnikko.co.jp/recruit/student/recruit/ (#407/#408과 동일)
+**나루 공고**: https://www.naru-recruit.com/jobs/409
+**어드민**: https://www.naru-recruit.com/admin/jobs/409?token=jungwoo_naru_server_password_0129
+
+### 리뷰 이력
+| 시각 | 액션 | 상세 |
+|------|------|------|
+| 04/18 10:40 | 재검증 | 동일 URL 활성 |
+
+### 원문 현황 (최신)
+- **모집상태**: 활성
+
+**최종 판정**: PUBLISH 유지. Fix 없음.
