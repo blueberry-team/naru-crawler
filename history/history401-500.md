@@ -39,3 +39,22 @@
 - **모집상태**: 활성
 
 **최종 판정**: PUBLISH 유지. Fix 없음.
+
+---
+
+## Job #403 — リコージャパン | 코퍼레이트 스태프
+
+**상태**: PUBLISHED
+**소스**: https://jp.ricoh.com/companies/ricoh-japan/recruit/require/fresh (#401/#402와 동일)
+**나루 공고**: https://www.naru-recruit.com/jobs/403
+**어드민**: https://www.naru-recruit.com/admin/jobs/403?token=jungwoo_naru_server_password_0129
+
+### 리뷰 이력
+| 시각 | 액션 | 상세 |
+|------|------|------|
+| 04/18 09:41 | 재검증 | 동일 URL 활성. リコージャパン #401~#403 완료 |
+
+### 원문 현황 (최신)
+- **모집상태**: 활성
+
+**최종 판정**: PUBLISH 유지. Fix 없음.
