@@ -191,3 +191,22 @@
 - **모집상태**: 활성
 
 **최종 판정**: PUBLISH 유지. Fix 없음.
+
+---
+
+## Job #411 — SMBC日興証券 | 사무 코스
+
+**상태**: PUBLISHED
+**소스**: https://www.smbcnikko.co.jp/recruit/student/recruit/ (#407~#410과 동일)
+**나루 공고**: https://www.naru-recruit.com/jobs/411
+**어드민**: https://www.naru-recruit.com/admin/jobs/411?token=jungwoo_naru_server_password_0129
+
+### 리뷰 이력
+| 시각 | 액션 | 상세 |
+|------|------|------|
+| 04/18 11:00 | 재검증 | 동일 URL 활성 |
+
+### 원문 현황 (최신)
+- **모집상태**: 활성
+
+**최종 판정**: PUBLISH 유지. Fix 없음.
