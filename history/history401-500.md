@@ -115,3 +115,22 @@
 - **모집상태**: 활성
 
 **최종 판정**: PUBLISH 유지. Fix 없음.
+
+---
+
+## Job #407 — SMBC日興証券 | 종합코스 시스템 부문
+
+**상태**: PUBLISHED
+**소스**: https://www.smbcnikko.co.jp/recruit/student/recruit/
+**나루 공고**: https://www.naru-recruit.com/jobs/407
+**어드민**: https://www.naru-recruit.com/admin/jobs/407?token=jungwoo_naru_server_password_0129
+
+### 리뷰 이력
+| 시각 | 액션 | 상세 |
+|------|------|------|
+| 04/18 10:20 | 재검증 | 페이지 활성, title 일치. 새 회사(SMBC日興証券) |
+
+### 원문 현황 (최신)
+- **모집상태**: 활성
+
+**최종 판정**: PUBLISH 유지. Fix 없음.
